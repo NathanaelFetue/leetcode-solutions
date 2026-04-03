@@ -6,16 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 0 |
+| Easy       | 1 |
 | Medium     | 0 |
 | Hard       | 0 |
-| **Total**  | **0** |
+| **Total**  | **1** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
-
+| 2026-04-03 | [Find Minimum Operations to Make All Elements Divisible by Three](https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three/) | Easy | cpp |
 
 ## Structure
 
