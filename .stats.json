@@ -1,13 +1,20 @@
 {
-  "easy": 1,
+  "easy": 2,
   "medium": 0,
   "hard": 0,
-  "total": 1,
+  "total": 2,
   "solutions": [
     {
       "date": "2026-04-03",
       "slug": "find-minimum-operations-to-make-all-elements-divisible-by-three",
       "title": "Find Minimum Operations to Make All Elements Divisible by Three",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-03",
+      "slug": "binary-prefix-divisible-by-5",
+      "title": "Binary Prefix Divisible By 5",
       "difficulty": "Easy",
       "lang": "cpp"
     }
