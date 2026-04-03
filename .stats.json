@@ -1,7 +1,15 @@
 {
-  "easy": 0,
+  "easy": 1,
   "medium": 0,
   "hard": 0,
-  "total": 0,
-  "solutions": []
+  "total": 1,
+  "solutions": [
+    {
+      "date": "2026-04-03",
+      "slug": "find-minimum-operations-to-make-all-elements-divisible-by-three",
+      "title": "Find Minimum Operations to Make All Elements Divisible by Three",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    }
+  ]
 }
