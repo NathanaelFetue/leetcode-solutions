@@ -1,8 +1,8 @@
 {
-  "easy": 3,
+  "easy": 4,
   "medium": 1,
   "hard": 0,
-  "total": 4,
+  "total": 5,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -33,6 +33,14 @@
       "slug": "determine-whether-matrix-can-be-obtained-by-rotation",
       "title": "Determine Whether Matrix Can Be Obtained By Rotation",
       "questionId": "",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-04",
+      "slug": "flip-square-submatrix-vertically",
+      "title": "Flip Square Submatrix Vertically",
+      "questionId": "3643",
       "difficulty": "Easy",
       "lang": "cpp"
     }
