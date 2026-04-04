@@ -1,8 +1,8 @@
 {
   "easy": 2,
-  "medium": 0,
+  "medium": 1,
   "hard": 0,
-  "total": 2,
+  "total": 3,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -16,6 +16,13 @@
       "slug": "binary-prefix-divisible-by-5",
       "title": "Binary Prefix Divisible By 5",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-04",
+      "slug": "decode-the-slanted-ciphertext",
+      "title": "Decode the Slanted Ciphertext",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ]
