@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 2 |
+| Easy       | 3 |
 | Medium     | 1 |
 | Hard       | 0 |
-| **Total**  | **3** |
+| **Total**  | **4** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-04-04 | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/) | Easy | cpp |
 | 2026-04-04 | [Decode the Slanted Ciphertext](https://leetcode.com/problems/decode-the-slanted-ciphertext/) | Medium | cpp |
 | 2026-04-04 | [Decode the Slanted Ciphertext](https://leetcode.com/problems/decode-the-slanted-ciphertext/) | Medium | cpp |
 | 2026-04-04 | [Decode the Slanted Ciphertext](https://leetcode.com/problems/decode-the-slanted-ciphertext/) | Medium | cpp |
