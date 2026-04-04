@@ -1,40 +1,7 @@
 {
-  "easy": 3,
-  "medium": 1,
+  "easy": 0,
+  "medium": 0,
   "hard": 0,
-  "total": 4,
-  "solutions": [
-    {
-      "date": "2026-04-03",
-      "slug": "binary-prefix-divisible-by-5",
-      "title": "Binary Prefix Divisible By 5",
-      "questionId": "",
-      "difficulty": "Easy",
-      "lang": "cpp"
-    },
-    {
-      "date": "2026-04-03",
-      "slug": "find-minimum-operations-to-make-all-elements-divisible-by-three",
-      "title": "Find Minimum Operations To Make All Elements Divisible By Three",
-      "questionId": "",
-      "difficulty": "Easy",
-      "lang": "cpp"
-    },
-    {
-      "date": "2026-04-04",
-      "slug": "decode-the-slanted-ciphertext",
-      "title": "Decode The Slanted Ciphertext",
-      "questionId": "",
-      "difficulty": "Medium",
-      "lang": "cpp"
-    },
-    {
-      "date": "2026-04-04",
-      "slug": "determine-whether-matrix-can-be-obtained-by-rotation",
-      "title": "Determine Whether Matrix Can Be Obtained By Rotation",
-      "questionId": "",
-      "difficulty": "Easy",
-      "lang": "cpp"
-    }
-  ]
+  "total": 0,
+  "solutions": []
 }
