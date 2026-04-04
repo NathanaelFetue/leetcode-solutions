@@ -80,6 +80,13 @@
       "title": "Decode the Slanted Ciphertext",
       "difficulty": "Medium",
       "lang": "cpp"
+    },
+    {
+      "date": "2026-04-04",
+      "slug": "decode-the-slanted-ciphertext",
+      "title": "Decode the Slanted Ciphertext",
+      "difficulty": "Medium",
+      "lang": "cpp"
     }
   ]
 }
