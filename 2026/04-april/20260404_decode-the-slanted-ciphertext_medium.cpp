@@ -1,44 +1,43 @@
 /*
- * Problem: Decode the Slanted Ciphertext
+ * Decode the Slanted Ciphertext
  * Difficulty: Medium
- * URL: https://leetcode.com/problems/decode-the-slanted-ciphertext/
+ * https://leetcode.com/problems/decode-the-slanted-ciphertext/
  *
- * Approach/Algorithm:
- * First, reconstruct the 2D matrix from the encoded text by filling it row by row.
- * Then, traverse the matrix diagonally starting from each column in the first row,
- * collecting characters along each diagonal to reconstruct the original plaintext.
- * Finally, strip any trailing spaces from the result.
+ * Approach: Matrix Diagonal Traversal
+ * Reconstruct the original text by traversing the encoded text diagonally.
+ * The encoded text is treated as a rows x cols matrix, and we iterate over
+ * each diagonal starting from each column in the first row, reading characters
+ * along the diagonal (i, j) -> (i+1, j+1). Trailing spaces are stripped at the end.
  *
- * Time Complexity: O(rows * cols) — linear in the size of the encoded text
- * Space Complexity: O(rows * cols) — for the intermediate 2D matrix
+ * Time Complexity:  O(n) where n is the length of encodedText
+ * Space Complexity: O(n) for the result string
  *
- * Runtime: 47 ms
- * Memory: 49 MB
+ * Runtime: 15 ms
+ * Memory:  38.2 MB
  */
 
 class Solution {
 public:
     string decodeCiphertext(string encodedText, int rows) {
-        int cols = encodedText.size()/rows;
-        vector<vector<char>> mat(rows , vector<char>(cols));
-        int index = 0;
-        for(int i=0;i< rows; i++) {
-            for (int j=0; j< cols; j++){
-                mat[i][j] = encodedText[index++];
-            }
-        }
-        string result = "";
-        for (int j=0; j< cols; j++) {
-            int k = j;
-            for (int i = 0; i < rows && k < cols; i++) {
-                result.push_back(mat[i][k]);
-                k++;
-            }
+        if (rows == 1) return encodedText;
 
+        int n = encodedText.size();
+        int cols = n / rows;
+
+        string result = "";
+
+        for (int start = 0; start < cols; start++) {
+            int i = 0, j = start;
+            while (i < rows && j < cols) {
+                result.push_back(encodedText[i * cols + j]);
+                i++;
+                j++;
+            }
         }
         while (!result.empty() && result.back() == ' ') {
             result.pop_back();
         }
+
         return result;
     }
 };
