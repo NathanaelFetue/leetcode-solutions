@@ -3,19 +3,17 @@
  * Difficulty: Easy
  * URL: https://leetcode.com/problems/flip-square-submatrix-vertically/
  *
- * Approach/Algorithm:
- * To flip a k×k submatrix vertically (top-to-bottom), we swap rows symmetrically
- * around the horizontal center of the submatrix. For each pair of rows (i from top,
- * corresponding row from bottom), we swap all k elements within the column range [y, y+k).
+ * Approach: In-place vertical flip of a k×k submatrix starting at (x, y).
+ * Iterate over the top half of the submatrix rows (i from 0 to k/2 - 1) and
+ * swap each element in row (x+i) with its mirror in row (x+k-1-i) across all k columns.
  *
- * Time Complexity: O(k^2) - We iterate over k/2 row pairs and k columns per pair,
- * resulting in roughly k^2/2 swap operations within the submatrix.
+ * Time Complexity: O(k^2) - we process approximately k/2 * k element swaps
+ * within the submatrix bounds.
+ * Space Complexity: O(1) - the flip is performed in-place with no extra storage
+ * beyond the swap temporary variable.
  *
- * Space Complexity: O(1) - The flip is done in-place with no additional data structures;
- * we return the modified grid reference.
- *
- * Runtime: 2 ms
- * Memory: 33.8 MB
+ * Runtime: 0 ms
+ * Memory: 33.9 MB
  */
 
 class Solution {
