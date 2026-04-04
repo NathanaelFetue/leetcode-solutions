@@ -4,15 +4,15 @@
  * https://leetcode.com/problems/decode-the-slanted-ciphertext/
  *
  * Approach: Matrix Diagonal Traversal
- * The encoded text is treated as a 2D grid with the computed number of columns (n / rows).
- * We iterate diagonally starting from each column in the first row, collecting characters
- * along each diagonal, then strip trailing spaces from the result.
+ * Reconstruct the 2D grid from the encoded string using rows and computed columns.
+ * Iterate column by column, reading diagonally (down-right) to recover the original text.
+ * Strip trailing spaces from the result to match the expected output.
  *
  * Time Complexity : O(n) where n is the length of encodedText
  * Space Complexity : O(n) for the result string
  *
- * Runtime : 22 ms
- * Memory  : 38 MB
+ * Runtime : 16 ms
+ * Memory  : 38.1 MB
  */
 
 class Solution {
