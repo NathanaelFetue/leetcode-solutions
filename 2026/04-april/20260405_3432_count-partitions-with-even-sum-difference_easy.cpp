@@ -1,39 +1,30 @@
 /*
- * Problem 3432: Count Partitions with Even Sum Difference
- * Difficulty: Easy
+ * Problem #3432: Count Partitions with Even Sum Difference (Easy)
  * URL: https://leetcode.com/problems/count-partitions-with-even-sum-difference/
  *
- * Approach: Prefix Sum
- * Build a prefix sum array to efficiently compute the sum of any subarray.
- * For each valid partition index j (1 to n-1), the left sum is prefix[j-1] and
- * the right sum is totalSum - prefix[j-1]. The difference is totalSum - 2*prefix[j-1].
- * Count partitions where this difference is even (divisible by 2).
+ * Approach: Prefix Sum with Parity Check
+ * Compute the total sum of the array, then iterate through all valid partition points
+ * (indices 0 to n-2), maintaining a running left sum. For each partition, the difference
+ * (right - left) = total - 2*left, which is even if and only if (total - 2*left) % 2 == 0.
+ * Since 2*left is always even, the parity of the difference equals the parity of total,
+ * meaning we simply count partitions where total is even.
  *
- * Time Complexity: O(n) - two linear passes: one to build prefix sums, one to count valid partitions.
- * Space Complexity: O(n) - additional prefix sum array of size n.
+ * Time Complexity: O(n) — single pass through the array after O(n) accumulate call.
+ * Space Complexity: O(1) — only a constant number of variables used.
  *
  * Runtime: 0 ms
- * Memory: 23.2 MB
+ * Memory: 22.5 MB
  */
 
 class Solution {
 public:
     int countPartitions(vector<int>& nums) {
-        int n = nums.size();
-        vector <int> prefix(n,0);
-        for (int i=0; i<n; i++) {
-            if (i==0) {
-                prefix[i] = nums[i];
-                continue;
-            }
-            prefix[i] += prefix[i-1]+nums[i];
+        int total = accumulate(nums.begin(), nums.end(), 0);
+        int left = 0, count = 0;
+        for (int i = 0; i < nums.size() - 1; i++) {
+            left += nums[i];
+            if ((total - 2 * left) % 2 == 0) count++;
         }
-        int diff =0 , coup =0;
-        for (int j =1 ;j<n; j++) {
-            diff = prefix[n-1] - 2*prefix[j-1];
-            if (diff%2 == 0) coup++;  
-        }
-        return coup;
-
+        return count;
     }
 };
