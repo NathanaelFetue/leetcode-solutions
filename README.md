@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 4 |
+| Easy       | 5 |
 | Medium     | 1 |
 | Hard       | 0 |
-| **Total**  | **5** |
+| **Total**  | **6** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-04-05 | #657 [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/) | Easy | cpp |
 | 2026-04-04 | #3643 [Flip Square Submatrix Vertically](https://leetcode.com/problems/flip-square-submatrix-vertically/) | Easy | cpp |
 | 2026-04-04 | # [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/) | Easy | cpp |
 | 2026-04-04 | # [Decode The Slanted Ciphertext](https://leetcode.com/problems/decode-the-slanted-ciphertext/) | Medium | cpp |
