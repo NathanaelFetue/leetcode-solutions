@@ -1,8 +1,8 @@
 {
-  "easy": 5,
+  "easy": 6,
   "medium": 1,
   "hard": 0,
-  "total": 6,
+  "total": 7,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -49,6 +49,14 @@
       "slug": "robot-return-to-origin",
       "title": "Robot Return to Origin",
       "questionId": "657",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-05",
+      "slug": "complement-of-base-10-integer",
+      "title": "Complement of Base 10 Integer",
+      "questionId": "1009",
       "difficulty": "Easy",
       "lang": "cpp"
     }
