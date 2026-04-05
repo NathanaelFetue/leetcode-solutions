@@ -33,3 +33,5 @@ YYYY/
 ```
 
 Solutions include an auto-generated header with approach, time/space complexity, and performance stats.
+
+If this repo helps you, consider leaving a ⭐ ; it keeps me motivated!
