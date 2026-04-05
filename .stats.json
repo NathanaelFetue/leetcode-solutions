@@ -1,8 +1,8 @@
 {
   "easy": 11,
-  "medium": 1,
+  "medium": 2,
   "hard": 0,
-  "total": 12,
+  "total": 13,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -98,6 +98,14 @@
       "title": "Apple Redistribution into Boxes",
       "questionId": "3074",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-05",
+      "slug": "maximize-happiness-of-selected-children",
+      "title": "Maximize Happiness of Selected Children",
+      "questionId": "3075",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ]
