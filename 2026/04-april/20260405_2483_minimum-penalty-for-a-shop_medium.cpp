@@ -4,16 +4,16 @@
  * URL: https://leetcode.com/problems/minimum-penalty-for-a-shop/
  *
  * Approach: Prefix Sum / Greedy Single Pass
- * First count total 'Y's in the string (representing customers who arrive). Then iterate
- * through each hour, tracking seen 'N's (penalty for being open with no customer) and
- * remaining 'Y's after current position (penalty for being closed when customers arrive).
- * At each position the total penalty is seenN + (totalY - seenY), and we track the minimum.
+ * First count the total number of 'Y' (customer) days. Then iterate through each
+ * possible closing hour, tracking seen 'N's (penalty for being open with no customers)
+ * and remaining 'Y's after current position (penalty for being closed during customer days).
+ * At each index, penalty = seenN + (totalY - seenY). Track the minimum penalty and its index.
  *
- * Time Complexity: O(n) - two linear passes over the customers string (one count, one scan).
- * Space Complexity: O(1) - only a fixed number of integer variables are used.
+ * Time Complexity: O(n) - one pass to count total Y's, one pass to find minimum penalty.
+ * Space Complexity: O(1) - only a constant number of integer variables used.
  *
- * Runtime: 7 ms
- * Memory: 13.5 MB
+ * Runtime: 8 ms
+ * Memory: 13.4 MB
  */
 
 class Solution {
