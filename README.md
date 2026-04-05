@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 9 |
+| Easy       | 10 |
 | Medium     | 1 |
 | Hard       | 0 |
-| **Total**  | **10** |
+| **Total**  | **11** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-04-05 | #1925 [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/) | Easy | cpp |
 | 2026-04-05 | #1523 [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) | Easy | cpp |
 | 2026-04-05 | #3432 [Count Partitions with Even Sum Difference](https://leetcode.com/problems/count-partitions-with-even-sum-difference/) | Easy | cpp |
 | 2026-04-05 | #3512 [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | Easy | cpp |
