@@ -1,8 +1,8 @@
 {
   "easy": 11,
-  "medium": 2,
+  "medium": 3,
   "hard": 0,
-  "total": 13,
+  "total": 14,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -105,6 +105,14 @@
       "slug": "maximize-happiness-of-selected-children",
       "title": "Maximize Happiness of Selected Children",
       "questionId": "3075",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-05",
+      "slug": "minimum-penalty-for-a-shop",
+      "title": "Minimum Penalty for a Shop",
+      "questionId": "2483",
       "difficulty": "Medium",
       "lang": "cpp"
     }
