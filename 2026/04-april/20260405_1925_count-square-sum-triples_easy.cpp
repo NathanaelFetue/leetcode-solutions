@@ -1,19 +1,19 @@
 /*
- * Problem 1925: Count Square Sum Triples (Easy)
- * https://leetcode.com/problems/count-square-sum-triples/
+ * Problem #1925: Count Square Sum Triples (Easy)
+ * URL: https://leetcode.com/problems/count-square-sum-triples/
  *
- * Approach: Precompute all perfect squares from 1 to n into a vector and store
- * them in an unordered_set for O(1) lookups. Iterate over all pairs (a, b) and
- * check if a^2 + b^2 exists in the set, counting valid triples (a, b, c).
+ * Approach: Precompute all perfect squares from 1 to n and store them in an
+ * unordered_set for O(1) lookup. Iterate over all pairs (a, b) where a and b
+ * are in range [1, n], compute a² + b², and check if the result exists in the
+ * set to count valid triples (a, b, c) where a² + b² = c² and c <= n.
  *
- * Time Complexity: O(n^2) - double loop over all pairs (i, j) from 1 to n,
+ * Time Complexity: O(n²) - double nested loop over all pairs (a, b) from 1 to n,
  * with O(1) hash set lookup per pair.
  *
- * Space Complexity: O(n) - storing n precomputed squares in both a vector
- * and an unordered_set.
+ * Space Complexity: O(n) - storing n precomputed squares in both the vector and
+ * the unordered_set.
  *
- * Runtime: 35 ms
- * Memory: 9.8 MB
+ * Runtime: 33 ms | Memory: 10 MB
  */
 
 class Solution {
