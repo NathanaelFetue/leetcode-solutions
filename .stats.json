@@ -1,8 +1,8 @@
 {
-  "easy": 9,
+  "easy": 10,
   "medium": 1,
   "hard": 0,
-  "total": 10,
+  "total": 11,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -81,6 +81,14 @@
       "slug": "count-odd-numbers-in-an-interval-range",
       "title": "Count Odd Numbers in an Interval Range",
       "questionId": "1523",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-05",
+      "slug": "count-square-sum-triples",
+      "title": "Count Square Sum Triples",
+      "questionId": "1925",
       "difficulty": "Easy",
       "lang": "cpp"
     }
