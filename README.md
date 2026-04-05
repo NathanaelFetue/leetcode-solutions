@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 11 |
-| Medium     | 1 |
+| Medium     | 2 |
 | Hard       | 0 |
-| **Total**  | **12** |
+| **Total**  | **13** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-04-05 | #3075 [Maximize Happiness of Selected Children](https://leetcode.com/problems/maximize-happiness-of-selected-children/) | Medium | cpp |
 | 2026-04-05 | #3074 [Apple Redistribution into Boxes](https://leetcode.com/problems/apple-redistribution-into-boxes/) | Easy | cpp |
 | 2026-04-05 | #1925 [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/) | Easy | cpp |
 | 2026-04-05 | #1523 [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) | Easy | cpp |
