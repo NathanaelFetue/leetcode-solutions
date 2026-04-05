@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 7 |
+| Easy       | 8 |
 | Medium     | 1 |
 | Hard       | 0 |
-| **Total**  | **8** |
+| **Total**  | **9** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-04-05 | #3432 [Count Partitions with Even Sum Difference](https://leetcode.com/problems/count-partitions-with-even-sum-difference/) | Easy | cpp |
 | 2026-04-05 | #3512 [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | Easy | cpp |
 | 2026-04-05 | #1009 [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/) | Easy | cpp |
 | 2026-04-05 | #657 [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/) | Easy | cpp |
@@ -33,5 +34,3 @@ YYYY/
 ```
 
 Solutions include an auto-generated header with approach, time/space complexity, and performance stats.
-
-If this repo helps you, consider leaving a ⭐ ; it keeps me motivated!
