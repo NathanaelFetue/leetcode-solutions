@@ -1,19 +1,21 @@
 /*
- * Problem #1523: Count Odd Numbers in an Interval Range
+ * Problem 1523: Count Odd Numbers in an Interval Range
  * Difficulty: Easy
  * URL: https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/
  *
  * Approach/Algorithm:
- * Uses a mathematical formula based on the observation that the count of odd numbers
- * from 1 to n equals ceil(n/2), which is computed as (n+1)/2 using integer division.
- * The count of odds in [low, high] is derived by subtracting odds in [1, low-1] from
- * odds in [1, high], simplified to (high+1)/2 - low/2.
+ * Uses a mathematical formula to count odd numbers in [low, high].
+ * The count of odd numbers from 1 to n is given by (n + 1) / 2 (integer division).
+ * By subtracting the count of odds below low from the count up to high, we get the result.
  *
- * Time Complexity: O(1) - constant time arithmetic operations only.
- * Space Complexity: O(1) - no additional data structures used.
+ * Formula: (high + 1) / 2 - low / 2
+ * - (high + 1) / 2 counts odd numbers in [1, high]
+ * - low / 2 counts odd numbers in [1, low - 1]
  *
- * Runtime: 3 ms
- * Memory: 7.7 MB
+ * Time Complexity: O(1) - single arithmetic computation, no loops or recursion.
+ * Space Complexity: O(1) - no extra data structures used.
+ *
+ * Runtime: 3 ms | Memory: 7.9 MB
  */
 
 class Solution {
