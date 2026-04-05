@@ -1,8 +1,8 @@
 {
-  "easy": 4,
+  "easy": 5,
   "medium": 1,
   "hard": 0,
-  "total": 5,
+  "total": 6,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -41,6 +41,14 @@
       "slug": "flip-square-submatrix-vertically",
       "title": "Flip Square Submatrix Vertically",
       "questionId": "3643",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-05",
+      "slug": "robot-return-to-origin",
+      "title": "Robot Return to Origin",
+      "questionId": "657",
       "difficulty": "Easy",
       "lang": "cpp"
     }
