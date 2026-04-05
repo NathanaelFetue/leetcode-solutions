@@ -1,8 +1,8 @@
 {
-  "easy": 8,
+  "easy": 9,
   "medium": 1,
   "hard": 0,
-  "total": 9,
+  "total": 10,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -73,6 +73,14 @@
       "slug": "count-partitions-with-even-sum-difference",
       "title": "Count Partitions with Even Sum Difference",
       "questionId": "3432",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-05",
+      "slug": "count-odd-numbers-in-an-interval-range",
+      "title": "Count Odd Numbers in an Interval Range",
+      "questionId": "1523",
       "difficulty": "Easy",
       "lang": "cpp"
     }
