@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 6 |
+| Easy       | 7 |
 | Medium     | 1 |
 | Hard       | 0 |
-| **Total**  | **7** |
+| **Total**  | **8** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-04-05 | #3512 [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | Easy | cpp |
 | 2026-04-05 | #1009 [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/) | Easy | cpp |
 | 2026-04-05 | #657 [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/) | Easy | cpp |
 | 2026-04-04 | #3643 [Flip Square Submatrix Vertically](https://leetcode.com/problems/flip-square-submatrix-vertically/) | Easy | cpp |
