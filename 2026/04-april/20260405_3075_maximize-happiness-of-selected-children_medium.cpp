@@ -1,18 +1,15 @@
 /*
- * Problem 3075: Maximize Happiness of Selected Children
- * Difficulty: Medium
- * URL: https://leetcode.com/problems/maximize-happiness-of-selected-children/
+ * Problem 3075: Maximize Happiness of Selected Children (Medium)
+ * https://leetcode.com/problems/maximize-happiness-of-selected-children/
  *
  * Approach: Greedy with Sorted Descending Order
- * Sort the happiness array in descending order to always pick the highest happiness values first.
- * For each selection turn (0-indexed), subtract the turn number from the happiness value since
- * each previously selected child reduces remaining happiness by 1. Use max(0, value) to avoid
- * negative contributions and accumulate the top k adjusted happiness values.
+ * Sort the happiness array in descending order to greedily pick the highest values first.
+ * For each selection turn, reduce the child's happiness by the number of turns already taken (since each prior selection decreases remaining values by 1), and accumulate only non-negative contributions using max(0, happiness[i] - turn).
  *
  * Time Complexity: O(n log n) — dominated by sorting the happiness array of size n.
- * Space Complexity: O(1) — sorting is done in-place, only a few extra variables are used.
+ * Space Complexity: O(1) — sorting is done in-place and only a constant number of extra variables are used.
  *
- * Runtime: 157 ms
+ * Runtime: 155 ms
  * Memory: 107.7 MB
  */
 
