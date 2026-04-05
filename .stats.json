@@ -1,8 +1,8 @@
 {
-  "easy": 7,
+  "easy": 8,
   "medium": 1,
   "hard": 0,
-  "total": 8,
+  "total": 9,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -65,6 +65,14 @@
       "slug": "minimum-operations-to-make-array-sum-divisible-by-k",
       "title": "Minimum Operations to Make Array Sum Divisible by K",
       "questionId": "3512",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-05",
+      "slug": "count-partitions-with-even-sum-difference",
+      "title": "Count Partitions with Even Sum Difference",
+      "questionId": "3432",
       "difficulty": "Easy",
       "lang": "cpp"
     }
