@@ -3,12 +3,13 @@
  * https://leetcode.com/problems/count-square-sum-triples/
  *
  * Approach: Hash Set Lookup
- * First, precompute all perfect squares up to n^2 and store them in an unordered set.
- * Then iterate over all pairs (a, b) where 1 <= a, b <= n, checking if a^2 + b^2
- * exists in the set and is also a perfect square c^2 where c <= n.
+ * First, precompute all perfect squares up to n^2 and store them in an unordered_set.
+ * Then iterate over all pairs (a, b) where 1 <= a, b <= n, and check if a^2 + b^2
+ * exists in the set and its square root c satisfies c <= n (implicitly guaranteed since
+ * a^2 + b^2 <= 2*n^2, but c = sqrt(a^2+b^2) must itself be a perfect square in the set).
  *
- * Time Complexity: O(n^2) — double loop over all pairs (a, b) with O(1) set lookup.
- * Space Complexity: O(n) — unordered set stores at most n perfect squares.
+ * Time Complexity: O(n^2) - double loop over all pairs (a, b), with O(1) hash set lookup.
+ * Space Complexity: O(n) - storing at most n perfect squares in the hash set.
  *
  * Runtime: 30 ms
  * Memory: 9 MB
