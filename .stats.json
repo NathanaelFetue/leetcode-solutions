@@ -1,8 +1,8 @@
 {
-  "easy": 10,
+  "easy": 11,
   "medium": 1,
   "hard": 0,
-  "total": 11,
+  "total": 12,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -89,6 +89,14 @@
       "slug": "count-square-sum-triples",
       "title": "Count Square Sum Triples",
       "questionId": "1925",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-05",
+      "slug": "apple-redistribution-into-boxes",
+      "title": "Apple Redistribution into Boxes",
+      "questionId": "3074",
       "difficulty": "Easy",
       "lang": "cpp"
     }
