@@ -1,8 +1,8 @@
 {
-  "easy": 6,
+  "easy": 7,
   "medium": 1,
   "hard": 0,
-  "total": 7,
+  "total": 8,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -57,6 +57,14 @@
       "slug": "complement-of-base-10-integer",
       "title": "Complement of Base 10 Integer",
       "questionId": "1009",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-05",
+      "slug": "minimum-operations-to-make-array-sum-divisible-by-k",
+      "title": "Minimum Operations to Make Array Sum Divisible by K",
+      "questionId": "3512",
       "difficulty": "Easy",
       "lang": "cpp"
     }
