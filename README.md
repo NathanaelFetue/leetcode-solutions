@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 13 |
+| Easy       | 14 |
 | Medium     | 3 |
 | Hard       | 0 |
-| **Total**  | **16** |
+| **Total**  | **17** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-04-06 | #1784 [Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) | Easy | cpp |
 | 2026-04-06 | #1758 [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/) | Easy | cpp |
 | 2026-04-06 | #1582 [Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/) | Easy | cpp |
 | 2026-04-05 | #2483 [Minimum Penalty for a Shop](https://leetcode.com/problems/minimum-penalty-for-a-shop/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-04-04 | #3643 [Flip Square Submatrix Vertically](https://leetcode.com/problems/flip-square-submatrix-vertically/) | Easy | cpp |
 | 2026-04-04 | # [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/) | Easy | cpp |
 | 2026-04-04 | # [Decode The Slanted Ciphertext](https://leetcode.com/problems/decode-the-slanted-ciphertext/) | Medium | cpp |
-| 2026-04-03 | # [Find Minimum Operations To Make All Elements Divisible By Three](https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three/) | Easy | cpp |
 
 ## Structure
 
