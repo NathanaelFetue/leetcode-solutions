@@ -8,13 +8,13 @@
  * If no other 1 is found in either the row or column, the position is considered special and counted.
  *
  * Time Complexity: O(n * m * (n + m))
- *   - For each of the n*m cells, we scan up to m columns and n rows.
+ *   - For each of the n*m cells, we scan a row of size m and a column of size n.
  *
  * Space Complexity: O(1)
- *   - Only a constant number of extra variables are used.
+ *   - Only a constant amount of extra variables are used regardless of input size.
  *
- * Runtime: 4 ms
- * Memory: 16.5 MB
+ * Runtime: 0 ms
+ * Memory: 16.6 MB
  */
 
 class Solution {
