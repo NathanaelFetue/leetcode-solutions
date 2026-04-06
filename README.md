@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 15 |
+| Easy       | 16 |
 | Medium     | 3 |
 | Hard       | 0 |
-| **Total**  | **18** |
+| **Total**  | **19** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-04-06 | #1356 [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/) | Easy | cpp |
 | 2026-04-06 | #1022 [Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/) | Easy | cpp |
 | 2026-04-06 | #1784 [Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) | Easy | cpp |
 | 2026-04-06 | #1758 [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/) | Easy | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-04-05 | #1009 [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/) | Easy | cpp |
 | 2026-04-05 | #657 [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/) | Easy | cpp |
 | 2026-04-04 | #3643 [Flip Square Submatrix Vertically](https://leetcode.com/problems/flip-square-submatrix-vertically/) | Easy | cpp |
-| 2026-04-04 | # [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/) | Easy | cpp |
 
 ## Structure
 
