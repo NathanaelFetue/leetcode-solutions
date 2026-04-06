@@ -3,12 +3,12 @@
  * Difficulty: Easy
  * URL: https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/
  *
- * Approach: Single-pass linear scan with a boolean flag.
- * Traverse the string left to right, tracking whether a '0' has been encountered.
- * If a '1' is found after a '0' has been seen, a second segment of ones exists, so return false.
+ * Approach: Single-pass linear scan tracking whether a '0' has been encountered.
+ * If a '1' is found after a '0' has already been seen, it means a second segment
+ * of ones has started, so we return false immediately. Otherwise return true.
  *
- * Time Complexity: O(n) - where n is the length of the string; each character is visited once.
- * Space Complexity: O(1) - only a single boolean variable is used regardless of input size.
+ * Time Complexity: O(n) - single pass through the string of length n.
+ * Space Complexity: O(1) - only a single boolean flag is used regardless of input size.
  *
  * Runtime: 0 ms
  * Memory: 8.3 MB
