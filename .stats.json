@@ -1,8 +1,8 @@
 {
   "easy": 16,
-  "medium": 3,
+  "medium": 4,
   "hard": 0,
-  "total": 19,
+  "total": 20,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -154,6 +154,14 @@
       "title": "Sort Integers by The Number of 1 Bits",
       "questionId": "1356",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-06",
+      "slug": "walking-robot-simulation",
+      "title": "Walking Robot Simulation",
+      "questionId": "874",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ]
