@@ -1,8 +1,8 @@
 {
-  "easy": 12,
+  "easy": 13,
   "medium": 3,
   "hard": 0,
-  "total": 15,
+  "total": 16,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -121,6 +121,14 @@
       "slug": "special-positions-in-a-binary-matrix",
       "title": "Special Positions in a Binary Matrix",
       "questionId": "1582",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-06",
+      "slug": "minimum-changes-to-make-alternating-binary-string",
+      "title": "Minimum Changes To Make Alternating Binary String",
+      "questionId": "1758",
       "difficulty": "Easy",
       "lang": "cpp"
     }
