@@ -3,18 +3,18 @@
  * Difficulty: Easy
  * URL: https://leetcode.com/problems/special-positions-in-a-binary-matrix/
  *
- * Approach: Brute Force Row and Column Scan
+ * Approach: Brute-force row and column scan.
  * For each cell containing a 1, scan its entire row and column to check if any other 1 exists.
- * If no other 1 is found in the same row or column, the position is considered special and counted.
+ * If no other 1 is found in either the row or the column, the position is considered special and counted.
  *
  * Time Complexity: O(n * m * (n + m))
- *   - For each of the n*m cells, we scan its row (m elements) and column (n elements).
+ *   - For each of the n*m cells, we scan up to m cells in the row and n cells in the column.
  *
  * Space Complexity: O(1)
- *   - Only a constant number of auxiliary variables are used regardless of input size.
+ *   - Only a constant number of auxiliary variables are used.
  *
- * Runtime: 4 ms
- * Memory: 16.5 MB
+ * Runtime: 8 ms
+ * Memory: 16.6 MB
  */
 
 class Solution {
