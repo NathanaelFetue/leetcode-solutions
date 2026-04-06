@@ -1,21 +1,19 @@
 /*
  * Problem 1022: Sum of Root To Leaf Binary Numbers (Easy)
- * URL: https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/
+ * https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/
  *
  * Approach: Depth-First Search (DFS) with string path accumulation.
- * Perform a DFS traversal of the binary tree, building a binary string representation
- * of each root-to-leaf path. Once a leaf node is reached, store the binary string.
- * After traversal, convert each stored binary string to its decimal integer value
- * using base-2 conversion and accumulate the total sum.
+ * Traverse the binary tree using DFS, building a binary number string from root to each leaf.
+ * Once a leaf is reached, store the binary string, then convert all stored strings to integers using base-2 conversion and sum them.
  *
- * Time Complexity: O(N * L) where N is the number of nodes and L is the maximum
- * depth (path length), due to string concatenation at each node during DFS.
+ * Time Complexity: O(N * L) where N is the number of nodes and L is the maximum path length (tree height),
+ * due to string concatenation at each node and base-2 conversion for each root-to-leaf path.
  *
- * Space Complexity: O(N * L) for storing all root-to-leaf path strings in the
- * paths vector, plus O(L) recursive call stack space for the DFS.
+ * Space Complexity: O(N * L) for storing all root-to-leaf path strings in the paths vector,
+ * plus O(H) recursive call stack space where H is the height of the tree.
  *
- * Runtime: 0 ms
- * Memory: 21.2 MB
+ * Runtime: 3 ms
+ * Memory: 21.3 MB
  */
 
 /**
