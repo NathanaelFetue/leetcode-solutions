@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 16 |
-| Medium     | 4 |
+| Medium     | 5 |
 | Hard       | 0 |
-| **Total**  | **20** |
+| **Total**  | **21** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-04-07 | #2069 [Walking Robot Simulation II](https://leetcode.com/problems/walking-robot-simulation-ii/) | Medium | cpp |
 | 2026-04-06 | #874 [Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation/) | Medium | cpp |
 | 2026-04-06 | #1356 [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/) | Easy | cpp |
 | 2026-04-06 | #1022 [Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/) | Easy | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-04-05 | #3432 [Count Partitions with Even Sum Difference](https://leetcode.com/problems/count-partitions-with-even-sum-difference/) | Easy | cpp |
 | 2026-04-05 | #3512 [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | Easy | cpp |
 | 2026-04-05 | #1009 [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/) | Easy | cpp |
-| 2026-04-05 | #657 [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/) | Easy | cpp |
 
 ## Structure
 
