@@ -1,8 +1,8 @@
 {
   "easy": 16,
-  "medium": 4,
+  "medium": 5,
   "hard": 0,
-  "total": 20,
+  "total": 21,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -161,6 +161,14 @@
       "slug": "walking-robot-simulation",
       "title": "Walking Robot Simulation",
       "questionId": "874",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-07",
+      "slug": "walking-robot-simulation-ii",
+      "title": "Walking Robot Simulation II",
+      "questionId": "2069",
       "difficulty": "Medium",
       "lang": "cpp"
     }
