@@ -1,8 +1,8 @@
 {
-  "easy": 18,
+  "easy": 19,
   "medium": 5,
   "hard": 0,
-  "total": 23,
+  "total": 24,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -185,6 +185,14 @@
       "slug": "delete-columns-to-make-sorted",
       "title": "Delete Columns to Make Sorted",
       "questionId": "944",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-07",
+      "slug": "count-negative-numbers-in-a-sorted-matrix",
+      "title": "Count Negative Numbers in a Sorted Matrix",
+      "questionId": "1351",
       "difficulty": "Easy",
       "lang": "cpp"
     }
