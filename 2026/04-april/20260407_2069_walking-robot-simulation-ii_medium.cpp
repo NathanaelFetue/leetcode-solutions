@@ -2,31 +2,27 @@
  * Problem #2069 - Walking Robot Simulation II (Medium)
  * https://leetcode.com/problems/walking-robot-simulation-ii/
  *
- * Approach: Perimeter Precomputation with Modular Indexing
- * All valid perimeter positions and their associated facing directions are precomputed
- * during initialization by traversing the boundary (bottom, right, top, left edges).
- * Each step call simply advances an index modulo the perimeter length, avoiding
- * any actual simulation of individual moves.
- *
- * Key detail: The starting position (0,0) is given direction South (index 0 overridden)
- * because after completing a full loop it arrives from the left side facing South,
- * and the `moved` flag handles the special East-facing initial state before any steps.
+ * Approach: Precompute Perimeter Path
+ * All valid boundary positions and their corresponding facing directions are precomputed
+ * once during construction, tracing the perimeter clockwise (East → North → West → South).
+ * Each step() call reduces to a single modular index advance over the precomputed array,
+ * avoiding repeated simulation. A special case handles the origin direction before any move.
  *
  * Time Complexity:
- *   - Constructor: O(w + h) to precompute perimeter positions and directions
- *   - step(): O(1) modular arithmetic
- *   - getPos() / getDir(): O(1) array lookup
+ *   - Constructor: O(w + h) to precompute all perimeter positions
+ *   - step(): O(1) — modular arithmetic only
+ *   - getPos() / getDir(): O(1) — direct array lookup
  *
- * Space Complexity: O(w + h) for storing all perimeter coordinates and directions
+ * Space Complexity: O(w + h) for storing the precomputed coords and dirs arrays
  *
- * Runtime: 41 ms | Memory: 128 MB
+ * Runtime: 21 ms | Memory: 127.9 MB
  */
 
 class Robot {
     int w, h, idx = 0;
     bool moved = false;
     
-    // Pré-calculer toutes les positions + directions du périmètre
+    // Pré-calculer toutes les positions + d
     vector<pair<int,int>> coords;
     vector<int> dirs; // 0=East 1=North 2=West 3=South
     
