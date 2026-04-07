@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 18 |
+| Easy       | 19 |
 | Medium     | 5 |
 | Hard       | 0 |
-| **Total**  | **23** |
+| **Total**  | **24** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-04-07 | #1351 [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | Easy | cpp |
 | 2026-04-07 | #944 [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | Easy | cpp |
 | 2026-04-07 | #3606 [Coupon Code Validator](https://leetcode.com/problems/coupon-code-validator/) | Easy | cpp |
 | 2026-04-07 | #2069 [Walking Robot Simulation II](https://leetcode.com/problems/walking-robot-simulation-ii/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-04-05 | #3074 [Apple Redistribution into Boxes](https://leetcode.com/problems/apple-redistribution-into-boxes/) | Easy | cpp |
 | 2026-04-05 | #1925 [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/) | Easy | cpp |
 | 2026-04-05 | #1523 [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) | Easy | cpp |
-| 2026-04-05 | #3432 [Count Partitions with Even Sum Difference](https://leetcode.com/problems/count-partitions-with-even-sum-difference/) | Easy | cpp |
 
 ## Structure
 
