@@ -1,8 +1,8 @@
 {
-  "easy": 17,
+  "easy": 18,
   "medium": 5,
   "hard": 0,
-  "total": 22,
+  "total": 23,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -177,6 +177,14 @@
       "slug": "coupon-code-validator",
       "title": "Coupon Code Validator",
       "questionId": "3606",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-07",
+      "slug": "delete-columns-to-make-sorted",
+      "title": "Delete Columns to Make Sorted",
+      "questionId": "944",
       "difficulty": "Easy",
       "lang": "cpp"
     }
