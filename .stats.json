@@ -1,8 +1,8 @@
 {
-  "easy": 16,
+  "easy": 17,
   "medium": 5,
   "hard": 0,
-  "total": 21,
+  "total": 22,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -170,6 +170,14 @@
       "title": "Walking Robot Simulation II",
       "questionId": "2069",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-07",
+      "slug": "coupon-code-validator",
+      "title": "Coupon Code Validator",
+      "questionId": "3606",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ]
