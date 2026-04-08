@@ -1,8 +1,8 @@
 {
   "easy": 19,
-  "medium": 5,
+  "medium": 6,
   "hard": 0,
-  "total": 24,
+  "total": 25,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -194,6 +194,14 @@
       "title": "Count Negative Numbers in a Sorted Matrix",
       "questionId": "1351",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-08",
+      "slug": "xor-after-range-multiplication-queries-i",
+      "title": "XOR After Range Multiplication Queries I",
+      "questionId": "3653",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ]
