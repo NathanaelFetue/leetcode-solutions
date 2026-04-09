@@ -1,20 +1,20 @@
 /*
  * Problem #9 - Palindrome Number (Easy)
- * https://leetcode.com/problems/palindrome-number/
+ * LeetCode URL: https://leetcode.com/problems/palindrome-number/
  *
- * Approach: Digit Extraction and Two-Pointer Comparison
+ * Approach/Algorithm:
  * First, negative numbers are immediately rejected as non-palindromes.
- * The digits of the number are extracted by repeatedly taking modulo 10 and stored in a vector,
- * then a two-pointer technique compares digits from both ends moving inward to verify symmetry.
+ * The digits of the number are extracted one by one (least significant first) using
+ * modulo 10 and stored in a vector, then a two-pointer technique compares digits
+ * from both ends of the vector moving inward until the pointers meet.
  *
- * Time Complexity: O(d) where d is the number of digits in x (log10(x)),
- * since we iterate once to extract digits and once more to compare them.
+ * Time Complexity: O(d) where d is the number of digits in x (log10(x)).
+ * Both the digit extraction loop and the two-pointer comparison run in O(d).
  *
- * Space Complexity: O(d) where d is the number of digits in x,
- * due to the vector used to store the individual digits.
+ * Space Complexity: O(d) where d is the number of digits, due to the digits vector
+ * storing each digit of the input number.
  *
- * Runtime: 27 ms
- * Memory: 12.3 MB
+ * Runtime: 16 ms | Memory: 12.3 MB
  */
 
 class Solution {
