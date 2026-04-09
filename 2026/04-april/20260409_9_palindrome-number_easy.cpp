@@ -1,26 +1,39 @@
 /*
- * Problem #9 - Palindrome Number (Easy)
- * https://leetcode.com/problems/palindrome-number/
+ * Problem #9 - Palindrome Number
+ * Difficulty: Easy
+ * URL: https://leetcode.com/problems/palindrome-number/
  *
- * Approach: String Conversion with Reverse Comparison
- * Convert the integer to its string representation, then compare it against
- * its reverse using reverse iterators. Negative numbers are immediately
- * rejected via the x >= 0 guard since they can never be palindromes.
+ * Approach/Algorithm:
+ * First, negative numbers are immediately rejected as non-palindromes.
+ * The digits of the number are extracted one by one using modulo 10 and stored in a vector,
+ * resulting in a reversed-order digit array. A two-pointer technique is then applied,
+ * comparing digits from both ends moving inward to verify palindrome symmetry.
  *
- * Time Complexity: O(d) where d is the number of digits in x.
- * Building the string and constructing the reversed copy each take O(d),
- * and the equality comparison is also O(d).
+ * Time Complexity: O(d) where d is the number of digits in x (log10(x)),
+ * since we iterate through all digits once to extract and once to compare.
  *
- * Space Complexity: O(d) for storing the original string and its reverse.
+ * Space Complexity: O(d) where d is the number of digits, due to the digit storage vector.
  *
- * Runtime : 0 ms
- * Memory  : 12.1 MB
+ * Runtime: 12 ms
+ * Memory: 12.3 MB
  */
 
 class Solution {
 public:
     bool isPalindrome(int x) {
-        string s = to_string(x);
-        return x >= 0 && s == string(s.rbegin(), s.rend());
+        if (x < 0) return false;
+        vector <int> digits;
+        int i =0;
+        while(x>0) {
+            digits.push_back(x%10);
+            x /= 10;
+        }
+        int deb=digits.size() -1 , fin = 0;
+        while((deb -fin) >0){
+            if (digits[deb] != digits[fin]) return false;
+            deb--;
+            fin++;
+        }
+        return true;
     }
 };
