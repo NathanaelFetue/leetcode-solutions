@@ -1,8 +1,8 @@
 {
-  "easy": 20,
+  "easy": 21,
   "medium": 6,
   "hard": 1,
-  "total": 27,
+  "total": 28,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -217,6 +217,14 @@
       "slug": "palindrome-number",
       "title": "Palindrome Number",
       "questionId": "9",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-09",
+      "slug": "roman-to-integer",
+      "title": "Roman to Integer",
+      "questionId": "13",
       "difficulty": "Easy",
       "lang": "cpp"
     }
