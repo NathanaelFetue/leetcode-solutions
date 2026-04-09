@@ -1,8 +1,8 @@
 {
   "easy": 19,
   "medium": 6,
-  "hard": 0,
-  "total": 25,
+  "hard": 1,
+  "total": 26,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -202,6 +202,14 @@
       "title": "XOR After Range Multiplication Queries I",
       "questionId": "3653",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-09",
+      "slug": "xor-after-range-multiplication-queries-ii",
+      "title": "XOR After Range Multiplication Queries II",
+      "questionId": "3655",
+      "difficulty": "Hard",
       "lang": "cpp"
     }
   ]
