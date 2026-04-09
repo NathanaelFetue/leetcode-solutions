@@ -8,13 +8,14 @@ Auto-synced from accepted LeetCode submissions.
 |------------|--------|
 | Easy       | 19 |
 | Medium     | 6 |
-| Hard       | 0 |
-| **Total**  | **25** |
+| Hard       | 1 |
+| **Total**  | **26** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-04-09 | #3655 [XOR After Range Multiplication Queries II](https://leetcode.com/problems/xor-after-range-multiplication-queries-ii/) | Hard | cpp |
 | 2026-04-08 | #3653 [XOR After Range Multiplication Queries I](https://leetcode.com/problems/xor-after-range-multiplication-queries-i/) | Medium | cpp |
 | 2026-04-07 | #1351 [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | Easy | cpp |
 | 2026-04-07 | #944 [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | Easy | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-04-05 | #2483 [Minimum Penalty for a Shop](https://leetcode.com/problems/minimum-penalty-for-a-shop/) | Medium | cpp |
 | 2026-04-05 | #3075 [Maximize Happiness of Selected Children](https://leetcode.com/problems/maximize-happiness-of-selected-children/) | Medium | cpp |
 | 2026-04-05 | #3074 [Apple Redistribution into Boxes](https://leetcode.com/problems/apple-redistribution-into-boxes/) | Easy | cpp |
-| 2026-04-05 | #1925 [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/) | Easy | cpp |
 
 ## Structure
 
