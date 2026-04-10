@@ -2,16 +2,17 @@
  * Problem #83: Remove Duplicates from Sorted List (Easy)
  * https://leetcode.com/problems/remove-duplicates-from-sorted-list/
  *
- * Approach: Hash Set with Single Pass
- * Traverse the linked list while maintaining a hash set of seen values.
+ * Approach: Hash Set Tracking
+ * Traverse the linked list while maintaining a set of seen values.
  * If the current node's value already exists in the set, bypass it by
- * linking the previous node directly to the next node. Otherwise, insert
- * the value into the set and advance the previous pointer.
+ * linking the previous node directly to the next node. Otherwise, add
+ * the value to the set and advance both pointers.
  *
- * Time Complexity: O(n log n) - each node is visited once, and set
- * operations (insert/contains) take O(log n) for a balanced BST-based set.
+ * Time Complexity: O(n log n) - each node is visited once, and each
+ * set insertion/lookup takes O(log n) due to the ordered set structure.
  *
- * Space Complexity: O(n) - the set stores at most n unique values.
+ * Space Complexity: O(n) - the set stores at most n unique values
+ * where n is the number of nodes in the list.
  *
  * Runtime: 3 ms | Memory: 16.9 MB
  */
