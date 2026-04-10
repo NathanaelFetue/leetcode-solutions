@@ -2,17 +2,20 @@
  * Problem #83: Remove Duplicates from Sorted List (Easy)
  * https://leetcode.com/problems/remove-duplicates-from-sorted-list/
  *
- * Approach: Use a set to track all values seen so far while traversing the linked list
+ * Approach: Use a set to track all values seen so far while traversing the list
  * with a dummy head node. For each node, if its value already exists in the set,
- * skip it by relinking pointers; otherwise, record the value and advance the pointer.
+ * skip it by relinking pointers; otherwise, add it to the set and advance.
  *
- * Time Complexity: O(n log n) - each of the n nodes is visited once, and set insertion
- * and lookup each take O(log n) time.
+ * Time Complexity: O(n log n) - each of the n nodes is processed once, and each
+ * set insertion/lookup takes O(log n) due to the balanced BST backing std::set.
  *
  * Space Complexity: O(n) - the set stores at most n unique values from the list.
  *
- * Runtime: 1 ms
- * Memory: 16.9 MB
+ * Note: Since the list is already sorted, a simple O(n) in-place comparison of
+ * adjacent nodes would suffice, but this set-based approach also handles unsorted
+ * duplicates.
+ *
+ * Runtime: 0 ms | Memory: 16.9 MB
  */
 
 /**
