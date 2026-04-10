@@ -1,21 +1,19 @@
 /*
- * Problem #83: Remove Duplicates from Sorted List (Easy)
+ * Problem 83: Remove Duplicates from Sorted List (Easy)
  * https://leetcode.com/problems/remove-duplicates-from-sorted-list/
  *
- * Approach: Use a set to track all values seen so far while traversing the list
- * with a dummy head node. For each node, if its value already exists in the set,
- * skip it by relinking pointers; otherwise, add it to the set and advance.
+ * Approach: Use a hash set to track seen values while traversing the linked list
+ * with a dummy node. For each node, if its value already exists in the set,
+ * skip it by relinking pointers; otherwise, record the value and advance.
  *
- * Time Complexity: O(n log n) - each of the n nodes is processed once, and each
- * set insertion/lookup takes O(log n) due to the balanced BST backing std::set.
+ * Time Complexity: O(n) — each node is visited exactly once during traversal.
+ * Space Complexity: O(n) — the set stores at most n unique values from the list.
  *
- * Space Complexity: O(n) - the set stores at most n unique values from the list.
+ * Note: Since the list is sorted, an O(1) space approach comparing adjacent nodes
+ * is also valid, but this solution uses a set for generality.
  *
- * Note: Since the list is already sorted, a simple O(n) in-place comparison of
- * adjacent nodes would suffice, but this set-based approach also handles unsorted
- * duplicates.
- *
- * Runtime: 0 ms | Memory: 16.9 MB
+ * Runtime: 0 ms
+ * Memory: 16.9 MB
  */
 
 /**
@@ -31,7 +29,7 @@
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
-        set <double> s = {};
+        set <int> s = {};
         ListNode dummy(0);
         dummy.next = head;
         ListNode* curr = &dummy;
