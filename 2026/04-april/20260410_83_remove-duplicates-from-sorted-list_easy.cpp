@@ -1,19 +1,19 @@
 /*
- * Problem 83: Remove Duplicates from Sorted List (Easy)
+ * Problem #83: Remove Duplicates from Sorted List (Easy)
  * https://leetcode.com/problems/remove-duplicates-from-sorted-list/
  *
- * Approach: Use a hash set to track seen values while traversing the linked list
- * with a dummy node. For each node, if its value already exists in the set,
- * skip it by relinking pointers; otherwise, record the value and advance.
+ * Approach: Hash Set with Single Pass
+ * Traverse the linked list while maintaining a hash set of seen values.
+ * If the current node's value already exists in the set, bypass it by
+ * linking the previous node directly to the next node. Otherwise, insert
+ * the value into the set and advance the previous pointer.
  *
- * Time Complexity: O(n) — each node is visited exactly once during traversal.
- * Space Complexity: O(n) — the set stores at most n unique values from the list.
+ * Time Complexity: O(n log n) - each node is visited once, and set
+ * operations (insert/contains) take O(log n) for a balanced BST-based set.
  *
- * Note: Since the list is sorted, an O(1) space approach comparing adjacent nodes
- * is also valid, but this solution uses a set for generality.
+ * Space Complexity: O(n) - the set stores at most n unique values.
  *
- * Runtime: 0 ms
- * Memory: 16.9 MB
+ * Runtime: 3 ms | Memory: 16.9 MB
  */
 
 /**
@@ -30,17 +30,19 @@ class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
         set <int> s = {};
-        ListNode dummy(0);
-        dummy.next = head;
-        ListNode* curr = &dummy;
-        while(curr -> next) {
-            if (s.contains(curr->next -> val)) {
-                curr -> next = curr -> next -> next ;
+        ListNode* prev = nullptr;
+        ListNode* curr = head;
+
+        while (curr) {
+            if (s.contains(curr->val)) {
+                prev->next = curr->next;
+                curr = curr->next;
             } else {
-                s.insert(curr ->next-> val);
-                curr = curr -> next;
+                s.insert(curr->val);
+                prev = curr;
+                curr = curr->next;
             }
-        } 
-        return dummy.next;
+        }
+        return head;
     }
 };
