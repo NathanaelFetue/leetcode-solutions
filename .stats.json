@@ -1,8 +1,8 @@
 {
-  "easy": 21,
+  "easy": 22,
   "medium": 6,
   "hard": 1,
-  "total": 28,
+  "total": 29,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -225,6 +225,14 @@
       "slug": "roman-to-integer",
       "title": "Roman to Integer",
       "questionId": "13",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-10",
+      "slug": "remove-duplicates-from-sorted-list",
+      "title": "Remove Duplicates from Sorted List",
+      "questionId": "83",
       "difficulty": "Easy",
       "lang": "cpp"
     }
