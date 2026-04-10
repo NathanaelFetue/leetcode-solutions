@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 21 |
+| Easy       | 22 |
 | Medium     | 6 |
 | Hard       | 1 |
-| **Total**  | **28** |
+| **Total**  | **29** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-04-10 | #83 [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | Easy | cpp |
 | 2026-04-09 | #13 [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | Easy | cpp |
 | 2026-04-09 | #9 [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | cpp |
 | 2026-04-09 | #3655 [XOR After Range Multiplication Queries II](https://leetcode.com/problems/xor-after-range-multiplication-queries-ii/) | Hard | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-04-06 | #1784 [Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) | Easy | cpp |
 | 2026-04-06 | #1758 [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/) | Easy | cpp |
 | 2026-04-06 | #1582 [Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/) | Easy | cpp |
-| 2026-04-05 | #2483 [Minimum Penalty for a Shop](https://leetcode.com/problems/minimum-penalty-for-a-shop/) | Medium | cpp |
 
 ## Structure
 
