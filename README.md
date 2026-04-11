@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 23 |
+| Easy       | 24 |
 | Medium     | 7 |
 | Hard       | 1 |
-| **Total**  | **31** |
+| **Total**  | **32** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-04-11 | #141 [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | cpp |
 | 2026-04-11 | #3741 [Minimum Distance Between Three Equal Elements II](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-ii/) | Medium | cpp |
 | 2026-04-10 | #3740 [Minimum Distance Between Three Equal Elements I](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-i/) | Easy | cpp |
 | 2026-04-10 | #83 [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | Easy | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-04-06 | #874 [Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation/) | Medium | cpp |
 | 2026-04-06 | #1356 [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/) | Easy | cpp |
 | 2026-04-06 | #1022 [Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/) | Easy | cpp |
-| 2026-04-06 | #1784 [Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) | Easy | cpp |
 
 ## Structure
 
