@@ -1,20 +1,22 @@
 /*
- * Problem #3741 - Minimum Distance Between Three Equal Elements II
+ * Problem #3741: Minimum Distance Between Three Equal Elements II
  * Difficulty: Medium
  * URL: https://leetcode.com/problems/minimum-distance-between-three-equal-elements-ii/
  *
- * Approach: Group indices of each unique value using a hash map, then for each
- * value that appears at least three times, slide a window of three consecutive
- * indices and compute the cost as 2*(c - a), tracking the global minimum.
- * The formula 2*(c - a) represents the total movement cost to bring three
- * elements together at the optimal meeting point between indices a and c.
+ * Approach: Group all indices of each unique value using a hash map, then for each
+ * value that appears at least 3 times, slide a window of 3 consecutive indices and
+ * compute 2*(last - first) as the cost, tracking the global minimum across all values.
  *
- * Time Complexity: O(n) - single pass to build the map, then linear scan over
- * all stored indices (total index entries = n across all keys).
+ * The key insight is that for any triple of indices (a, b, c), the minimum total
+ * distance is 2*(c - a), since the optimal meeting point lies between a and c.
  *
- * Space Complexity: O(n) - hash map stores all indices, up to n entries total.
+ * Time Complexity: O(n) - single pass to build the map, then each index is visited
+ * once across all groups, making the overall scan linear.
  *
- * Runtime: 494 ms | Memory: 381.9 MB
+ * Space Complexity: O(n) - the hash map stores all indices, which in the worst case
+ * is O(n) when all elements are distinct.
+ *
+ * Runtime: 359 ms | Memory: 343.5 MB
  */
 
 class Solution {
@@ -34,12 +36,13 @@ public:
             mp[nums[i]].push_back(i);
         }
         int bestVal = INT_MAX , absSum;
-        for (auto x : mp) {
+        for (auto& x : mp) {
             if(x.second.size() >=3) {
                     absSum = minDist(x.second);
                     if (absSum < bestVal) bestVal = absSum;
             }
         }
+
         return bestVal == INT_MAX ? -1 : bestVal;
     }
 };
