@@ -1,19 +1,20 @@
 /*
- * Problem #141 - Linked List Cycle (Easy)
- * LeetCode URL: https://leetcode.com/problems/linked-list-cycle/
+ * Problem #141: Linked List Cycle (Easy)
+ * URL: https://leetcode.com/problems/linked-list-cycle/
  *
  * Approach: Hash Set Node Tracking
- * Traverse the linked list and store each visited node's pointer in an unordered_set.
- * At each step, check if the next node already exists in the set; if so, a cycle is detected.
- * If traversal reaches a null next pointer, no cycle exists and we return false.
+ * Traverse the linked list while storing visited node pointers in an unordered_set.
+ * At each step, check if the next node has already been seen; if so, a cycle exists.
+ * If traversal reaches a null next pointer, no cycle is present.
  *
- * Time Complexity: O(n) - Each node is visited at most once before a cycle is detected or
- * the end of the list is reached, where n is the number of nodes.
+ * Time Complexity: O(n) - each node is visited at most once before either detecting
+ * a cycle or reaching the end of the list, where n is the number of nodes.
  *
- * Space Complexity: O(n) - The unordered_set stores up to n node pointers in the worst case
- * when no cycle exists.
+ * Space Complexity: O(n) - in the worst case (no cycle), all node pointers are
+ * stored in the hash set, requiring space proportional to the number of nodes.
  *
- * Runtime: 15 ms | Memory: 14.6 MB
+ * Runtime: 16 ms
+ * Memory: 14.5 MB
  */
 
 /**
