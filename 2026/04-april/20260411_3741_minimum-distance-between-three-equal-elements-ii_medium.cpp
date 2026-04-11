@@ -4,17 +4,17 @@
  * URL: https://leetcode.com/problems/minimum-distance-between-three-equal-elements-ii/
  *
  * Approach: Group indices of each unique value using a hash map, then for each
- * value that appears at least 3 times, slide a window of 3 consecutive indices
- * and compute the cost as 2 * (last - first), tracking the global minimum.
- * The cost formula 2*(c-a) derives from placing a meeting point optimally
- * between three sorted positions a, b, c, minimizing |x-a|+|x-b|+|x-c|.
+ * value that appears at least three times, slide a window of three consecutive
+ * indices and compute the cost as 2*(c - a), tracking the global minimum.
+ * The formula 2*(c - a) represents the total movement cost to bring three
+ * elements together at the optimal meeting point between indices a and c.
  *
  * Time Complexity: O(n) - single pass to build the map, then linear scan over
- * all stored indices (total indices across all groups equals n).
- * Space Complexity: O(n) - hash map stores all indices of all elements.
+ * all stored indices (total index entries = n across all keys).
  *
- * Runtime: 521 ms
- * Memory: 381.7 MB
+ * Space Complexity: O(n) - hash map stores all indices, up to n entries total.
+ *
+ * Runtime: 494 ms | Memory: 381.9 MB
  */
 
 class Solution {
