@@ -3,43 +3,44 @@
  * Difficulty: Medium
  * URL: https://leetcode.com/problems/minimum-distance-between-three-equal-elements-ii/
  *
- * Approach: Group indices of each unique value using a hash map, then for every
- * value that appears at least three times, slide a window of three consecutive
- * indices and compute the cost as 2*(last - first). Track the minimum cost across
- * all valid triplets and all values.
+ * Approach: Next-Occurrence Precomputation
+ * First, build a 'next' array where next[i] stores the index of the next occurrence
+ * of nums[i] in the array, computed via a reverse pass with a hash map. Then iterate
+ * through all valid triples (i, next[i], next[next[i]]) to find the minimum span,
+ * returning twice that span as the answer (or -1 if no valid triple exists).
  *
- * Time Complexity: O(n) - single pass to build the map, then each index is
- * visited at most once across all groups during the sliding window scan.
+ * Time Complexity: O(n) - two linear passes over the array plus O(1) hash map ops.
+ * Space Complexity: O(n) - for the 'next' array and the occurrence hash map.
  *
- * Space Complexity: O(n) - the hash map stores all indices across all unique values,
- * totalling n entries in the worst case.
- *
- * Runtime: 507 ms | Memory: 381.9 MB
+ * Runtime: 189 ms
+ * Memory: 272.7 MB
  */
 
 class Solution {
 public:
-    int minDist(vector<int>& indices) {
-        int res = INT_MAX;
-        for (int i = 0; i < indices.size() - 2; i++) {
-            int a = indices[i], b = indices[i+1], c = indices[i+2];
-            res = min(res, 2 * (c - a));
-        }
-        return res;
-    }
-
     int minimumDistance(vector<int>& nums) {
-        unordered_map<int, vector<int>> mp;
-        for (int i = 0; i < nums.size(); i++) {
-            mp[nums[i]].push_back(i);
+        int n = nums.size();
+        std::vector<int> next(n, -1);
+        std::unordered_map<int, int> occur;
+        int ans = n + 1;
+
+        for (int i = n - 1; i >= 0; i--) {
+            if (occur.count(nums[i])) {
+                next[i] = occur[nums[i]];
+            }
+            occur[nums[i]] = i;
         }
-        int bestVal = INT_MAX , absSum;
-        for (auto x : mp) {
-            if(x.second.size() >=3) {
-                    absSum = minDist(x.second);
-                    if (absSum < bestVal) bestVal = absSum;
+
+        for (int i = 0; i < n; i++) {
+            int secondPos = next[i];
+            if (secondPos != -1) {
+                int thirdPos = next[secondPos];
+                if (thirdPos != -1) {
+                    ans = std::min(ans, thirdPos - i);
+                }
             }
         }
-        return bestVal == INT_MAX ? -1 : bestVal;
+
+        return ans == n + 1 ? -1 : ans * 2;
     }
 };
