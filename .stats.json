@@ -1,8 +1,8 @@
 {
-  "easy": 23,
+  "easy": 24,
   "medium": 7,
   "hard": 1,
-  "total": 31,
+  "total": 32,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -250,6 +250,14 @@
       "title": "Minimum Distance Between Three Equal Elements II",
       "questionId": "3741",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-11",
+      "slug": "linked-list-cycle",
+      "title": "Linked List Cycle",
+      "questionId": "141",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ]
