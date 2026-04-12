@@ -1,8 +1,8 @@
 {
-  "easy": 27,
+  "easy": 28,
   "medium": 7,
   "hard": 1,
-  "total": 35,
+  "total": 36,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -281,6 +281,14 @@
       "slug": "reverse-linked-list",
       "title": "Reverse Linked List",
       "questionId": "206",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-12",
+      "slug": "palindrome-linked-list",
+      "title": "Palindrome Linked List",
+      "questionId": "234",
       "difficulty": "Easy",
       "lang": "cpp"
     }
