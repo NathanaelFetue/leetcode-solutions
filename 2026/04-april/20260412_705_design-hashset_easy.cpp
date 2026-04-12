@@ -2,48 +2,37 @@
  * Problem #705 - Design HashSet (Easy)
  * https://leetcode.com/problems/design-hashset/
  *
- * Approach: Separate Chaining Hash Map
- * Uses a fixed-size array of 1000 buckets (vectors) to handle collisions via separate chaining.
- * Each key is mapped to a bucket index using key % SIZE, and the bucket's vector stores all keys that hash to that index.
- * Duplicate prevention is handled by linear scan before insertion; removal uses std::remove with erase idiom.
+ * Approach: Direct Address Table (Boolean Array)
+ * Since the key range is bounded [0, 1000000], a boolean vector of size 1000001
+ * is pre-allocated where index represents the key and value represents presence.
+ * Add sets the index to true, remove sets it to false, and contains returns the value.
  *
  * Time Complexity:
- *   - add: O(n/k) average where n = total keys, k = number of buckets (O(1) amortized)
- *   - remove: O(n/k) average for scan and erase
- *   - contains: O(n/k) average for linear scan within bucket
+ *   - add()      : O(1) - direct index write
+ *   - remove()   : O(1) - direct index write
+ *   - contains() : O(1) - direct index read
  *
- * Space Complexity: O(n + k) where n = number of stored keys, k = 1000 buckets
+ * Space Complexity: O(N) where N = 1,000,001 (fixed upper bound of key range)
  *
- * Runtime: 22 ms | Memory: 47.7 MB
+ * Runtime : 8 ms
+ * Memory  : 50.5 MB
  */
 
 class MyHashSet {
-    static const int SIZE = 1000;
-    vector<vector<int>> buckets;
-    
-    int hash(int key) { return key % SIZE; }
-
+    vector<bool> data;
 public:
-    MyHashSet() : buckets(SIZE) {}
+    MyHashSet() : data(1000001, false) {}
     
     void add(int key) {
-        int h = hash(key);
-        for (int k : buckets[h])
-            if (k == key) return;
-        buckets[h].push_back(key);
+        data[key] = true;
     }
     
     void remove(int key) {
-        int h = hash(key);
-        auto& b = buckets[h];
-        b.erase(std::remove(b.begin(), b.end(), key), b.end());
+        data[key] = false;
     }
     
     bool contains(int key) {
-        int h = hash(key);
-        for (int k : buckets[h])
-            if (k == key) return true;
-        return false;
+        return data[key];
     }
 };
 
