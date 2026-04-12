@@ -1,21 +1,20 @@
 /*
- * Problem #705 - Design HashSet
- * Difficulty: Easy
- * URL: https://leetcode.com/problems/design-hashset/
+ * Problem #705 - Design HashSet (Easy)
+ * https://leetcode.com/problems/design-hashset/
  *
- * Approach: Separate Chaining Hash Set
- * Uses a fixed-size array of 1000 buckets, each holding a vector of integers.
- * Keys are mapped to buckets via modulo hashing (key % 1000), and collisions
- * are resolved by storing all colliding keys in the same bucket vector (chaining).
- * Each operation linearly scans the relevant bucket to add, remove, or check keys.
+ * Approach: Separate Chaining Hash Map
+ * Uses a fixed-size array of 1000 buckets (vectors) to handle collisions via separate chaining.
+ * Each key is mapped to a bucket index using key % SIZE, and the bucket's vector stores all keys that hash to that index.
+ * Duplicate prevention is handled by linear scan before insertion; removal uses std::remove with erase idiom.
  *
  * Time Complexity:
- *   - add / remove / contains: O(n/k) average where n = number of keys, k = 1000 buckets.
- *   - Worst case O(n) if all keys hash to the same bucket.
+ *   - add: O(n/k) average where n = total keys, k = number of buckets (O(1) amortized)
+ *   - remove: O(n/k) average for scan and erase
+ *   - contains: O(n/k) average for linear scan within bucket
  *
- * Space Complexity: O(n + k) where k = 1000 (bucket array) and n = stored keys.
+ * Space Complexity: O(n + k) where n = number of stored keys, k = 1000 buckets
  *
- * Runtime: 14 ms | Memory: 47.6 MB
+ * Runtime: 22 ms | Memory: 47.7 MB
  */
 
 class MyHashSet {
@@ -30,7 +29,7 @@ public:
     void add(int key) {
         int h = hash(key);
         for (int k : buckets[h])
-            if (k == key) return; // déjà présent
+            if (k == key) return;
         buckets[h].push_back(key);
     }
     
