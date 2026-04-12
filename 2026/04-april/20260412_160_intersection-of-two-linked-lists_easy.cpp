@@ -5,15 +5,16 @@
  * Approach: Hash Set Membership Check
  * Traverse list A and store all node pointers in an unordered_set.
  * Then traverse list B, checking each node against the set; the first
- * node found in the set is the intersection point, or nullptr if none exists.
+ * node found in the set is the intersection point. If no match is found,
+ * return nullptr indicating no intersection exists.
  *
- * Time Complexity: O(m + n) — where m and n are the lengths of list A and
- * list B respectively; each list is traversed at most once.
+ * Time Complexity: O(m + n) - where m and n are the lengths of list A
+ * and list B respectively; each list is traversed at most once.
  *
- * Space Complexity: O(m) — the hash set stores all node pointers from list A.
+ * Space Complexity: O(m) - the hash set stores all m node pointers
+ * from list A.
  *
- * Runtime: 79 ms
- * Memory: 28.8 MB
+ * Runtime: 72 ms | Memory: 28.8 MB
  */
 
 /**
