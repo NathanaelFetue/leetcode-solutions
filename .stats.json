@@ -1,8 +1,8 @@
 {
-  "easy": 26,
+  "easy": 27,
   "medium": 7,
   "hard": 1,
-  "total": 34,
+  "total": 35,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -273,6 +273,14 @@
       "slug": "remove-linked-list-elements",
       "title": "Remove Linked List Elements",
       "questionId": "203",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-12",
+      "slug": "reverse-linked-list",
+      "title": "Reverse Linked List",
+      "questionId": "206",
       "difficulty": "Easy",
       "lang": "cpp"
     }
