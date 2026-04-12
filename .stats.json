@@ -1,8 +1,8 @@
 {
-  "easy": 24,
+  "easy": 25,
   "medium": 7,
   "hard": 1,
-  "total": 32,
+  "total": 33,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -257,6 +257,14 @@
       "slug": "linked-list-cycle",
       "title": "Linked List Cycle",
       "questionId": "141",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-12",
+      "slug": "intersection-of-two-linked-lists",
+      "title": "Intersection of Two Linked Lists",
+      "questionId": "160",
       "difficulty": "Easy",
       "lang": "cpp"
     }
