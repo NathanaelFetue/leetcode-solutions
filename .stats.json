@@ -1,8 +1,8 @@
 {
-  "easy": 25,
+  "easy": 26,
   "medium": 7,
   "hard": 1,
-  "total": 33,
+  "total": 34,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -265,6 +265,14 @@
       "slug": "intersection-of-two-linked-lists",
       "title": "Intersection of Two Linked Lists",
       "questionId": "160",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-12",
+      "slug": "remove-linked-list-elements",
+      "title": "Remove Linked List Elements",
+      "questionId": "203",
       "difficulty": "Easy",
       "lang": "cpp"
     }
