@@ -2,16 +2,15 @@
  * Problem 234: Palindrome Linked List (Easy)
  * https://leetcode.com/problems/palindrome-linked-list/
  *
- * Approach: Linear Traversal with Vector Storage
- * Traverse the entire linked list once, storing all node values into a vector.
- * Then use two-pointer comparison from both ends toward the center to check if the sequence is a palindrome.
- * If any mirrored pair of values differs, return false; otherwise return true.
+ * Approach: Linear scan with vector storage.
+ * Traverse the linked list once, storing all node values into a vector.
+ * Then use two-pointer comparison from both ends toward the center to check for palindrome symmetry.
  *
- * Time Complexity: O(n) - single pass to collect values, single pass (n/2) to compare ends.
- * Space Complexity: O(n) - vector stores all n node values from the linked list.
+ * Time Complexity: O(n) - single pass to collect values plus O(n/2) for comparison, overall O(n).
+ * Space Complexity: O(n) - vector stores all n node values.
  *
- * Runtime: 5 ms
- * Memory: 132 MB
+ * Runtime: 4 ms
+ * Memory: 132.1 MB
  */
 
 /**
