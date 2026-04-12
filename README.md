@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 26 |
+| Easy       | 27 |
 | Medium     | 7 |
 | Hard       | 1 |
-| **Total**  | **34** |
+| **Total**  | **35** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-04-12 | #206 [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | cpp |
 | 2026-04-12 | #203 [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | Easy | cpp |
 | 2026-04-12 | #160 [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | Easy | cpp |
 | 2026-04-11 | #141 [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-04-07 | #944 [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | Easy | cpp |
 | 2026-04-07 | #3606 [Coupon Code Validator](https://leetcode.com/problems/coupon-code-validator/) | Easy | cpp |
 | 2026-04-07 | #2069 [Walking Robot Simulation II](https://leetcode.com/problems/walking-robot-simulation-ii/) | Medium | cpp |
-| 2026-04-06 | #874 [Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation/) | Medium | cpp |
 
 ## Structure
 
