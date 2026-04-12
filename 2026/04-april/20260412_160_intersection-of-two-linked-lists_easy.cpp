@@ -1,20 +1,20 @@
 /*
- * Problem 160: Intersection of Two Linked Lists (Easy)
- * https://leetcode.com/problems/intersection-of-two-linked-lists/
+ * Problem 160: Intersection of Two Linked Lists
+ * Difficulty: Easy
+ * URL: https://leetcode.com/problems/intersection-of-two-linked-lists/
  *
- * Approach: Hash Set Membership Check
- * Traverse list A and store all node pointers in an unordered_set.
- * Then traverse list B, checking each node against the set; the first
- * node found in the set is the intersection point. If no match is found,
- * return nullptr indicating no intersection exists.
+ * Approach: Two-Pointer / Pointer Redirection
+ * Two pointers traverse both lists simultaneously. When a pointer reaches the end of its list,
+ * it is redirected to the head of the other list. By the time both pointers have traversed
+ * a combined distance of lenA + lenB, they will either meet at the intersection node or both
+ * become null (no intersection), guaranteeing convergence without needing to compute lengths.
  *
- * Time Complexity: O(m + n) - where m and n are the lengths of list A
- * and list B respectively; each list is traversed at most once.
+ * Time Complexity: O(m + n) — each pointer traverses at most m + n nodes total,
+ * where m and n are the lengths of the two linked lists.
+ * Space Complexity: O(1) — only two pointer variables are used regardless of input size.
  *
- * Space Complexity: O(m) - the hash set stores all m node pointers
- * from list A.
- *
- * Runtime: 72 ms | Memory: 28.8 MB
+ * Runtime: 61 ms
+ * Memory: 24 MB
  */
 
 /**
@@ -28,18 +28,11 @@
 class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
-        ListNode* tmp1 = headA;
-        ListNode* tmp2 = headB;
-        unordered_set <ListNode*> st;
-        int val;
-        while(tmp1) {
-            st.insert(tmp1);
-            tmp1 = tmp1->next;
+        ListNode *tmp1 = headA, *tmp2 = headB;
+        while (tmp1 != tmp2) {
+            tmp1 = tmp1 ? tmp1->next : headB;
+            tmp2 = tmp2 ? tmp2->next : headA;
         }
-        while(tmp2) {
-            if(st.contains(tmp2)) return tmp2;
-            tmp2 = tmp2->next;
-        }
-        return nullptr;
+        return tmp1;
     }
 };
