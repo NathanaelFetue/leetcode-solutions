@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 28 |
+| Easy       | 29 |
 | Medium     | 7 |
 | Hard       | 1 |
-| **Total**  | **36** |
+| **Total**  | **37** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-04-12 | #705 [Design HashSet](https://leetcode.com/problems/design-hashset/) | Easy | cpp |
 | 2026-04-12 | #234 [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | Easy | cpp |
 | 2026-04-12 | #206 [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | cpp |
 | 2026-04-12 | #203 [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | Easy | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-04-08 | #3653 [XOR After Range Multiplication Queries I](https://leetcode.com/problems/xor-after-range-multiplication-queries-i/) | Medium | cpp |
 | 2026-04-07 | #1351 [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | Easy | cpp |
 | 2026-04-07 | #944 [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | Easy | cpp |
-| 2026-04-07 | #3606 [Coupon Code Validator](https://leetcode.com/problems/coupon-code-validator/) | Easy | cpp |
 
 ## Structure
 
