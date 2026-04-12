@@ -1,20 +1,17 @@
 /*
- * Problem 160: Intersection of Two Linked Lists
- * Difficulty: Easy
- * URL: https://leetcode.com/problems/intersection-of-two-linked-lists/
+ * Problem 160: Intersection of Two Linked Lists (Easy)
+ * https://leetcode.com/problems/intersection-of-two-linked-lists/
  *
- * Approach: Two-Pointer / Pointer Redirection
+ * Approach: Two-pointer traversal with list switching.
  * Two pointers traverse both lists simultaneously. When a pointer reaches the end of its list,
- * it is redirected to the head of the other list. By the time both pointers have traversed
- * a combined distance of lenA + lenB, they will either meet at the intersection node or both
- * become null (no intersection), guaranteeing convergence without needing to compute lengths.
+ * it is redirected to the head of the other list. This equalizes the total distance traveled
+ * by both pointers, guaranteeing they meet at the intersection node (or both reach NULL if no intersection exists).
  *
- * Time Complexity: O(m + n) — each pointer traverses at most m + n nodes total,
- * where m and n are the lengths of the two linked lists.
- * Space Complexity: O(1) — only two pointer variables are used regardless of input size.
+ * Time Complexity: O(m + n) - each pointer traverses at most the combined length of both lists.
+ * Space Complexity: O(1) - only two pointers used, no extra data structures.
  *
- * Runtime: 61 ms
- * Memory: 24 MB
+ * Runtime: 1658 ms
+ * Memory: 23.9 MB
  */
 
 /**
@@ -30,8 +27,8 @@ public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
         ListNode *tmp1 = headA, *tmp2 = headB;
         while (tmp1 != tmp2) {
-            tmp1 = tmp1 ? tmp1->next : headB;
-            tmp2 = tmp2 ? tmp2->next : headA;
+            tmp1 = tmp1 ? tmp1->next : headA;
+            tmp2 = tmp2 ? tmp2->next : headB;
         }
         return tmp1;
     }
