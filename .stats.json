@@ -1,8 +1,8 @@
 {
-  "easy": 31,
+  "easy": 32,
   "medium": 8,
   "hard": 2,
-  "total": 41,
+  "total": 42,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -330,6 +330,14 @@
       "title": "Design Linked List",
       "questionId": "707",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-13",
+      "slug": "middle-of-the-linked-list",
+      "title": "Middle of the Linked List",
+      "questionId": "876",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ]
