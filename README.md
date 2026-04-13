@@ -9,12 +9,13 @@ Auto-synced from accepted LeetCode submissions.
 | Easy       | 32 |
 | Medium     | 9 |
 | Hard       | 2 |
-| **Total**  | **43** |
+| **Total**  | **44** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-04-13 | [convert-binary-number-in-a-linked-list-to-integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | Unknown | cpp |
 | 2026-04-13 | #725 [Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/) | Medium | cpp |
 | 2026-04-13 | #876 [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | Easy | cpp |
 | 2026-04-13 | #707 [Design Linked List](https://leetcode.com/problems/design-linked-list/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-04-11 | #141 [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | cpp |
 | 2026-04-11 | #3741 [Minimum Distance Between Three Equal Elements II](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-ii/) | Medium | cpp |
 | 2026-04-10 | #3740 [Minimum Distance Between Three Equal Elements I](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-i/) | Easy | cpp |
-| 2026-04-10 | #83 [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | Easy | cpp |
 
 ## Structure
 
