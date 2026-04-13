@@ -1,8 +1,8 @@
 {
   "easy": 31,
-  "medium": 7,
+  "medium": 8,
   "hard": 2,
-  "total": 40,
+  "total": 41,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -322,6 +322,14 @@
       "title": "Design HashMap",
       "questionId": "706",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-13",
+      "slug": "design-linked-list",
+      "title": "Design Linked List",
+      "questionId": "707",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ]
