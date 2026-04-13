@@ -1,8 +1,8 @@
 {
-  "easy": 30,
+  "easy": 31,
   "medium": 7,
   "hard": 2,
-  "total": 39,
+  "total": 40,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -313,6 +313,14 @@
       "slug": "minimum-distance-to-the-target-element",
       "title": "Minimum Distance to the Target Element",
       "questionId": "1848",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-13",
+      "slug": "design-hashmap",
+      "title": "Design HashMap",
+      "questionId": "706",
       "difficulty": "Easy",
       "lang": "cpp"
     }
