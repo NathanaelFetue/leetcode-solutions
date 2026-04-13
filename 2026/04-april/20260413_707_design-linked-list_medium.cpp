@@ -1,23 +1,21 @@
 /*
- * Problem #707 - Design Linked List
- * Difficulty: Medium
- * URL: https://leetcode.com/problems/design-linked-list/
+ * Problem #707: Design Linked List (Medium)
+ * https://leetcode.com/problems/design-linked-list/
  *
- * Approach/Algorithm:
- * Implements a singly linked list with head and tail pointers plus a size counter.
- * Each operation leverages the tail pointer to achieve O(1) addAtTail, while get,
- * addAtIndex, and deleteAtIndex traverse the list iteratively to locate the target node.
+ * Approach: Implements a singly linked list with explicit head and tail pointers
+ * and a size counter. Each operation (get, add, delete) traverses the list from
+ * the head up to the target index, with special-cased O(1) head and tail updates.
  *
  * Time Complexity:
- * - get(index): O(n) - linear traversal to index
- * - addAtHead(val): O(1) - direct head pointer update
- * - addAtTail(val): O(1) - direct tail pointer update
- * - addAtIndex(index, val): O(n) - traversal to insertion point
- * - deleteAtIndex(index): O(n) - traversal to deletion point
+ *   - get: O(n) - linear traversal to index
+ *   - addAtHead: O(1) - direct pointer update
+ *   - addAtTail: O(1) - tail pointer maintained
+ *   - addAtIndex: O(n) - traversal to insertion point
+ *   - deleteAtIndex: O(n) - traversal to deletion point
  *
  * Space Complexity: O(n) - one Node allocated per stored element
  *
- * Runtime: 6 ms | Memory: 25.9 MB
+ * Runtime: 11 ms | Memory: 25.8 MB
  */
 
 class MyLinkedList {
@@ -97,7 +95,7 @@ public:
             i++;
         }
         prev->next = curr->next;
-        if (index == size - 1) tail = prev;  // mise à jour tail si dernier noeud
+        if (index == size - 1) tail = prev;
         delete curr;
         size--;
     }
