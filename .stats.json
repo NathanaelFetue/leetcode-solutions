@@ -1,8 +1,8 @@
 {
-  "easy": 29,
+  "easy": 30,
   "medium": 7,
   "hard": 2,
-  "total": 38,
+  "total": 39,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -306,6 +306,14 @@
       "title": "Minimum Distance to Type a Word Using Two Fingers",
       "questionId": "1320",
       "difficulty": "Hard",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-13",
+      "slug": "minimum-distance-to-the-target-element",
+      "title": "Minimum Distance to the Target Element",
+      "questionId": "1848",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ]
