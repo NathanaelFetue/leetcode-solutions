@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 32 |
-| Medium     | 8 |
+| Medium     | 9 |
 | Hard       | 2 |
-| **Total**  | **42** |
+| **Total**  | **43** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-04-13 | #725 [Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/) | Medium | cpp |
 | 2026-04-13 | #876 [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | Easy | cpp |
 | 2026-04-13 | #707 [Design Linked List](https://leetcode.com/problems/design-linked-list/) | Medium | cpp |
 | 2026-04-13 | #706 [Design HashMap](https://leetcode.com/problems/design-hashmap/) | Easy | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-04-11 | #3741 [Minimum Distance Between Three Equal Elements II](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-ii/) | Medium | cpp |
 | 2026-04-10 | #3740 [Minimum Distance Between Three Equal Elements I](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-i/) | Easy | cpp |
 | 2026-04-10 | #83 [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | Easy | cpp |
-| 2026-04-09 | #13 [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | Easy | cpp |
 
 ## Structure
 
