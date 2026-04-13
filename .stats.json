@@ -2,7 +2,7 @@
   "easy": 32,
   "medium": 9,
   "hard": 2,
-  "total": 43,
+  "total": 44,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -347,6 +347,15 @@
       "questionId": "725",
       "difficulty": "Medium",
       "lang": "cpp"
+    },
+    {
+      "date": "2026-04-13",
+      "slug": "convert-binary-number-in-a-linked-list-to-integer",
+      "title": "convert-binary-number-in-a-linked-list-to-integer",
+      "questionId": "",
+      "difficulty": "Unknown",
+      "lang": "cpp"
     }
-  ]
+  ],
+  "unknown": 1
 }
