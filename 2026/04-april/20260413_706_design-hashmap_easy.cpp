@@ -3,19 +3,19 @@
  * https://leetcode.com/problems/design-hashmap/
  *
  * Approach: Direct Address Table
- * Since keys are constrained to the range [0, 1000000], we use a pre-allocated
- * vector of size 1000001 as a direct address table. Each index maps directly to
- * its value, using -1 as a sentinel to indicate an absent key. This avoids any
- * hashing or collision handling entirely.
+ * Since the problem constraints guarantee keys are in the range [0, 10^6],
+ * we use a pre-allocated vector of size 1,000,001 as a direct address table.
+ * Each index maps directly to its value, with -1 representing an absent key.
+ * This eliminates the need for hashing or collision resolution entirely.
  *
  * Time Complexity:
- *   - put, get, remove: O(1) — all operations are direct index accesses.
+ *   - put, get, remove: O(1) — direct index access into a fixed-size array.
  *
  * Space Complexity:
- *   - O(N) where N = 1,000,001 (the fixed key range), regardless of insertions.
+ *   - O(N) where N = 1,000,001 (maximum key range), fixed regardless of input size.
  *
- * Runtime : 71 ms
- * Memory  : 220.3 MB
+ * Runtime : 66 ms
+ * Memory  : 220.4 MB
  */
 
 class MyHashMap {
