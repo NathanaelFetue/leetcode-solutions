@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 31 |
-| Medium     | 7 |
+| Medium     | 8 |
 | Hard       | 2 |
-| **Total**  | **40** |
+| **Total**  | **41** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-04-13 | #707 [Design Linked List](https://leetcode.com/problems/design-linked-list/) | Medium | cpp |
 | 2026-04-13 | #706 [Design HashMap](https://leetcode.com/problems/design-hashmap/) | Easy | cpp |
 | 2026-04-13 | #1848 [Minimum Distance to the Target Element](https://leetcode.com/problems/minimum-distance-to-the-target-element/) | Easy | cpp |
 | 2026-04-13 | #1320 [Minimum Distance to Type a Word Using Two Fingers](https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers/) | Hard | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-04-10 | #83 [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | Easy | cpp |
 | 2026-04-09 | #13 [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | Easy | cpp |
 | 2026-04-09 | #9 [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | cpp |
-| 2026-04-09 | #3655 [XOR After Range Multiplication Queries II](https://leetcode.com/problems/xor-after-range-multiplication-queries-ii/) | Hard | cpp |
 
 ## Structure
 
