@@ -1,8 +1,8 @@
 {
   "easy": 29,
   "medium": 7,
-  "hard": 1,
-  "total": 37,
+  "hard": 2,
+  "total": 38,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -298,6 +298,14 @@
       "title": "Design HashSet",
       "questionId": "705",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-13",
+      "slug": "minimum-distance-to-type-a-word-using-two-fingers",
+      "title": "Minimum Distance to Type a Word Using Two Fingers",
+      "questionId": "1320",
+      "difficulty": "Hard",
       "lang": "cpp"
     }
   ]
