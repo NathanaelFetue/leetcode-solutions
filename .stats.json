@@ -1,8 +1,8 @@
 {
   "easy": 32,
-  "medium": 8,
+  "medium": 9,
   "hard": 2,
-  "total": 42,
+  "total": 43,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -338,6 +338,14 @@
       "title": "Middle of the Linked List",
       "questionId": "876",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-13",
+      "slug": "split-linked-list-in-parts",
+      "title": "Split Linked List in Parts",
+      "questionId": "725",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ]
