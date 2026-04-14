@@ -1,8 +1,8 @@
 {
   "easy": 32,
   "medium": 9,
-  "hard": 2,
-  "total": 44,
+  "hard": 3,
+  "total": 45,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -354,6 +354,14 @@
       "title": "convert-binary-number-in-a-linked-list-to-integer",
       "questionId": "",
       "difficulty": "Unknown",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-14",
+      "slug": "minimum-total-distance-traveled",
+      "title": "Minimum Total Distance Traveled",
+      "questionId": "2463",
+      "difficulty": "Hard",
       "lang": "cpp"
     }
   ],
