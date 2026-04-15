@@ -1,8 +1,8 @@
 {
   "easy": 36,
-  "medium": 9,
+  "medium": 10,
   "hard": 3,
-  "total": 49,
+  "total": 50,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -394,6 +394,14 @@
       "title": "Longest Common Prefix",
       "questionId": "14",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-15",
+      "slug": "number-of-dice-rolls-with-target-sum",
+      "title": "Number of Dice Rolls With Target Sum",
+      "questionId": "1155",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
