@@ -1,8 +1,8 @@
 {
-  "easy": 33,
+  "easy": 34,
   "medium": 9,
   "hard": 3,
-  "total": 46,
+  "total": 47,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -369,6 +369,14 @@
       "slug": "shortest-distance-to-target-string-in-a-circular-array",
       "title": "Shortest Distance to Target String in a Circular Array",
       "questionId": "2515",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-15",
+      "slug": "defuse-the-bomb",
+      "title": "Defuse the Bomb",
+      "questionId": "1652",
       "difficulty": "Easy",
       "lang": "cpp"
     }
