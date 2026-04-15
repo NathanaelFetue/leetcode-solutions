@@ -4,16 +4,15 @@
  * URL: https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/
  *
  * Approach: Linear scan with circular distance calculation.
- * Iterate through all words, and for each match with the target, compute both the
+ * Iterate through all words and for each match with the target, compute both the
  * clockwise and counter-clockwise distances using modular arithmetic, then track the minimum.
- * The two directions are: forward (i - startIndex + n) % n and backward (startIndex - i + n) % n.
+ * The circular distance in either direction is computed as (i - start + n) % n and (start - i + n) % n.
  *
- * Time Complexity: O(n * m) where n is the number of words and m is the average string length
- * due to string comparison at each index.
+ * Time Complexity: O(n * m) where n is the number of words and m is the average string length for comparisons.
  * Space Complexity: O(1) — only a constant number of variables are used regardless of input size.
  *
- * Runtime: 4 ms
- * Memory: 18.2 MB
+ * Runtime: 0 ms
+ * Memory: 18.3 MB
  */
 
 class Solution {
