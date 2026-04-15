@@ -1,20 +1,20 @@
 /*
- * 1155. Number of Dice Rolls With Target Sum (Medium)
+ * 1155. Number of Dice Rolls With Target Sum - Medium
  * https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/
  *
- * Approach: Bottom-up Dynamic Programming
- * Use a 1D DP array where dp[j] represents the number of ways to reach sum j using the dice rolled so far.
- * For each die, iterate over all possible sums and accumulate counts from all valid face values (1 to k), updating a new DP array to avoid using the same die twice.
- * All results are taken modulo 1e9+7 to prevent integer overflow.
+ * Approach: Bottom-up dynamic programming where dp[j] represents the number of ways
+ * to reach sum j using the dice rolled so far. For each die, we build a new DP array
+ * by iterating over all possible sums and adding contributions from each face value (1 to k).
+ * At each step, ndp[j] accumulates dp[j-f] for all valid face values f, effectively
+ * counting all combinations that sum to j after rolling i dice.
  *
- * Time Complexity: O(n * target * k)
- *   - For each of the n dice, we iterate over target sums and up to k faces.
+ * Time Complexity: O(n * target * k) - for each of n dice, we iterate over target sums
+ * and for each sum consider up to k faces.
  *
- * Space Complexity: O(target)
- *   - Only two 1D arrays of size (target+1) are maintained at any time.
+ * Space Complexity: O(target) - two 1D arrays of size target+1 are used (current and next).
  *
  * Runtime: 19 ms
- * Memory: 13.1 MB
+ * Memory: 13 MB
  */
 
 class Solution {
