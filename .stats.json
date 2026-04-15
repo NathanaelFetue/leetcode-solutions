@@ -1,8 +1,8 @@
 {
-  "easy": 35,
+  "easy": 36,
   "medium": 9,
   "hard": 3,
-  "total": 48,
+  "total": 49,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -385,6 +385,14 @@
       "slug": "circular-sentence",
       "title": "Circular Sentence",
       "questionId": "2490",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-15",
+      "slug": "longest-common-prefix",
+      "title": "Longest Common Prefix",
+      "questionId": "14",
       "difficulty": "Easy",
       "lang": "cpp"
     }
