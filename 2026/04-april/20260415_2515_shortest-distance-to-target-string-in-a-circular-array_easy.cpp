@@ -3,14 +3,15 @@
  * Difficulty: Easy
  * URL: https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/
  *
- * Approach: Linear scan through the words array, checking each position where the word matches the target.
- * For each matching index, compute both the clockwise and counter-clockwise distances using modular
- * arithmetic on the circular array, then track the global minimum across all matches.
+ * Approach: Linear scan through all words, checking each occurrence of the target string.
+ * For each match, compute both the clockwise and counter-clockwise distances using modular
+ * arithmetic, then track the global minimum across all occurrences.
  *
- * Time Complexity: O(n * m) where n is the number of words and m is the average string length for comparison.
- * Space Complexity: O(1) — only a constant amount of extra variables are used.
+ * Time Complexity: O(n * m) where n is the number of words and m is the average string length
+ * due to string comparison at each index.
+ * Space Complexity: O(1) — only a constant number of extra variables are used regardless of input size.
  *
- * Runtime: 3 ms
+ * Runtime: 0 ms
  * Memory: 18.4 MB
  */
 
