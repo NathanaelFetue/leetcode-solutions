@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 33 |
+| Easy       | 34 |
 | Medium     | 9 |
 | Hard       | 3 |
-| **Total**  | **46** |
+| **Total**  | **47** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-04-15 | #1652 [Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/) | Easy | cpp |
 | 2026-04-15 | #2515 [Shortest Distance to Target String in a Circular Array](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/) | Easy | cpp |
 | 2026-04-14 | #2463 [Minimum Total Distance Traveled](https://leetcode.com/problems/minimum-total-distance-traveled/) | Hard | cpp |
 | 2026-04-13 | [convert-binary-number-in-a-linked-list-to-integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | Unknown | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-04-12 | #206 [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | cpp |
 | 2026-04-12 | #203 [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | Easy | cpp |
 | 2026-04-12 | #160 [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | Easy | cpp |
-| 2026-04-11 | #141 [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | cpp |
 
 ## Structure
 
