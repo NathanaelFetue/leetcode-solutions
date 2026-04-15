@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 35 |
+| Easy       | 36 |
 | Medium     | 9 |
 | Hard       | 3 |
-| **Total**  | **48** |
+| **Total**  | **49** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-04-15 | #14 [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | Easy | cpp |
 | 2026-04-15 | #2490 [Circular Sentence](https://leetcode.com/problems/circular-sentence/) | Easy | cpp |
 | 2026-04-15 | #1652 [Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/) | Easy | cpp |
 | 2026-04-15 | #2515 [Shortest Distance to Target String in a Circular Array](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/) | Easy | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-04-12 | #705 [Design HashSet](https://leetcode.com/problems/design-hashset/) | Easy | cpp |
 | 2026-04-12 | #234 [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | Easy | cpp |
 | 2026-04-12 | #206 [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | cpp |
-| 2026-04-12 | #203 [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | Easy | cpp |
 
 ## Structure
 
