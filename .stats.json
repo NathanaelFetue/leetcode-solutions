@@ -1,8 +1,8 @@
 {
   "easy": 36,
-  "medium": 10,
+  "medium": 11,
   "hard": 3,
-  "total": 50,
+  "total": 51,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -401,6 +401,14 @@
       "slug": "number-of-dice-rolls-with-target-sum",
       "title": "Number of Dice Rolls With Target Sum",
       "questionId": "1155",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-16",
+      "slug": "closest-equal-element-queries",
+      "title": "Closest Equal Element Queries",
+      "questionId": "3488",
       "difficulty": "Medium",
       "lang": "cpp"
     }
