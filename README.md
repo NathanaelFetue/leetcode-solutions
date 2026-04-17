@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 36 |
-| Medium     | 11 |
+| Medium     | 12 |
 | Hard       | 3 |
-| **Total**  | **51** |
+| **Total**  | **52** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-04-17 | #3761 [Minimum Absolute Distance Between Mirror Pairs](https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/) | Medium | cpp |
 | 2026-04-16 | #3488 [Closest Equal Element Queries](https://leetcode.com/problems/closest-equal-element-queries/) | Medium | cpp |
 | 2026-04-15 | #1155 [Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/) | Medium | cpp |
 | 2026-04-15 | #14 [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | Easy | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-04-13 | #706 [Design HashMap](https://leetcode.com/problems/design-hashmap/) | Easy | cpp |
 | 2026-04-13 | #1848 [Minimum Distance to the Target Element](https://leetcode.com/problems/minimum-distance-to-the-target-element/) | Easy | cpp |
 | 2026-04-13 | #1320 [Minimum Distance to Type a Word Using Two Fingers](https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers/) | Hard | cpp |
-| 2026-04-12 | #705 [Design HashSet](https://leetcode.com/problems/design-hashset/) | Easy | cpp |
 
 ## Structure
 
