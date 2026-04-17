@@ -1,8 +1,8 @@
 {
   "easy": 36,
-  "medium": 11,
+  "medium": 12,
   "hard": 3,
-  "total": 51,
+  "total": 52,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -409,6 +409,14 @@
       "slug": "closest-equal-element-queries",
       "title": "Closest Equal Element Queries",
       "questionId": "3488",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-17",
+      "slug": "minimum-absolute-distance-between-mirror-pairs",
+      "title": "Minimum Absolute Distance Between Mirror Pairs",
+      "questionId": "3761",
       "difficulty": "Medium",
       "lang": "cpp"
     }
