@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 36 |
+| Easy       | 37 |
 | Medium     | 12 |
 | Hard       | 3 |
-| **Total**  | **52** |
+| **Total**  | **53** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-04-18 | #3783 [Mirror Distance of an Integer](https://leetcode.com/problems/mirror-distance-of-an-integer/) | Easy | cpp |
 | 2026-04-17 | #3761 [Minimum Absolute Distance Between Mirror Pairs](https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/) | Medium | cpp |
 | 2026-04-16 | #3488 [Closest Equal Element Queries](https://leetcode.com/problems/closest-equal-element-queries/) | Medium | cpp |
 | 2026-04-15 | #1155 [Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-04-13 | #707 [Design Linked List](https://leetcode.com/problems/design-linked-list/) | Medium | cpp |
 | 2026-04-13 | #706 [Design HashMap](https://leetcode.com/problems/design-hashmap/) | Easy | cpp |
 | 2026-04-13 | #1848 [Minimum Distance to the Target Element](https://leetcode.com/problems/minimum-distance-to-the-target-element/) | Easy | cpp |
-| 2026-04-13 | #1320 [Minimum Distance to Type a Word Using Two Fingers](https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers/) | Hard | cpp |
 
 ## Structure
 
