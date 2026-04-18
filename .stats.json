@@ -1,8 +1,8 @@
 {
-  "easy": 36,
+  "easy": 37,
   "medium": 12,
   "hard": 3,
-  "total": 52,
+  "total": 53,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -418,6 +418,14 @@
       "title": "Minimum Absolute Distance Between Mirror Pairs",
       "questionId": "3761",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-18",
+      "slug": "mirror-distance-of-an-integer",
+      "title": "Mirror Distance of an Integer",
+      "questionId": "3783",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
