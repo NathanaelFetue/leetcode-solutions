@@ -1,8 +1,8 @@
 {
-  "easy": 37,
+  "easy": 38,
   "medium": 12,
   "hard": 3,
-  "total": 53,
+  "total": 54,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -425,6 +425,14 @@
       "slug": "mirror-distance-of-an-integer",
       "title": "Mirror Distance of an Integer",
       "questionId": "3783",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-18",
+      "slug": "minimum-pair-removal-to-sort-array-i",
+      "title": "Minimum Pair Removal to Sort Array I",
+      "questionId": "3507",
       "difficulty": "Easy",
       "lang": "cpp"
     }
