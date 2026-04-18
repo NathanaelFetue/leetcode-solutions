@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 37 |
+| Easy       | 38 |
 | Medium     | 12 |
 | Hard       | 3 |
-| **Total**  | **53** |
+| **Total**  | **54** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-04-18 | #3507 [Minimum Pair Removal to Sort Array I](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/) | Easy | cpp |
 | 2026-04-18 | #3783 [Mirror Distance of an Integer](https://leetcode.com/problems/mirror-distance-of-an-integer/) | Easy | cpp |
 | 2026-04-17 | #3761 [Minimum Absolute Distance Between Mirror Pairs](https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/) | Medium | cpp |
 | 2026-04-16 | #3488 [Closest Equal Element Queries](https://leetcode.com/problems/closest-equal-element-queries/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-04-13 | #876 [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | Easy | cpp |
 | 2026-04-13 | #707 [Design Linked List](https://leetcode.com/problems/design-linked-list/) | Medium | cpp |
 | 2026-04-13 | #706 [Design HashMap](https://leetcode.com/problems/design-hashmap/) | Easy | cpp |
-| 2026-04-13 | #1848 [Minimum Distance to the Target Element](https://leetcode.com/problems/minimum-distance-to-the-target-element/) | Easy | cpp |
 
 ## Structure
 
