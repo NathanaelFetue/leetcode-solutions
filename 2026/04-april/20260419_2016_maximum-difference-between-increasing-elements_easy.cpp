@@ -1,20 +1,19 @@
 /*
- * Problem 2016: Maximum Difference Between Increasing Elements
+ * Problem #2016: Maximum Difference Between Increasing Elements
  * Difficulty: Easy
  * URL: https://leetcode.com/problems/maximum-difference-between-increasing-elements/
  *
- * Approach: Two-pointer sliding window technique.
- * A slow pointer (f) tracks the current minimum candidate, and a fast pointer (ff) scans ahead
- * to find the largest valid increasing difference. When ff reaches the end, f advances and ff resets.
+ * Approach: Two-pointer sliding window traversal.
+ * A slow pointer (f) anchors the minimum candidate, while a fast pointer (ff) scans
+ * ahead to find the maximum valid difference where nums[ff] > nums[f]. Whenever ff
+ * reaches the end, f advances and ff resets, ensuring all pairs are considered.
+ * Returns -1 if no valid increasing pair exists (best remains 0).
  *
- * Time Complexity: O(n^2) in the worst case due to the nested traversal pattern where
- * ff resets to f+1 each time it reaches the end of the array.
+ * Time Complexity: O(n^2) in the worst case due to nested pointer resets,
+ * though typical traversal visits each pair once per anchor position.
+ * Space Complexity: O(1) — only a constant number of variables are used.
  *
- * Space Complexity: O(1) — only a constant number of integer variables are used
- * regardless of input size.
- *
- * Runtime: 7 ms
- * Memory: 11.7 MB
+ * Runtime: 7 ms | Memory: 11.7 MB
  */
 
 class Solution {
