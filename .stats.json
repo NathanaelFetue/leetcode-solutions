@@ -1,8 +1,8 @@
 {
   "easy": 38,
-  "medium": 12,
+  "medium": 13,
   "hard": 3,
-  "total": 54,
+  "total": 55,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -434,6 +434,14 @@
       "title": "Minimum Pair Removal to Sort Array I",
       "questionId": "3507",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-19",
+      "slug": "maximum-distance-between-a-pair-of-values",
+      "title": "Maximum Distance Between a Pair of Values",
+      "questionId": "1855",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
