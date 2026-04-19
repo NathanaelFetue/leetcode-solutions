@@ -1,21 +1,21 @@
 /*
- * Problem 1855: Maximum Distance Between a Pair of Values
+ * Problem #1855 - Maximum Distance Between a Pair of Values
  * Difficulty: Medium
  * URL: https://leetcode.com/problems/maximum-distance-between-a-pair-of-values/
  *
  * Approach: Binary Search per Left Pointer
- * For each index `left` in nums1, we binary search in nums2 starting from `left` to find
- * the furthest index `mid` where nums2[mid] >= nums1[left], maximizing (mid - left).
- * Since both arrays are non-increasing, binary search is valid and efficient here.
+ * For each index `left` in nums1, perform a binary search on nums2 starting from `left`
+ * to find the farthest index `mid` such that nums1[left] <= nums2[mid], tracking the
+ * maximum difference (mid - left) found across all iterations.
  *
  * Time Complexity: O(n log m)
- *   - For each of the n elements in nums1, we perform a binary search over m elements in nums2.
+ *   - For each of the n elements in nums1, a binary search over m elements of nums2 is performed.
  *
  * Space Complexity: O(1)
- *   - Only a constant number of variables are used; no extra data structures.
+ *   - Only a constant number of variables are used; no additional data structures needed.
  *
- * Runtime: 11 ms
- * Memory: 102.3 MB
+ * Runtime: 16 ms
+ * Memory: 102.2 MB
  */
 
 class Solution {
