@@ -1,8 +1,8 @@
 {
-  "easy": 39,
+  "easy": 40,
   "medium": 13,
   "hard": 3,
-  "total": 56,
+  "total": 57,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -449,6 +449,14 @@
       "slug": "two-furthest-houses-with-different-colors",
       "title": "Two Furthest Houses With Different Colors",
       "questionId": "2078",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-19",
+      "slug": "replace-elements-with-greatest-element-on-right-side",
+      "title": "Replace Elements with Greatest Element on Right Side",
+      "questionId": "1299",
       "difficulty": "Easy",
       "lang": "cpp"
     }
