@@ -1,34 +1,28 @@
 /*
- * Problem 1299: Replace Elements with Greatest Element on Right Side
- * Difficulty: Easy
- * URL: https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/
+ * Problem #1299 - Replace Elements with Greatest Element on Right Side (Easy)
+ * https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/
  *
- * Approach: Brute Force - For each element at index i, scan all elements to the right
- * to find the maximum value using a nested loop, tracking the index of the maximum.
- * Replace the current element with that maximum, and set the last element to -1.
+ * Approach: Right-to-left single pass traversal.
+ * We iterate from the last element to the first, maintaining a running maximum (maxE) of all elements seen so far to the right.
+ * At each index, we replace the current element with maxE, then update maxE to be the maximum of itself and the original current value.
+ * The last element is always replaced with -1 since there are no elements to its right.
  *
- * Time Complexity: O(n^2) - For each of the n elements, we scan up to n elements
- * to the right to find the maximum, resulting in quadratic time.
+ * Time Complexity : O(n) - single pass through the array of size n.
+ * Space Complexity : O(1) - in-place modification, only constant extra variables used.
  *
- * Space Complexity: O(1) - The replacement is done in-place on the input array
- * with only a constant number of auxiliary variables used.
- *
- * Runtime: 2578 ms
- * Memory: 72.9 MB
+ * Runtime : 0 ms
+ * Memory  : 72.6 MB
  */
 
 class Solution {
 public:
     vector<int> replaceElements(vector<int>& arr) {
-        int id =0 , n = arr.size();
-        for(int i=0; i<n-1; i++){
-            id = i+1;
-            for(int j =id; j<n ; j++){
-                if(arr[j] > arr[id]) id =j;
-            }
-            arr[i] = arr[id];
+        int maxE=-1 , n = arr.size();
+        for(int i=n-1; i>=0; i--){
+            int curr = arr[i] ;
+            arr[i] = maxE;
+            maxE = max(maxE , curr);
         }
-        arr[n-1] = -1;
         return arr;
 
     }
