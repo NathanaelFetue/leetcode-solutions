@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 39 |
+| Easy       | 40 |
 | Medium     | 13 |
 | Hard       | 3 |
-| **Total**  | **56** |
+| **Total**  | **57** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-04-19 | #1299 [Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/) | Easy | cpp |
 | 2026-04-19 | #2078 [Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/) | Easy | cpp |
 | 2026-04-19 | #1855 [Maximum Distance Between a Pair of Values](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values/) | Medium | cpp |
 | 2026-04-18 | #3507 [Minimum Pair Removal to Sort Array I](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/) | Easy | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-04-14 | #2463 [Minimum Total Distance Traveled](https://leetcode.com/problems/minimum-total-distance-traveled/) | Hard | cpp |
 | 2026-04-13 | [convert-binary-number-in-a-linked-list-to-integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | Unknown | cpp |
 | 2026-04-13 | #725 [Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/) | Medium | cpp |
-| 2026-04-13 | #876 [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | Easy | cpp |
 
 ## Structure
 
