@@ -1,8 +1,8 @@
 {
-  "easy": 40,
+  "easy": 41,
   "medium": 13,
   "hard": 3,
-  "total": 57,
+  "total": 58,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -457,6 +457,14 @@
       "slug": "replace-elements-with-greatest-element-on-right-side",
       "title": "Replace Elements with Greatest Element on Right Side",
       "questionId": "1299",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-19",
+      "slug": "maximum-difference-between-increasing-elements",
+      "title": "Maximum Difference Between Increasing Elements",
+      "questionId": "2016",
       "difficulty": "Easy",
       "lang": "cpp"
     }
