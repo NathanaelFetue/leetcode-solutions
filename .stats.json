@@ -1,8 +1,8 @@
 {
-  "easy": 41,
+  "easy": 42,
   "medium": 13,
   "hard": 3,
-  "total": 58,
+  "total": 59,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -465,6 +465,14 @@
       "slug": "maximum-difference-between-increasing-elements",
       "title": "Maximum Difference Between Increasing Elements",
       "questionId": "2016",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-19",
+      "slug": "best-time-to-buy-and-sell-stock",
+      "title": "Best Time to Buy and Sell Stock",
+      "questionId": "121",
       "difficulty": "Easy",
       "lang": "cpp"
     }
