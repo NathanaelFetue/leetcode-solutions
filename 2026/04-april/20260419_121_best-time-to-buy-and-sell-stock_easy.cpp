@@ -3,15 +3,14 @@
  * https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
  *
  * Approach: Single-pass greedy scan.
- * Iterate through prices tracking the minimum price seen so far.
- * At each step, compute the profit if selling at the current price and update the best profit found.
- * If the current price is lower than the tracked minimum, update the minimum instead.
+ * Iterate through prices while tracking the minimum price seen so far.
+ * At each step, either update the minimum price or compute profit against it and track the best.
  *
- * Time Complexity: O(n) - single linear scan through the prices array of size n.
- * Space Complexity: O(1) - only two integer variables (best, minPrice) are used regardless of input size.
+ * Time Complexity: O(n) - single pass through the prices array of size n.
+ * Space Complexity: O(1) - only two integer variables used regardless of input size.
  *
- * Runtime : 4 ms
- * Memory  : 97.3 MB
+ * Runtime: 0 ms
+ * Memory: 97.2 MB
  */
 
 class Solution {
