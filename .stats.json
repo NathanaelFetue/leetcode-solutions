@@ -1,8 +1,8 @@
 {
-  "easy": 38,
+  "easy": 39,
   "medium": 13,
   "hard": 3,
-  "total": 55,
+  "total": 56,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -442,6 +442,14 @@
       "title": "Maximum Distance Between a Pair of Values",
       "questionId": "1855",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-19",
+      "slug": "two-furthest-houses-with-different-colors",
+      "title": "Two Furthest Houses With Different Colors",
+      "questionId": "2078",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
