@@ -1,8 +1,8 @@
 {
   "easy": 42,
-  "medium": 13,
+  "medium": 14,
   "hard": 3,
-  "total": 59,
+  "total": 60,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -474,6 +474,14 @@
       "title": "Best Time to Buy and Sell Stock",
       "questionId": "121",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-20",
+      "slug": "swap-nodes-in-pairs",
+      "title": "Swap Nodes in Pairs",
+      "questionId": "24",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
