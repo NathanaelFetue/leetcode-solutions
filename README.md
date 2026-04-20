@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 42 |
-| Medium     | 13 |
+| Medium     | 14 |
 | Hard       | 3 |
-| **Total**  | **59** |
+| **Total**  | **60** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-04-20 | #24 [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | Medium | cpp |
 | 2026-04-19 | #121 [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | cpp |
 | 2026-04-19 | #2016 [Maximum Difference Between Increasing Elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements/) | Easy | cpp |
 | 2026-04-19 | #1299 [Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/) | Easy | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-04-15 | #2490 [Circular Sentence](https://leetcode.com/problems/circular-sentence/) | Easy | cpp |
 | 2026-04-15 | #1652 [Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/) | Easy | cpp |
 | 2026-04-15 | #2515 [Shortest Distance to Target String in a Circular Array](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/) | Easy | cpp |
-| 2026-04-14 | #2463 [Minimum Total Distance Traveled](https://leetcode.com/problems/minimum-total-distance-traveled/) | Hard | cpp |
 
 ## Structure
 
