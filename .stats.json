@@ -1,8 +1,8 @@
 {
   "easy": 42,
-  "medium": 14,
+  "medium": 15,
   "hard": 3,
-  "total": 60,
+  "total": 61,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -481,6 +481,14 @@
       "slug": "swap-nodes-in-pairs",
       "title": "Swap Nodes in Pairs",
       "questionId": "24",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-20",
+      "slug": "rotate-list",
+      "title": "Rotate List",
+      "questionId": "61",
       "difficulty": "Medium",
       "lang": "cpp"
     }
