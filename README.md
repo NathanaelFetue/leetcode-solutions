@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 42 |
-| Medium     | 15 |
+| Medium     | 16 |
 | Hard       | 3 |
-| **Total**  | **61** |
+| **Total**  | **62** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-04-21 | #1722 [Minimize Hamming Distance After Swap Operations](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/) | Medium | cpp |
 | 2026-04-20 | #61 [Rotate List](https://leetcode.com/problems/rotate-list/) | Medium | cpp |
 | 2026-04-20 | #24 [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | Medium | cpp |
 | 2026-04-19 | #121 [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-04-15 | #1155 [Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/) | Medium | cpp |
 | 2026-04-15 | #14 [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | Easy | cpp |
 | 2026-04-15 | #2490 [Circular Sentence](https://leetcode.com/problems/circular-sentence/) | Easy | cpp |
-| 2026-04-15 | #1652 [Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/) | Easy | cpp |
 
 ## Structure
 
