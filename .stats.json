@@ -1,8 +1,8 @@
 {
   "easy": 42,
-  "medium": 15,
+  "medium": 16,
   "hard": 3,
-  "total": 61,
+  "total": 62,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -489,6 +489,14 @@
       "slug": "rotate-list",
       "title": "Rotate List",
       "questionId": "61",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-21",
+      "slug": "minimize-hamming-distance-after-swap-operations",
+      "title": "Minimize Hamming Distance After Swap Operations",
+      "questionId": "1722",
       "difficulty": "Medium",
       "lang": "cpp"
     }
