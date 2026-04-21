@@ -1,18 +1,19 @@
 /*
- * Problem #1722: Minimize Hamming Distance After Swap Operations (Medium)
+ * Problem 1722: Minimize Hamming Distance After Swap Operations (Medium)
  * https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/
  *
  * Approach: Union-Find (Disjoint Set Union)
- * Group indices that are connected via allowed swaps using Union-Find with path compression.
- * For each group, count source element frequencies and greedily match them against target elements; unmatched target elements contribute to the Hamming distance.
+ * Group indices into connected components using Union-Find based on allowedSwaps.
+ * For each component, count source value frequencies, then greedily match target values;
+ * any target value with no remaining source match contributes to the Hamming distance.
  *
- * Time Complexity: O(n * alpha(n) + m * alpha(n)) where n is array length and m is number of allowed swaps.
- * alpha(n) is the inverse Ackermann function (near constant) due to path compression in Union-Find.
+ * Time Complexity: O(n * alpha(n) + n) where alpha is the inverse Ackermann function
+ * from Union-Find operations; effectively O(n) for grouping and frequency matching.
  *
- * Space Complexity: O(n) for the parent array and group frequency maps.
+ * Space Complexity: O(n) for the parent array, groups map, and frequency maps.
  *
- * Runtime: 151 ms
- * Memory: 153.3 MB
+ * Runtime: 155 ms
+ * Memory: 153 MB
  */
 
 class Solution {
