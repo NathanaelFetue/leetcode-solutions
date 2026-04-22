@@ -1,8 +1,8 @@
 {
   "easy": 42,
-  "medium": 16,
+  "medium": 17,
   "hard": 3,
-  "total": 62,
+  "total": 63,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -497,6 +497,14 @@
       "slug": "minimize-hamming-distance-after-swap-operations",
       "title": "Minimize Hamming Distance After Swap Operations",
       "questionId": "1722",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-22",
+      "slug": "words-within-two-edits-of-dictionary",
+      "title": "Words Within Two Edits of Dictionary",
+      "questionId": "2452",
       "difficulty": "Medium",
       "lang": "cpp"
     }
