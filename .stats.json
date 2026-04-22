@@ -1,8 +1,8 @@
 {
-  "easy": 43,
+  "easy": 44,
   "medium": 17,
   "hard": 3,
-  "total": 64,
+  "total": 65,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -513,6 +513,14 @@
       "slug": "remove-duplicates-from-sorted-array",
       "title": "Remove Duplicates from Sorted Array",
       "questionId": "26",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-22",
+      "slug": "remove-element",
+      "title": "Remove Element",
+      "questionId": "27",
       "difficulty": "Easy",
       "lang": "cpp"
     }
