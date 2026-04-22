@@ -1,8 +1,8 @@
 {
-  "easy": 45,
+  "easy": 46,
   "medium": 17,
   "hard": 3,
-  "total": 66,
+  "total": 67,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -529,6 +529,14 @@
       "slug": "apply-operations-to-an-array",
       "title": "Apply Operations to an Array",
       "questionId": "2460",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-22",
+      "slug": "search-insert-position",
+      "title": "Search Insert Position",
+      "questionId": "35",
       "difficulty": "Easy",
       "lang": "cpp"
     }
