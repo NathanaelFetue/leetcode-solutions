@@ -1,8 +1,8 @@
 {
-  "easy": 44,
+  "easy": 45,
   "medium": 17,
   "hard": 3,
-  "total": 65,
+  "total": 66,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -521,6 +521,14 @@
       "slug": "remove-element",
       "title": "Remove Element",
       "questionId": "27",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-22",
+      "slug": "apply-operations-to-an-array",
+      "title": "Apply Operations to an Array",
+      "questionId": "2460",
       "difficulty": "Easy",
       "lang": "cpp"
     }
