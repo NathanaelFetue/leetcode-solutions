@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 45 |
+| Easy       | 46 |
 | Medium     | 17 |
 | Hard       | 3 |
-| **Total**  | **66** |
+| **Total**  | **67** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-04-22 | #35 [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Easy | cpp |
 | 2026-04-22 | #2460 [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array/) | Easy | cpp |
 | 2026-04-22 | #27 [Remove Element](https://leetcode.com/problems/remove-element/) | Easy | cpp |
 | 2026-04-22 | #26 [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-04-19 | #1855 [Maximum Distance Between a Pair of Values](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values/) | Medium | cpp |
 | 2026-04-18 | #3507 [Minimum Pair Removal to Sort Array I](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/) | Easy | cpp |
 | 2026-04-18 | #3783 [Mirror Distance of an Integer](https://leetcode.com/problems/mirror-distance-of-an-integer/) | Easy | cpp |
-| 2026-04-17 | #3761 [Minimum Absolute Distance Between Mirror Pairs](https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/) | Medium | cpp |
 
 ## Structure
 
