@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 42 |
+| Easy       | 43 |
 | Medium     | 17 |
 | Hard       | 3 |
-| **Total**  | **63** |
+| **Total**  | **64** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-04-22 | #26 [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | cpp |
 | 2026-04-22 | #2452 [Words Within Two Edits of Dictionary](https://leetcode.com/problems/words-within-two-edits-of-dictionary/) | Medium | cpp |
 | 2026-04-21 | #1722 [Minimize Hamming Distance After Swap Operations](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/) | Medium | cpp |
 | 2026-04-20 | #61 [Rotate List](https://leetcode.com/problems/rotate-list/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-04-17 | #3761 [Minimum Absolute Distance Between Mirror Pairs](https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/) | Medium | cpp |
 | 2026-04-16 | #3488 [Closest Equal Element Queries](https://leetcode.com/problems/closest-equal-element-queries/) | Medium | cpp |
 | 2026-04-15 | #1155 [Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/) | Medium | cpp |
-| 2026-04-15 | #14 [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | Easy | cpp |
 
 ## Structure
 
