@@ -1,8 +1,8 @@
 {
-  "easy": 47,
+  "easy": 48,
   "medium": 17,
   "hard": 3,
-  "total": 68,
+  "total": 69,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -545,6 +545,14 @@
       "slug": "plus-one",
       "title": "Plus One",
       "questionId": "66",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-23",
+      "slug": "add-binary",
+      "title": "Add Binary",
+      "questionId": "67",
       "difficulty": "Easy",
       "lang": "cpp"
     }
