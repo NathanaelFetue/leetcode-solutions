@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 48 |
-| Medium     | 18 |
+| Medium     | 19 |
 | Hard       | 3 |
-| **Total**  | **70** |
+| **Total**  | **71** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-04-23 | #209 [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | Medium | cpp |
 | 2026-04-23 | #2615 [Sum of Distances](https://leetcode.com/problems/sum-of-distances/) | Medium | cpp |
 | 2026-04-23 | #67 [Add Binary](https://leetcode.com/problems/add-binary/) | Easy | cpp |
 | 2026-04-23 | #66 [Plus One](https://leetcode.com/problems/plus-one/) | Easy | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-04-19 | #121 [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | cpp |
 | 2026-04-19 | #2016 [Maximum Difference Between Increasing Elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements/) | Easy | cpp |
 | 2026-04-19 | #1299 [Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/) | Easy | cpp |
-| 2026-04-19 | #2078 [Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/) | Easy | cpp |
 
 ## Structure
 
