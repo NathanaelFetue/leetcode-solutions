@@ -1,8 +1,8 @@
 {
   "easy": 48,
-  "medium": 17,
+  "medium": 18,
   "hard": 3,
-  "total": 69,
+  "total": 70,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -554,6 +554,14 @@
       "title": "Add Binary",
       "questionId": "67",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-23",
+      "slug": "sum-of-distances",
+      "title": "Sum of Distances",
+      "questionId": "2615",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
