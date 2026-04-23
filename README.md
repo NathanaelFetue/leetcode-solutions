@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 48 |
-| Medium     | 17 |
+| Medium     | 18 |
 | Hard       | 3 |
-| **Total**  | **69** |
+| **Total**  | **70** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-04-23 | #2615 [Sum of Distances](https://leetcode.com/problems/sum-of-distances/) | Medium | cpp |
 | 2026-04-23 | #67 [Add Binary](https://leetcode.com/problems/add-binary/) | Easy | cpp |
 | 2026-04-23 | #66 [Plus One](https://leetcode.com/problems/plus-one/) | Easy | cpp |
 | 2026-04-22 | #35 [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Easy | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-04-19 | #2016 [Maximum Difference Between Increasing Elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements/) | Easy | cpp |
 | 2026-04-19 | #1299 [Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/) | Easy | cpp |
 | 2026-04-19 | #2078 [Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/) | Easy | cpp |
-| 2026-04-19 | #1855 [Maximum Distance Between a Pair of Values](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values/) | Medium | cpp |
 
 ## Structure
 
