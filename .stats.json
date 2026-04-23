@@ -1,8 +1,8 @@
 {
-  "easy": 46,
+  "easy": 47,
   "medium": 17,
   "hard": 3,
-  "total": 67,
+  "total": 68,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -537,6 +537,14 @@
       "slug": "search-insert-position",
       "title": "Search Insert Position",
       "questionId": "35",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-23",
+      "slug": "plus-one",
+      "title": "Plus One",
+      "questionId": "66",
       "difficulty": "Easy",
       "lang": "cpp"
     }
