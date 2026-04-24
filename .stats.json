@@ -1,8 +1,8 @@
 {
   "easy": 48,
-  "medium": 19,
+  "medium": 20,
   "hard": 3,
-  "total": 71,
+  "total": 72,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -569,6 +569,14 @@
       "slug": "minimum-size-subarray-sum",
       "title": "Minimum Size Subarray Sum",
       "questionId": "209",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-24",
+      "slug": "maximum-amount-of-money-robot-can-earn",
+      "title": "Maximum Amount of Money Robot Can Earn",
+      "questionId": "3418",
       "difficulty": "Medium",
       "lang": "cpp"
     }
