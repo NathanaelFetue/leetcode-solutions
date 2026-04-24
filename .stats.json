@@ -1,8 +1,8 @@
 {
-  "easy": 48,
+  "easy": 49,
   "medium": 20,
   "hard": 3,
-  "total": 72,
+  "total": 73,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -578,6 +578,14 @@
       "title": "Maximum Amount of Money Robot Can Earn",
       "questionId": "3418",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-24",
+      "slug": "furthest-point-from-origin",
+      "title": "Furthest Point From Origin",
+      "questionId": "2833",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
