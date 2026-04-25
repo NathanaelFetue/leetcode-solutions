@@ -8,13 +8,14 @@ Auto-synced from accepted LeetCode submissions.
 |------------|--------|
 | Easy       | 49 |
 | Medium     | 20 |
-| Hard       | 3 |
-| **Total**  | **73** |
+| Hard       | 4 |
+| **Total**  | **74** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-04-25 | #3661 [Maximum Walls Destroyed by Robots](https://leetcode.com/problems/maximum-walls-destroyed-by-robots/) | Hard | cpp |
 | 2026-04-24 | #2833 [Furthest Point From Origin](https://leetcode.com/problems/furthest-point-from-origin/) | Easy | cpp |
 | 2026-04-24 | #3418 [Maximum Amount of Money Robot Can Earn](https://leetcode.com/problems/maximum-amount-of-money-robot-can-earn/) | Medium | cpp |
 | 2026-04-23 | #209 [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-04-21 | #1722 [Minimize Hamming Distance After Swap Operations](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/) | Medium | cpp |
 | 2026-04-20 | #61 [Rotate List](https://leetcode.com/problems/rotate-list/) | Medium | cpp |
 | 2026-04-20 | #24 [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | Medium | cpp |
-| 2026-04-19 | #121 [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | cpp |
 
 ## Structure
 
