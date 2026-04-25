@@ -1,8 +1,8 @@
 {
   "easy": 49,
   "medium": 20,
-  "hard": 4,
-  "total": 74,
+  "hard": 5,
+  "total": 75,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -593,6 +593,14 @@
       "slug": "maximum-walls-destroyed-by-robots",
       "title": "Maximum Walls Destroyed by Robots",
       "questionId": "3661",
+      "difficulty": "Hard",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-25",
+      "slug": "maximize-the-distance-between-points-on-a-square",
+      "title": "Maximize the Distance Between Points on a Square",
+      "questionId": "3464",
       "difficulty": "Hard",
       "lang": "cpp"
     }
