@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 51 |
+| Easy       | 52 |
 | Medium     | 20 |
 | Hard       | 5 |
-| **Total**  | **77** |
+| **Total**  | **78** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-04-25 | #119 [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | Easy | cpp |
 | 2026-04-25 | #118 [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | Easy | cpp |
 | 2026-04-25 | #88 [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy | cpp |
 | 2026-04-25 | #3464 [Maximize the Distance Between Points on a Square](https://leetcode.com/problems/maximize-the-distance-between-points-on-a-square/) | Hard | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-04-22 | #2460 [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array/) | Easy | cpp |
 | 2026-04-22 | #27 [Remove Element](https://leetcode.com/problems/remove-element/) | Easy | cpp |
 | 2026-04-22 | #26 [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | cpp |
-| 2026-04-22 | #2452 [Words Within Two Edits of Dictionary](https://leetcode.com/problems/words-within-two-edits-of-dictionary/) | Medium | cpp |
 
 ## Structure
 
