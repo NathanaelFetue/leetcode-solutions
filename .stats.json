@@ -1,8 +1,8 @@
 {
-  "easy": 52,
+  "easy": 53,
   "medium": 20,
   "hard": 5,
-  "total": 78,
+  "total": 79,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -625,6 +625,14 @@
       "slug": "pascals-triangle-ii",
       "title": "Pascal's Triangle II",
       "questionId": "119",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-25",
+      "slug": "single-number",
+      "title": "Single Number",
+      "questionId": "136",
       "difficulty": "Easy",
       "lang": "cpp"
     }
