@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 49 |
+| Easy       | 50 |
 | Medium     | 20 |
 | Hard       | 5 |
-| **Total**  | **75** |
+| **Total**  | **76** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-04-25 | #88 [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy | cpp |
 | 2026-04-25 | #3464 [Maximize the Distance Between Points on a Square](https://leetcode.com/problems/maximize-the-distance-between-points-on-a-square/) | Hard | cpp |
 | 2026-04-25 | #3661 [Maximum Walls Destroyed by Robots](https://leetcode.com/problems/maximum-walls-destroyed-by-robots/) | Hard | cpp |
 | 2026-04-24 | #2833 [Furthest Point From Origin](https://leetcode.com/problems/furthest-point-from-origin/) | Easy | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-04-22 | #26 [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | cpp |
 | 2026-04-22 | #2452 [Words Within Two Edits of Dictionary](https://leetcode.com/problems/words-within-two-edits-of-dictionary/) | Medium | cpp |
 | 2026-04-21 | #1722 [Minimize Hamming Distance After Swap Operations](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/) | Medium | cpp |
-| 2026-04-20 | #61 [Rotate List](https://leetcode.com/problems/rotate-list/) | Medium | cpp |
 
 ## Structure
 
