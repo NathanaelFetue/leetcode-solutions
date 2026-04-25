@@ -1,8 +1,8 @@
 {
-  "easy": 49,
+  "easy": 50,
   "medium": 20,
   "hard": 5,
-  "total": 75,
+  "total": 76,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -602,6 +602,14 @@
       "title": "Maximize the Distance Between Points on a Square",
       "questionId": "3464",
       "difficulty": "Hard",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-25",
+      "slug": "merge-sorted-array",
+      "title": "Merge Sorted Array",
+      "questionId": "88",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
