@@ -1,8 +1,8 @@
 {
-  "easy": 50,
+  "easy": 51,
   "medium": 20,
   "hard": 5,
-  "total": 76,
+  "total": 77,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -609,6 +609,14 @@
       "slug": "merge-sorted-array",
       "title": "Merge Sorted Array",
       "questionId": "88",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-25",
+      "slug": "pascals-triangle",
+      "title": "Pascal's Triangle",
+      "questionId": "118",
       "difficulty": "Easy",
       "lang": "cpp"
     }
