@@ -1,17 +1,18 @@
 /*
- * Problem #88 - Merge Sorted Array (Easy)
+ * Problem #88: Merge Sorted Array (Easy)
  * https://leetcode.com/problems/merge-sorted-array/
  *
- * Approach: Three-pointer technique merging from the end of both arrays.
- * Start pointers at the last valid elements of nums1 (index m-1) and nums2 (index n-1),
- * and fill nums1 from the back (index m+n-1), placing the larger element each step.
- * Any remaining elements from nums2 are copied over; nums1 leftovers are already in place.
+ * Approach: Two-pointer merge from the back.
+ * Start three pointers at the last valid element of nums1 (i), last element of nums2 (j),
+ * and the last position of the merged array (k). Compare elements from both arrays right
+ * to left, placing the larger value at position k and decrementing accordingly. Any
+ * remaining elements in nums2 are copied over; remaining nums1 elements are already in place.
  *
- * Time Complexity: O(m + n) - each element from both arrays is visited exactly once.
- * Space Complexity: O(1) - merge is performed in-place using the extra space in nums1.
+ * Time Complexity : O(m + n) - each element from both arrays is visited exactly once.
+ * Space Complexity: O(1) - merge is done in-place using the pre-allocated buffer in nums1.
  *
- * Runtime: 0 ms
- * Memory: 12.2 MB
+ * Runtime : 0 ms
+ * Memory  : 12.3 MB
  */
 
 class Solution {
