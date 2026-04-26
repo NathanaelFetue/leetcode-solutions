@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 53 |
-| Medium     | 20 |
+| Medium     | 21 |
 | Hard       | 5 |
-| **Total**  | **79** |
+| **Total**  | **80** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-04-26 | #64 [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | Medium | cpp |
 | 2026-04-25 | #136 [Single Number](https://leetcode.com/problems/single-number/) | Easy | cpp |
 | 2026-04-25 | #119 [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | Easy | cpp |
 | 2026-04-25 | #118 [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | Easy | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-04-23 | #66 [Plus One](https://leetcode.com/problems/plus-one/) | Easy | cpp |
 | 2026-04-22 | #35 [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Easy | cpp |
 | 2026-04-22 | #2460 [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array/) | Easy | cpp |
-| 2026-04-22 | #27 [Remove Element](https://leetcode.com/problems/remove-element/) | Easy | cpp |
 
 ## Structure
 
