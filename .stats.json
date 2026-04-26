@@ -1,8 +1,8 @@
 {
   "easy": 53,
-  "medium": 21,
+  "medium": 22,
   "hard": 5,
-  "total": 81,
+  "total": 82,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -650,6 +650,14 @@
       "title": "unique-paths",
       "questionId": "",
       "difficulty": "Unknown",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-26",
+      "slug": "detect-cycles-in-2d-grid",
+      "title": "Detect Cycles in 2D Grid",
+      "questionId": "1559",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
