@@ -1,8 +1,8 @@
 {
   "easy": 53,
-  "medium": 20,
+  "medium": 21,
   "hard": 5,
-  "total": 79,
+  "total": 80,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -634,6 +634,14 @@
       "title": "Single Number",
       "questionId": "136",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-26",
+      "slug": "minimum-path-sum",
+      "title": "Minimum Path Sum",
+      "questionId": "64",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
