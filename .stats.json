@@ -2,7 +2,7 @@
   "easy": 53,
   "medium": 21,
   "hard": 5,
-  "total": 80,
+  "total": 81,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -643,7 +643,15 @@
       "questionId": "64",
       "difficulty": "Medium",
       "lang": "cpp"
+    },
+    {
+      "date": "2026-04-26",
+      "slug": "unique-paths",
+      "title": "unique-paths",
+      "questionId": "",
+      "difficulty": "Unknown",
+      "lang": "cpp"
     }
   ],
-  "unknown": 1
+  "unknown": 2
 }
