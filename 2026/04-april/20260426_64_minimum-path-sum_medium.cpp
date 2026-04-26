@@ -3,16 +3,16 @@
  * LeetCode: https://leetcode.com/problems/minimum-path-sum/
  *
  * Approach: Bottom-Up Dynamic Programming
- * Build a DP table where dp[i][j] represents the minimum path sum to reach cell (i, j).
- * Initialize the first row and column with cumulative sums (only one direction to travel),
- * then fill remaining cells by taking the minimum of coming from the left or from above,
- * adding the current cell's value to propagate the optimal cost.
+ * Build a DP table where dp[i][j] represents the minimum path sum to reach cell (i, j)
+ * from the top-left corner. Initialize the first row and first column with cumulative sums
+ * (since only one direction is possible), then fill remaining cells by taking the minimum
+ * of the value coming from the left or from above, plus the current grid value.
  *
- * Time Complexity: O(m * n) — every cell in the grid is visited exactly once.
- * Space Complexity: O(m * n) — a full DP table of the same dimensions as the input grid is used.
+ * Time Complexity : O(m * n) - every cell is visited and computed exactly once
+ * Space Complexity: O(m * n) - a full DP table of the same dimensions as the grid is used
  *
- * Runtime: 5 ms
- * Memory: 16.3 MB
+ * Runtime : 1 ms
+ * Memory  : 16.4 MB
  */
 
 class Solution {
