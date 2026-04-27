@@ -1,8 +1,8 @@
 {
   "easy": 53,
-  "medium": 22,
+  "medium": 23,
   "hard": 5,
-  "total": 82,
+  "total": 83,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -657,6 +657,14 @@
       "slug": "detect-cycles-in-2d-grid",
       "title": "Detect Cycles in 2D Grid",
       "questionId": "1559",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-27",
+      "slug": "check-if-there-is-a-valid-path-in-a-grid",
+      "title": "Check if There is a Valid Path in a Grid",
+      "questionId": "1391",
       "difficulty": "Medium",
       "lang": "cpp"
     }
