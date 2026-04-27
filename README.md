@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 53 |
-| Medium     | 22 |
+| Medium     | 23 |
 | Hard       | 5 |
-| **Total**  | **82** |
+| **Total**  | **83** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-04-27 | #1391 [Check if There is a Valid Path in a Grid](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/) | Medium | cpp |
 | 2026-04-26 | #1559 [Detect Cycles in 2D Grid](https://leetcode.com/problems/detect-cycles-in-2d-grid/) | Medium | cpp |
 | 2026-04-26 | [unique-paths](https://leetcode.com/problems/unique-paths/) | Unknown | cpp |
 | 2026-04-26 | #64 [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-04-23 | #209 [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | Medium | cpp |
 | 2026-04-23 | #2615 [Sum of Distances](https://leetcode.com/problems/sum-of-distances/) | Medium | cpp |
 | 2026-04-23 | #67 [Add Binary](https://leetcode.com/problems/add-binary/) | Easy | cpp |
-| 2026-04-23 | #66 [Plus One](https://leetcode.com/problems/plus-one/) | Easy | cpp |
 
 ## Structure
 
