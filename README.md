@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 53 |
-| Medium     | 23 |
+| Medium     | 24 |
 | Hard       | 5 |
-| **Total**  | **83** |
+| **Total**  | **84** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-04-28 | #2033 [Minimum Operations to Make a Uni-Value Grid](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/) | Medium | cpp |
 | 2026-04-27 | #1391 [Check if There is a Valid Path in a Grid](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/) | Medium | cpp |
 | 2026-04-26 | #1559 [Detect Cycles in 2D Grid](https://leetcode.com/problems/detect-cycles-in-2d-grid/) | Medium | cpp |
 | 2026-04-26 | [unique-paths](https://leetcode.com/problems/unique-paths/) | Unknown | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-04-24 | #3418 [Maximum Amount of Money Robot Can Earn](https://leetcode.com/problems/maximum-amount-of-money-robot-can-earn/) | Medium | cpp |
 | 2026-04-23 | #209 [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | Medium | cpp |
 | 2026-04-23 | #2615 [Sum of Distances](https://leetcode.com/problems/sum-of-distances/) | Medium | cpp |
-| 2026-04-23 | #67 [Add Binary](https://leetcode.com/problems/add-binary/) | Easy | cpp |
 
 ## Structure
 
