@@ -1,8 +1,8 @@
 {
   "easy": 53,
-  "medium": 23,
+  "medium": 24,
   "hard": 5,
-  "total": 83,
+  "total": 84,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -665,6 +665,14 @@
       "slug": "check-if-there-is-a-valid-path-in-a-grid",
       "title": "Check if There is a Valid Path in a Grid",
       "questionId": "1391",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-28",
+      "slug": "minimum-operations-to-make-a-uni-value-grid",
+      "title": "Minimum Operations to Make a Uni-Value Grid",
+      "questionId": "2033",
       "difficulty": "Medium",
       "lang": "cpp"
     }
