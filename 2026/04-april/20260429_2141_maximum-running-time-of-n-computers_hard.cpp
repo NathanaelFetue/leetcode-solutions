@@ -3,17 +3,18 @@
  * Difficulty: Hard
  * URL: https://leetcode.com/problems/maximum-running-time-of-n-computers/
  *
- * Approach: Binary search on the answer (running time t).
- * For a candidate time t, check feasibility by summing min(battery, t) across all batteries;
- * if the total available charge >= n * t, then t minutes is achievable.
- * The upper bound for binary search is total_charge / n, since we cannot exceed average.
+ * Approach: Binary search on the answer (the running time T).
+ * For a candidate time T, each battery can contribute at most min(battery, T) units.
+ * If the total available power across all batteries is >= n * T, then T is achievable.
+ * Binary search finds the maximum valid T in the range [0, total / n].
  *
- * Time Complexity: O(m log(total/n)) where m = number of batteries and total = sum of all battery values.
- *   - Sorting is O(m log m), binary search runs O(log(total/n)) iterations, each O(m).
- * Space Complexity: O(1) extra space (sorting is in-place, only scalar variables used).
+ * Time Complexity: O(m * log(total / n)), where m is the number of batteries and
+ * total is the sum of all battery capacities. Each binary search step is O(m).
  *
- * Runtime : 83 ms
- * Memory  : 63.2 MB
+ * Space Complexity: O(1) extra space beyond input storage.
+ *
+ * Runtime: 21 ms
+ * Memory: 59.8 MB
  */
 
 class Solution {
@@ -22,13 +23,9 @@ public:
         long long total = 0;
         for (int b : batteries) total += b;
         
-        sort(batteries.rbegin(), batteries.rend());
-        
-        // binary search sur le temps t
         long long lo = 0, hi = total / n;
         while (lo < hi) {
             long long mid = lo + (hi - lo + 1) / 2;
-            // peut-on faire tourner n ordinateurs pendant mid minutes ?
             long long available = 0;
             for (int b : batteries)
                 available += min((long long)b, mid);
