@@ -1,8 +1,8 @@
 {
   "easy": 53,
   "medium": 24,
-  "hard": 5,
-  "total": 84,
+  "hard": 6,
+  "total": 85,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -674,6 +674,14 @@
       "title": "Minimum Operations to Make a Uni-Value Grid",
       "questionId": "2033",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-29",
+      "slug": "maximum-running-time-of-n-computers",
+      "title": "Maximum Running Time of N Computers",
+      "questionId": "2141",
+      "difficulty": "Hard",
       "lang": "cpp"
     }
   ],
