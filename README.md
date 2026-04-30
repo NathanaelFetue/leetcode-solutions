@@ -8,13 +8,14 @@ Auto-synced from accepted LeetCode submissions.
 |------------|--------|
 | Easy       | 53 |
 | Medium     | 25 |
-| Hard       | 6 |
-| **Total**  | **86** |
+| Hard       | 7 |
+| **Total**  | **87** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-04-30 | #3225 [Maximum Score From Grid Operations](https://leetcode.com/problems/maximum-score-from-grid-operations/) | Hard | cpp |
 | 2026-04-30 | #3742 [Maximum Path Score in a Grid](https://leetcode.com/problems/maximum-path-score-in-a-grid/) | Medium | cpp |
 | 2026-04-29 | #2141 [Maximum Running Time of N Computers](https://leetcode.com/problems/maximum-running-time-of-n-computers/) | Hard | cpp |
 | 2026-04-28 | #2033 [Minimum Operations to Make a Uni-Value Grid](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-04-25 | #3464 [Maximize the Distance Between Points on a Square](https://leetcode.com/problems/maximize-the-distance-between-points-on-a-square/) | Hard | cpp |
 | 2026-04-25 | #3661 [Maximum Walls Destroyed by Robots](https://leetcode.com/problems/maximum-walls-destroyed-by-robots/) | Hard | cpp |
 | 2026-04-24 | #2833 [Furthest Point From Origin](https://leetcode.com/problems/furthest-point-from-origin/) | Easy | cpp |
-| 2026-04-24 | #3418 [Maximum Amount of Money Robot Can Earn](https://leetcode.com/problems/maximum-amount-of-money-robot-can-earn/) | Medium | cpp |
 
 ## Structure
 
