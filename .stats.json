@@ -1,8 +1,8 @@
 {
   "easy": 53,
-  "medium": 24,
+  "medium": 25,
   "hard": 6,
-  "total": 85,
+  "total": 86,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -682,6 +682,14 @@
       "title": "Maximum Running Time of N Computers",
       "questionId": "2141",
       "difficulty": "Hard",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-30",
+      "slug": "maximum-path-score-in-a-grid",
+      "title": "Maximum Path Score in a Grid",
+      "questionId": "3742",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
