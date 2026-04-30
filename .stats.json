@@ -1,8 +1,8 @@
 {
   "easy": 53,
   "medium": 25,
-  "hard": 6,
-  "total": 86,
+  "hard": 7,
+  "total": 87,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -690,6 +690,14 @@
       "title": "Maximum Path Score in a Grid",
       "questionId": "3742",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-04-30",
+      "slug": "maximum-score-from-grid-operations",
+      "title": "Maximum Score From Grid Operations",
+      "questionId": "3225",
+      "difficulty": "Hard",
       "lang": "cpp"
     }
   ],
