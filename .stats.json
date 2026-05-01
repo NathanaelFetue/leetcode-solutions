@@ -1,8 +1,8 @@
 {
   "easy": 53,
-  "medium": 25,
+  "medium": 26,
   "hard": 7,
-  "total": 87,
+  "total": 88,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -698,6 +698,14 @@
       "title": "Maximum Score From Grid Operations",
       "questionId": "3225",
       "difficulty": "Hard",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-01",
+      "slug": "rotate-function",
+      "title": "Rotate Function",
+      "questionId": "396",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
