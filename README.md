@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 56 |
-| Medium     | 26 |
+| Medium     | 27 |
 | Hard       | 7 |
-| **Total**  | **91** |
+| **Total**  | **92** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-05-01 | #3290 [Maximum Multiplication Score](https://leetcode.com/problems/maximum-multiplication-score/) | Medium | cpp |
 | 2026-05-01 | #961 [N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | Easy | cpp |
 | 2026-05-01 | #1979 [Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) | Easy | cpp |
 | 2026-05-01 | #1952 [Three Divisors](https://leetcode.com/problems/three-divisors/) | Easy | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-04-26 | #64 [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | Medium | cpp |
 | 2026-04-25 | #136 [Single Number](https://leetcode.com/problems/single-number/) | Easy | cpp |
 | 2026-04-25 | #119 [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | Easy | cpp |
-| 2026-04-25 | #118 [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | Easy | cpp |
 
 ## Structure
 
