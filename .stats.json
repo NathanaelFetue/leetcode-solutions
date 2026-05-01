@@ -1,8 +1,8 @@
 {
-  "easy": 53,
+  "easy": 54,
   "medium": 26,
   "hard": 7,
-  "total": 88,
+  "total": 89,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -706,6 +706,14 @@
       "title": "Rotate Function",
       "questionId": "396",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-01",
+      "slug": "three-divisors",
+      "title": "Three Divisors",
+      "questionId": "1952",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
