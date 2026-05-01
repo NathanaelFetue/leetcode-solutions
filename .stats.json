@@ -1,8 +1,8 @@
 {
-  "easy": 55,
+  "easy": 56,
   "medium": 26,
   "hard": 7,
-  "total": 90,
+  "total": 91,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -721,6 +721,14 @@
       "slug": "find-greatest-common-divisor-of-array",
       "title": "Find Greatest Common Divisor of Array",
       "questionId": "1979",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-01",
+      "slug": "n-repeated-element-in-size-2n-array",
+      "title": "N-Repeated Element in Size 2N Array",
+      "questionId": "961",
       "difficulty": "Easy",
       "lang": "cpp"
     }
