@@ -1,8 +1,8 @@
 {
-  "easy": 54,
+  "easy": 55,
   "medium": 26,
   "hard": 7,
-  "total": 89,
+  "total": 90,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -713,6 +713,14 @@
       "slug": "three-divisors",
       "title": "Three Divisors",
       "questionId": "1952",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-01",
+      "slug": "find-greatest-common-divisor-of-array",
+      "title": "Find Greatest Common Divisor of Array",
+      "questionId": "1979",
       "difficulty": "Easy",
       "lang": "cpp"
     }
