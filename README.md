@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 56 |
-| Medium     | 28 |
+| Medium     | 29 |
 | Hard       | 7 |
-| **Total**  | **93** |
+| **Total**  | **94** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-05-02 | #198 [House Robber](https://leetcode.com/problems/house-robber/) | Medium | cpp |
 | 2026-05-02 | #788 [Rotated Digits](https://leetcode.com/problems/rotated-digits/) | Medium | cpp |
 | 2026-05-01 | #3290 [Maximum Multiplication Score](https://leetcode.com/problems/maximum-multiplication-score/) | Medium | cpp |
 | 2026-05-01 | #961 [N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | Easy | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-04-26 | #1559 [Detect Cycles in 2D Grid](https://leetcode.com/problems/detect-cycles-in-2d-grid/) | Medium | cpp |
 | 2026-04-26 | [unique-paths](https://leetcode.com/problems/unique-paths/) | Unknown | cpp |
 | 2026-04-26 | #64 [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | Medium | cpp |
-| 2026-04-25 | #136 [Single Number](https://leetcode.com/problems/single-number/) | Easy | cpp |
 
 ## Structure
 
