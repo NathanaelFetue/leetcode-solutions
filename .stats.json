@@ -1,8 +1,8 @@
 {
   "easy": 56,
-  "medium": 28,
+  "medium": 29,
   "hard": 7,
-  "total": 93,
+  "total": 94,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -745,6 +745,14 @@
       "slug": "rotated-digits",
       "title": "Rotated Digits",
       "questionId": "788",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-02",
+      "slug": "house-robber",
+      "title": "House Robber",
+      "questionId": "198",
       "difficulty": "Medium",
       "lang": "cpp"
     }
