@@ -1,8 +1,8 @@
 {
   "easy": 56,
-  "medium": 27,
+  "medium": 28,
   "hard": 7,
-  "total": 92,
+  "total": 93,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -737,6 +737,14 @@
       "slug": "maximum-multiplication-score",
       "title": "Maximum Multiplication Score",
       "questionId": "3290",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-02",
+      "slug": "rotated-digits",
+      "title": "Rotated Digits",
+      "questionId": "788",
       "difficulty": "Medium",
       "lang": "cpp"
     }
