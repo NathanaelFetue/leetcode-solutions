@@ -1,8 +1,8 @@
 {
-  "easy": 56,
+  "easy": 57,
   "medium": 29,
   "hard": 7,
-  "total": 94,
+  "total": 95,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -754,6 +754,14 @@
       "title": "House Robber",
       "questionId": "198",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-03",
+      "slug": "rotate-string",
+      "title": "Rotate String",
+      "questionId": "796",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
