@@ -1,8 +1,8 @@
 {
   "easy": 57,
-  "medium": 29,
+  "medium": 30,
   "hard": 7,
-  "total": 95,
+  "total": 96,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -762,6 +762,14 @@
       "title": "Rotate String",
       "questionId": "796",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-04",
+      "slug": "rotate-image",
+      "title": "Rotate Image",
+      "questionId": "48",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
