@@ -1,8 +1,8 @@
 {
   "easy": 57,
-  "medium": 30,
+  "medium": 31,
   "hard": 7,
-  "total": 96,
+  "total": 97,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -769,6 +769,14 @@
       "slug": "rotate-image",
       "title": "Rotate Image",
       "questionId": "48",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-06",
+      "slug": "rotating-the-box",
+      "title": "Rotating the Box",
+      "questionId": "1861",
       "difficulty": "Medium",
       "lang": "cpp"
     }
