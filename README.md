@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 57 |
-| Medium     | 30 |
+| Medium     | 31 |
 | Hard       | 7 |
-| **Total**  | **96** |
+| **Total**  | **97** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-05-06 | #1861 [Rotating the Box](https://leetcode.com/problems/rotating-the-box/) | Medium | cpp |
 | 2026-05-04 | #48 [Rotate Image](https://leetcode.com/problems/rotate-image/) | Medium | cpp |
 | 2026-05-03 | #796 [Rotate String](https://leetcode.com/problems/rotate-string/) | Easy | cpp |
 | 2026-05-02 | #198 [House Robber](https://leetcode.com/problems/house-robber/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-04-29 | #2141 [Maximum Running Time of N Computers](https://leetcode.com/problems/maximum-running-time-of-n-computers/) | Hard | cpp |
 | 2026-04-28 | #2033 [Minimum Operations to Make a Uni-Value Grid](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/) | Medium | cpp |
 | 2026-04-27 | #1391 [Check if There is a Valid Path in a Grid](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/) | Medium | cpp |
-| 2026-04-26 | #1559 [Detect Cycles in 2D Grid](https://leetcode.com/problems/detect-cycles-in-2d-grid/) | Medium | cpp |
 
 ## Structure
 
