@@ -2,40 +2,44 @@
  * Problem #3583 - Count Special Triplets (Medium)
  * https://leetcode.com/problems/count-special-triplets/
  *
- * Approach: Hash Map Prefix/Suffix Count
- * For each middle element nums[j], a valid triplet requires nums[i] == nums[j]*2 and nums[k] == nums[j]*2,
- * meaning both the left and right neighbors must equal twice the middle value.
- * We maintain a left frequency map (elements before j) and a right frequency map (elements after j),
- * then for each j, multiply left[2*nums[j]] * right[2*nums[j]] to count valid triplets.
+ * Approach: Hash Map with Prefix Counting
+ * For each element v treated as the middle element of a triplet, count elements
+ * equal to 2*v that appear strictly before it (left count) and strictly after it
+ * (right count), then multiply left * right to get valid triplets centered at v.
+ * A running prefix map tracks elements seen so far, while a precomputed total
+ * frequency map enables O(1) right-count lookups (total - prefix count).
  *
- * Time Complexity: O(n) - single pass through the array with O(1) average hash map operations.
- * Space Complexity: O(n) - two hash maps each storing at most n distinct values.
+ * Time Complexity : O(n) - single precomputation pass and one linear scan,
+ *                   each hash map operation is O(1) amortized.
+ * Space Complexity: O(n) - two hash maps storing at most n distinct values.
  *
- * Runtime : 933 ms
- * Memory  : 520.5 MB
+ * Runtime : 775 ms
+ * Memory  : 400 MB
  */
 
 class Solution {
 public:
     int specialTriplets(vector<int>& nums) {
         const int MOD = 1e9 + 7;
-        int n = nums.size();
-        
-        // forcer une meilleure distribution pour éviter les collisions
-        unordered_map<int, long long> left, right;
-        left.reserve(n);  right.reserve(n);
-        left.max_load_factor(0.25);
-        right.max_load_factor(0.25);
-        
-        for (int x : nums) right[x]++;
-        
-        long long ans = 0;
-        for (int j = 0; j < n; j++) {
-            right[nums[j]]--;
-            long long target = (long long)nums[j] * 2;
-            ans = (ans + left[target] * right[target]) % MOD;
-            left[nums[j]]++;
+        unordered_map<int, int> numCnt;
+        unordered_map<int, int> numPartialCnt;
+
+        numCnt.reserve(nums.size() * 2);
+        numPartialCnt.reserve(nums.size() * 2);
+
+        for (int v : nums) {
+            numCnt[v]++;
         }
-        return (int)ans;
+
+        int ans = 0;
+        for (int v : nums) {
+            int target = v * 2;
+            int lCnt = numPartialCnt[target];
+            numPartialCnt[v]++;
+            int rCnt = numCnt[target] - numPartialCnt[target];
+            ans = (ans + (lCnt * 1LL * rCnt % MOD)) % MOD;
+        }
+
+        return ans;
     }
 };
