@@ -1,8 +1,8 @@
 {
   "easy": 57,
-  "medium": 31,
+  "medium": 32,
   "hard": 7,
-  "total": 97,
+  "total": 98,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -777,6 +777,14 @@
       "slug": "rotating-the-box",
       "title": "Rotating the Box",
       "questionId": "1861",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-07",
+      "slug": "count-special-triplets",
+      "title": "Count Special Triplets",
+      "questionId": "3583",
       "difficulty": "Medium",
       "lang": "cpp"
     }
