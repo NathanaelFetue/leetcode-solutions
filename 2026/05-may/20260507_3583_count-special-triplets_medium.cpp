@@ -2,17 +2,17 @@
  * Problem #3583 - Count Special Triplets (Medium)
  * https://leetcode.com/problems/count-special-triplets/
  *
- * Approach: Two-pass hash map with sliding window technique.
- * For each middle element nums[j], we count valid triplets where nums[i] == 2*nums[j] on the left
- * and nums[k] == 2*nums[j] on the right, multiplying the two counts for each j.
- * We maintain a `left` map of seen elements and a `right` map of remaining elements,
- * updating both as we iterate through each index j.
+ * Approach: Single-pass hash map with prefix and suffix frequency counts.
+ * For each middle element nums[j], a valid triplet requires nums[i] == nums[j]/2
+ * and nums[k] == nums[j]*2, so we count left[2*nums[j]] * right[2*nums[j]] contributions.
+ * We maintain a 'left' map of elements seen before j and a 'right' map of elements
+ * after j, updating both maps as we iterate through the array.
  *
- * Time Complexity : O(n) - single pass over the array with O(1) average hash map operations.
- * Space Complexity: O(n) - two hash maps storing at most n distinct elements combined.
+ * Time Complexity : O(n) — single pass through the array with O(1) average hash map ops.
+ * Space Complexity: O(n) — two hash maps storing at most n distinct element frequencies.
  *
- * Runtime : 549 ms
- * Memory  : 368 MB
+ * Runtime : 994 ms
+ * Memory  : 465.5 MB
  */
 
 class Solution {
@@ -20,26 +20,16 @@ public:
     int specialTriplets(vector<int>& nums) {
         const int MOD = 1e9 + 7;
         int n = nums.size();
+        unordered_map<int, long long> left, right;
         
-        // compter les occurrences à gauche
-        unordered_map<int, long long> left;
-        // compter les occurrences à droite
-        unordered_map<int, long long> right;
-        
-        // initialiser right avec tous les éléments
         for (int x : nums) right[x]++;
         
         long long ans = 0;
         for (int j = 0; j < n; j++) {
-            right[nums[j]]--;  // retirer j de right
-            
+            right[nums[j]]--;
             long long target = (long long)nums[j] * 2;
-            long long leftCount  = left.count(target)  ? left[target]  : 0;
-            long long rightCount = right.count(target) ? right[target] : 0;
-            
-            ans = (ans + leftCount * rightCount) % MOD;
-            
-            left[nums[j]]++;  // ajouter j à left
+            ans = (ans + left[target] * right[target]) % MOD;
+            left[nums[j]]++;
         }
         return ans;
     }
