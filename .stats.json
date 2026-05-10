@@ -1,8 +1,8 @@
 {
   "easy": 57,
-  "medium": 32,
+  "medium": 33,
   "hard": 7,
-  "total": 98,
+  "total": 99,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -785,6 +785,14 @@
       "slug": "count-special-triplets",
       "title": "Count Special Triplets",
       "questionId": "3583",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-10",
+      "slug": "maximum-number-of-jumps-to-reach-the-last-index",
+      "title": "Maximum Number of Jumps to Reach the Last Index",
+      "questionId": "2770",
       "difficulty": "Medium",
       "lang": "cpp"
     }
