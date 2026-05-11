@@ -1,8 +1,8 @@
 {
-  "easy": 57,
+  "easy": 58,
   "medium": 33,
   "hard": 7,
-  "total": 99,
+  "total": 100,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -794,6 +794,14 @@
       "title": "Maximum Number of Jumps to Reach the Last Index",
       "questionId": "2770",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-11",
+      "slug": "separate-the-digits-in-an-array",
+      "title": "Separate the Digits in an Array",
+      "questionId": "2553",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
