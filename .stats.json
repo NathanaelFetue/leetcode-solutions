@@ -1,8 +1,8 @@
 {
   "easy": 58,
   "medium": 33,
-  "hard": 7,
-  "total": 100,
+  "hard": 8,
+  "total": 101,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -802,6 +802,14 @@
       "title": "Separate the Digits in an Array",
       "questionId": "2553",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-12",
+      "slug": "minimum-initial-energy-to-finish-tasks",
+      "title": "Minimum Initial Energy to Finish Tasks",
+      "questionId": "1665",
+      "difficulty": "Hard",
       "lang": "cpp"
     }
   ],
