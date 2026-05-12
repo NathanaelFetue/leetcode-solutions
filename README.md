@@ -8,13 +8,14 @@ Auto-synced from accepted LeetCode submissions.
 |------------|--------|
 | Easy       | 58 |
 | Medium     | 33 |
-| Hard       | 7 |
-| **Total**  | **100** |
+| Hard       | 8 |
+| **Total**  | **101** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-05-12 | #1665 [Minimum Initial Energy to Finish Tasks](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/) | Hard | cpp |
 | 2026-05-11 | #2553 [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/) | Easy | cpp |
 | 2026-05-10 | #2770 [Maximum Number of Jumps to Reach the Last Index](https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/) | Medium | cpp |
 | 2026-05-07 | #3583 [Count Special Triplets](https://leetcode.com/problems/count-special-triplets/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-05-01 | #1952 [Three Divisors](https://leetcode.com/problems/three-divisors/) | Easy | cpp |
 | 2026-05-01 | #396 [Rotate Function](https://leetcode.com/problems/rotate-function/) | Medium | cpp |
 | 2026-04-30 | #3225 [Maximum Score From Grid Operations](https://leetcode.com/problems/maximum-score-from-grid-operations/) | Hard | cpp |
-| 2026-04-30 | #3742 [Maximum Path Score in a Grid](https://leetcode.com/problems/maximum-path-score-in-a-grid/) | Medium | cpp |
 
 ## Structure
 
