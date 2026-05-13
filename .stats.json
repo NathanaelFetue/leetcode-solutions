@@ -1,8 +1,8 @@
 {
   "easy": 58,
-  "medium": 33,
+  "medium": 34,
   "hard": 8,
-  "total": 101,
+  "total": 102,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -810,6 +810,14 @@
       "title": "Minimum Initial Energy to Finish Tasks",
       "questionId": "1665",
       "difficulty": "Hard",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-13",
+      "slug": "minimum-moves-to-make-array-complementary",
+      "title": "Minimum Moves to Make Array Complementary",
+      "questionId": "1674",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
