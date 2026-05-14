@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 58 |
+| Easy       | 59 |
 | Medium     | 34 |
 | Hard       | 8 |
-| **Total**  | **102** |
+| **Total**  | **103** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-05-14 | #2784 [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good/) | Easy | cpp |
 | 2026-05-13 | #1674 [Minimum Moves to Make Array Complementary](https://leetcode.com/problems/minimum-moves-to-make-array-complementary/) | Medium | cpp |
 | 2026-05-12 | #1665 [Minimum Initial Energy to Finish Tasks](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/) | Hard | cpp |
 | 2026-05-11 | #2553 [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/) | Easy | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-05-01 | #961 [N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | Easy | cpp |
 | 2026-05-01 | #1979 [Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) | Easy | cpp |
 | 2026-05-01 | #1952 [Three Divisors](https://leetcode.com/problems/three-divisors/) | Easy | cpp |
-| 2026-05-01 | #396 [Rotate Function](https://leetcode.com/problems/rotate-function/) | Medium | cpp |
 
 ## Structure
 
