@@ -1,8 +1,8 @@
 {
-  "easy": 58,
+  "easy": 59,
   "medium": 34,
   "hard": 8,
-  "total": 102,
+  "total": 103,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -818,6 +818,14 @@
       "title": "Minimum Moves to Make Array Complementary",
       "questionId": "1674",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-14",
+      "slug": "check-if-array-is-good",
+      "title": "Check if Array is Good",
+      "questionId": "2784",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
