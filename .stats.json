@@ -1,8 +1,8 @@
 {
   "easy": 59,
-  "medium": 34,
+  "medium": 35,
   "hard": 8,
-  "total": 103,
+  "total": 104,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -826,6 +826,14 @@
       "title": "Check if Array is Good",
       "questionId": "2784",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-15",
+      "slug": "find-minimum-in-rotated-sorted-array",
+      "title": "Find Minimum in Rotated Sorted Array",
+      "questionId": "153",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
