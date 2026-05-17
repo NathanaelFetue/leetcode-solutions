@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 59 |
-| Medium     | 35 |
+| Medium     | 36 |
 | Hard       | 9 |
-| **Total**  | **105** |
+| **Total**  | **106** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-05-17 | #1306 [Jump Game III](https://leetcode.com/problems/jump-game-iii/) | Medium | cpp |
 | 2026-05-16 | #154 [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | Hard | cpp |
 | 2026-05-15 | #153 [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | cpp |
 | 2026-05-14 | #2784 [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good/) | Easy | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-05-02 | #198 [House Robber](https://leetcode.com/problems/house-robber/) | Medium | cpp |
 | 2026-05-02 | #788 [Rotated Digits](https://leetcode.com/problems/rotated-digits/) | Medium | cpp |
 | 2026-05-01 | #3290 [Maximum Multiplication Score](https://leetcode.com/problems/maximum-multiplication-score/) | Medium | cpp |
-| 2026-05-01 | #961 [N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | Easy | cpp |
 
 ## Structure
 
