@@ -1,8 +1,8 @@
 {
   "easy": 59,
-  "medium": 35,
+  "medium": 36,
   "hard": 9,
-  "total": 105,
+  "total": 106,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -842,6 +842,14 @@
       "title": "Find Minimum in Rotated Sorted Array II",
       "questionId": "154",
       "difficulty": "Hard",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-17",
+      "slug": "jump-game-iii",
+      "title": "Jump Game III",
+      "questionId": "1306",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
