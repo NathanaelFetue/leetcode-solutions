@@ -1,8 +1,8 @@
 {
   "easy": 59,
   "medium": 36,
-  "hard": 9,
-  "total": 106,
+  "hard": 10,
+  "total": 107,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -850,6 +850,14 @@
       "title": "Jump Game III",
       "questionId": "1306",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-18",
+      "slug": "jump-game-iv",
+      "title": "Jump Game IV",
+      "questionId": "1345",
+      "difficulty": "Hard",
       "lang": "cpp"
     }
   ],
