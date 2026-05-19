@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 59 |
+| Easy       | 60 |
 | Medium     | 36 |
 | Hard       | 10 |
-| **Total**  | **107** |
+| **Total**  | **108** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-05-19 | #2540 [Minimum Common Value](https://leetcode.com/problems/minimum-common-value/) | Easy | cpp |
 | 2026-05-18 | #1345 [Jump Game IV](https://leetcode.com/problems/jump-game-iv/) | Hard | cpp |
 | 2026-05-17 | #1306 [Jump Game III](https://leetcode.com/problems/jump-game-iii/) | Medium | cpp |
 | 2026-05-16 | #154 [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | Hard | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-05-04 | #48 [Rotate Image](https://leetcode.com/problems/rotate-image/) | Medium | cpp |
 | 2026-05-03 | #796 [Rotate String](https://leetcode.com/problems/rotate-string/) | Easy | cpp |
 | 2026-05-02 | #198 [House Robber](https://leetcode.com/problems/house-robber/) | Medium | cpp |
-| 2026-05-02 | #788 [Rotated Digits](https://leetcode.com/problems/rotated-digits/) | Medium | cpp |
 
 ## Structure
 
