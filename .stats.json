@@ -1,8 +1,8 @@
 {
-  "easy": 59,
+  "easy": 60,
   "medium": 36,
   "hard": 10,
-  "total": 107,
+  "total": 108,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -858,6 +858,14 @@
       "title": "Jump Game IV",
       "questionId": "1345",
       "difficulty": "Hard",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-19",
+      "slug": "minimum-common-value",
+      "title": "Minimum Common Value",
+      "questionId": "2540",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
