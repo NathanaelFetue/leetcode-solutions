@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 60 |
-| Medium     | 36 |
+| Medium     | 37 |
 | Hard       | 10 |
-| **Total**  | **108** |
+| **Total**  | **109** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-05-20 | #2657 [Find the Prefix Common Array of Two Arrays](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/) | Medium | cpp |
 | 2026-05-19 | #2540 [Minimum Common Value](https://leetcode.com/problems/minimum-common-value/) | Easy | cpp |
 | 2026-05-18 | #1345 [Jump Game IV](https://leetcode.com/problems/jump-game-iv/) | Hard | cpp |
 | 2026-05-17 | #1306 [Jump Game III](https://leetcode.com/problems/jump-game-iii/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-05-06 | #1861 [Rotating the Box](https://leetcode.com/problems/rotating-the-box/) | Medium | cpp |
 | 2026-05-04 | #48 [Rotate Image](https://leetcode.com/problems/rotate-image/) | Medium | cpp |
 | 2026-05-03 | #796 [Rotate String](https://leetcode.com/problems/rotate-string/) | Easy | cpp |
-| 2026-05-02 | #198 [House Robber](https://leetcode.com/problems/house-robber/) | Medium | cpp |
 
 ## Structure
 
