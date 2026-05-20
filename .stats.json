@@ -1,8 +1,8 @@
 {
   "easy": 60,
-  "medium": 36,
+  "medium": 37,
   "hard": 10,
-  "total": 108,
+  "total": 109,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -866,6 +866,14 @@
       "title": "Minimum Common Value",
       "questionId": "2540",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-20",
+      "slug": "find-the-prefix-common-array-of-two-arrays",
+      "title": "Find the Prefix Common Array of Two Arrays",
+      "questionId": "2657",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
