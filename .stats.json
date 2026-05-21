@@ -1,8 +1,8 @@
 {
-  "easy": 61,
+  "easy": 62,
   "medium": 38,
   "hard": 10,
-  "total": 111,
+  "total": 112,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -889,6 +889,14 @@
       "slug": "valid-anagram",
       "title": "Valid Anagram",
       "questionId": "242",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-21",
+      "slug": "two-sum",
+      "title": "Two Sum",
+      "questionId": "1",
       "difficulty": "Easy",
       "lang": "cpp"
     }
