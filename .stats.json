@@ -1,8 +1,8 @@
 {
-  "easy": 62,
+  "easy": 63,
   "medium": 38,
   "hard": 10,
-  "total": 112,
+  "total": 113,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -897,6 +897,14 @@
       "slug": "two-sum",
       "title": "Two Sum",
       "questionId": "1",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-21",
+      "slug": "concatenation-of-array",
+      "title": "Concatenation of Array",
+      "questionId": "1929",
       "difficulty": "Easy",
       "lang": "cpp"
     }
