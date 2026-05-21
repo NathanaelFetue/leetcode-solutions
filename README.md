@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 61 |
+| Easy       | 62 |
 | Medium     | 38 |
 | Hard       | 10 |
-| **Total**  | **111** |
+| **Total**  | **112** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-05-21 | #1 [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | cpp |
 | 2026-05-21 | #242 [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | cpp |
 | 2026-05-21 | #3043 [Find the Length of the Longest Common Prefix](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/) | Medium | cpp |
 | 2026-05-20 | #2657 [Find the Prefix Common Array of Two Arrays](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-05-11 | #2553 [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/) | Easy | cpp |
 | 2026-05-10 | #2770 [Maximum Number of Jumps to Reach the Last Index](https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/) | Medium | cpp |
 | 2026-05-07 | #3583 [Count Special Triplets](https://leetcode.com/problems/count-special-triplets/) | Medium | cpp |
-| 2026-05-06 | #1861 [Rotating the Box](https://leetcode.com/problems/rotating-the-box/) | Medium | cpp |
 
 ## Structure
 
