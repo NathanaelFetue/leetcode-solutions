@@ -1,8 +1,8 @@
 {
   "easy": 60,
-  "medium": 37,
+  "medium": 38,
   "hard": 10,
-  "total": 109,
+  "total": 110,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -873,6 +873,14 @@
       "slug": "find-the-prefix-common-array-of-two-arrays",
       "title": "Find the Prefix Common Array of Two Arrays",
       "questionId": "2657",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-21",
+      "slug": "find-the-length-of-the-longest-common-prefix",
+      "title": "Find the Length of the Longest Common Prefix",
+      "questionId": "3043",
       "difficulty": "Medium",
       "lang": "cpp"
     }
