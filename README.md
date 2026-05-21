@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 63 |
-| Medium     | 38 |
+| Medium     | 39 |
 | Hard       | 10 |
-| **Total**  | **113** |
+| **Total**  | **114** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-05-21 | #49 [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | cpp |
 | 2026-05-21 | #1929 [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) | Easy | cpp |
 | 2026-05-21 | #1 [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | cpp |
 | 2026-05-21 | #242 [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-05-13 | #1674 [Minimum Moves to Make Array Complementary](https://leetcode.com/problems/minimum-moves-to-make-array-complementary/) | Medium | cpp |
 | 2026-05-12 | #1665 [Minimum Initial Energy to Finish Tasks](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/) | Hard | cpp |
 | 2026-05-11 | #2553 [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/) | Easy | cpp |
-| 2026-05-10 | #2770 [Maximum Number of Jumps to Reach the Last Index](https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/) | Medium | cpp |
 
 ## Structure
 
