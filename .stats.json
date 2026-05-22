@@ -1,8 +1,8 @@
 {
   "easy": 63,
-  "medium": 39,
+  "medium": 40,
   "hard": 10,
-  "total": 114,
+  "total": 115,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -913,6 +913,14 @@
       "slug": "group-anagrams",
       "title": "Group Anagrams",
       "questionId": "49",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-22",
+      "slug": "search-in-rotated-sorted-array",
+      "title": "Search in Rotated Sorted Array",
+      "questionId": "33",
       "difficulty": "Medium",
       "lang": "cpp"
     }
