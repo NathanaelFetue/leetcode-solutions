@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 64 |
-| Medium     | 40 |
+| Medium     | 41 |
 | Hard       | 10 |
-| **Total**  | **116** |
+| **Total**  | **117** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-05-23 | #347 [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | cpp |
 | 2026-05-23 | #1752 [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) | Easy | cpp |
 | 2026-05-22 | #33 [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Medium | cpp |
 | 2026-05-21 | #49 [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-05-16 | #154 [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | Hard | cpp |
 | 2026-05-15 | #153 [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | cpp |
 | 2026-05-14 | #2784 [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good/) | Easy | cpp |
-| 2026-05-13 | #1674 [Minimum Moves to Make Array Complementary](https://leetcode.com/problems/minimum-moves-to-make-array-complementary/) | Medium | cpp |
 
 ## Structure
 
