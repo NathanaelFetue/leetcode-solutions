@@ -1,8 +1,8 @@
 {
-  "easy": 63,
+  "easy": 64,
   "medium": 40,
   "hard": 10,
-  "total": 115,
+  "total": 116,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -922,6 +922,14 @@
       "title": "Search in Rotated Sorted Array",
       "questionId": "33",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-23",
+      "slug": "check-if-array-is-sorted-and-rotated",
+      "title": "Check if Array Is Sorted and Rotated",
+      "questionId": "1752",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
