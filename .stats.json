@@ -1,8 +1,8 @@
 {
   "easy": 64,
-  "medium": 40,
+  "medium": 41,
   "hard": 10,
-  "total": 116,
+  "total": 117,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -930,6 +930,14 @@
       "title": "Check if Array Is Sorted and Rotated",
       "questionId": "1752",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-23",
+      "slug": "top-k-frequent-elements",
+      "title": "Top K Frequent Elements",
+      "questionId": "347",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
