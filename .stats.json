@@ -1,8 +1,8 @@
 {
   "easy": 64,
   "medium": 41,
-  "hard": 10,
-  "total": 117,
+  "hard": 11,
+  "total": 118,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -938,6 +938,14 @@
       "title": "Top K Frequent Elements",
       "questionId": "347",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-24",
+      "slug": "jump-game-v",
+      "title": "Jump Game V",
+      "questionId": "1340",
+      "difficulty": "Hard",
       "lang": "cpp"
     }
   ],
