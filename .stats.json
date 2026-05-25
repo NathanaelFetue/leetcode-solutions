@@ -1,8 +1,8 @@
 {
   "easy": 64,
-  "medium": 41,
+  "medium": 42,
   "hard": 11,
-  "total": 118,
+  "total": 119,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -946,6 +946,14 @@
       "title": "Jump Game V",
       "questionId": "1340",
       "difficulty": "Hard",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-25",
+      "slug": "product-of-array-except-self",
+      "title": "Product of Array Except Self",
+      "questionId": "238",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
