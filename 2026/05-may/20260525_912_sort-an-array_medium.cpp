@@ -3,43 +3,48 @@
  * Difficulty: Medium
  * URL: https://leetcode.com/problems/sort-an-array/
  *
- * Approach: Merge Sort (Top-Down Recursive)
- * The array is recursively split into two halves until each sub-array has at most one element.
- * Each pair of sorted halves is merged back together using a two-pointer technique, producing a fully sorted array.
+ * Approach: Merge Sort (Divide and Conquer)
+ * The array is recursively divided into two halves until each subarray contains a single element.
+ * The mergeHelper function then merges two sorted subarrays by comparing elements one by one and
+ * writing the sorted result into a temporary array, which is copied back into the original array.
  *
- * Time Complexity: O(n log n) — the array is divided log n times and each merge pass processes n elements.
- * Space Complexity: O(n log n) — new vectors are allocated at each level of recursion; O(log n) recursion depth with O(n) temporary storage per level.
+ * Time Complexity: O(n log n)
+ *   - The array is split log n times and each merge step processes n elements in total.
  *
- * Runtime: 1484 ms
- * Memory: 516.3 MB
+ * Space Complexity: O(n)
+ *   - A temporary array of size equal to the current subarray is allocated at each merge step;
+ *     the maximum space used at any point is O(n).
+ *
+ * Runtime: 223 ms | Memory: 146.5 MB
  */
 
 class Solution {
-public:
-    vector<int> merge(vector<int>& a, vector<int>& b) {
-        vector<int> res;
-        int i = 0, j = 0;
+    void mergeHelper(vector<int>& nums, int left, int mid, int right) {
+        vector<int> tmp(right - left + 1);
+        int i = left, j = mid + 1, k = 0;
 
-        while (i < a.size() && j < b.size()) {
-            if (a[i] <= b[j]) res.push_back(a[i++]);
-            else               res.push_back(b[j++]);
+        while (i <= mid && j <= right) {
+            if (nums[i] <= nums[j]) tmp[k++] = nums[i++];
+            else                    tmp[k++] = nums[j++];
         }
-        while (i < a.size()) res.push_back(a[i++]);
-        while (j < b.size()) res.push_back(b[j++]);
+        while (i <= mid)   tmp[k++] = nums[i++];
+        while (j <= right) tmp[k++] = nums[j++];
 
-        return res;
+        for (int i = 0; i < tmp.size(); i++)
+            nums[left + i] = tmp[i];
     }
 
-    vector<int> sortArray(vector<int> nums) {
-        if (nums.size() <= 1) return nums;
-        int mid = nums.size() / 2;
+    void mergeSort(vector<int>& nums, int left, int right) {
+        if (left >= right) return;
+        int mid = left + (right - left) / 2;
+        mergeSort(nums, left, mid);
+        mergeSort(nums, mid + 1, right);
+        mergeHelper(nums, left, mid, right);
+    }
 
-        vector<int> left(nums.begin(), nums.begin() + mid);
-        vector<int> right(nums.begin() + mid, nums.end());
-
-        left  = sortArray(left);
-        right = sortArray(right);
-
-        return merge(left, right);
+public:
+    vector<int> sortArray(vector<int>& nums) {
+        mergeSort(nums, 0, nums.size() - 1);
+        return nums;
     }
 };
