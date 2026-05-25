@@ -1,8 +1,8 @@
 {
   "easy": 65,
-  "medium": 42,
+  "medium": 43,
   "hard": 11,
-  "total": 120,
+  "total": 121,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -962,6 +962,14 @@
       "title": "Majority Element",
       "questionId": "169",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-25",
+      "slug": "sort-an-array",
+      "title": "Sort an Array",
+      "questionId": "912",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
