@@ -1,8 +1,8 @@
 {
   "easy": 65,
-  "medium": 43,
+  "medium": 44,
   "hard": 11,
-  "total": 121,
+  "total": 122,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -969,6 +969,14 @@
       "slug": "sort-an-array",
       "title": "Sort an Array",
       "questionId": "912",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-25",
+      "slug": "jump-game-vii",
+      "title": "Jump Game VII",
+      "questionId": "1871",
       "difficulty": "Medium",
       "lang": "cpp"
     }
