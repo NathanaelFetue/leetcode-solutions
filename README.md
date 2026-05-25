@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 65 |
-| Medium     | 43 |
+| Medium     | 44 |
 | Hard       | 11 |
-| **Total**  | **121** |
+| **Total**  | **122** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-05-25 | #1871 [Jump Game VII](https://leetcode.com/problems/jump-game-vii/) | Medium | cpp |
 | 2026-05-25 | #912 [Sort an Array](https://leetcode.com/problems/sort-an-array/) | Medium | cpp |
 | 2026-05-25 | #169 [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | cpp |
 | 2026-05-25 | #238 [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-05-21 | #3043 [Find the Length of the Longest Common Prefix](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/) | Medium | cpp |
 | 2026-05-20 | #2657 [Find the Prefix Common Array of Two Arrays](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/) | Medium | cpp |
 | 2026-05-19 | #2540 [Minimum Common Value](https://leetcode.com/problems/minimum-common-value/) | Easy | cpp |
-| 2026-05-18 | #1345 [Jump Game IV](https://leetcode.com/problems/jump-game-iv/) | Hard | cpp |
 
 ## Structure
 
