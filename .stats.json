@@ -1,8 +1,8 @@
 {
-  "easy": 64,
+  "easy": 65,
   "medium": 42,
   "hard": 11,
-  "total": 119,
+  "total": 120,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -954,6 +954,14 @@
       "title": "Product of Array Except Self",
       "questionId": "238",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-25",
+      "slug": "majority-element",
+      "title": "Majority Element",
+      "questionId": "169",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
