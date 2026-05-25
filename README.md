@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 64 |
+| Easy       | 65 |
 | Medium     | 42 |
 | Hard       | 11 |
-| **Total**  | **119** |
+| **Total**  | **120** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-05-25 | #169 [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | cpp |
 | 2026-05-25 | #238 [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | cpp |
 | 2026-05-24 | #1340 [Jump Game V](https://leetcode.com/problems/jump-game-v/) | Hard | cpp |
 | 2026-05-23 | #347 [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-05-19 | #2540 [Minimum Common Value](https://leetcode.com/problems/minimum-common-value/) | Easy | cpp |
 | 2026-05-18 | #1345 [Jump Game IV](https://leetcode.com/problems/jump-game-iv/) | Hard | cpp |
 | 2026-05-17 | #1306 [Jump Game III](https://leetcode.com/problems/jump-game-iii/) | Medium | cpp |
-| 2026-05-16 | #154 [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | Hard | cpp |
 
 ## Structure
 
