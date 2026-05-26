@@ -1,8 +1,8 @@
 {
-  "easy": 65,
+  "easy": 66,
   "medium": 44,
   "hard": 11,
-  "total": 122,
+  "total": 123,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -978,6 +978,14 @@
       "title": "Jump Game VII",
       "questionId": "1871",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-26",
+      "slug": "count-the-number-of-special-characters-i",
+      "title": "Count the Number of Special Characters I",
+      "questionId": "3120",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
