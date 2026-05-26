@@ -5,16 +5,17 @@
  *
  * Approach: Hash Set Intersection
  * Separate all characters into two unordered sets: one for lowercase letters
- * and one for uppercase letters (stored as their lowercase equivalents).
- * Then count how many lowercase letters also appear in the uppercase set,
- * which identifies letters present in both cases (special characters).
+ * and one for uppercase letters (stored as their lowercase equivalent).
+ * Finally, count how many lowercase letters also appear in the uppercase set,
+ * as those characters satisfy the special character condition.
  *
- * Time Complexity: O(n) - single pass through the string to build sets,
+ * Time Complexity: O(n) — single pass over the word to populate sets,
  * plus O(26) at most to iterate over the lowercase set.
- * Space Complexity: O(1) - sets hold at most 26 distinct alphabet characters.
+ * Space Complexity: O(1) — sets hold at most 26 distinct letters each,
+ * so space is bounded by the alphabet size.
  *
- * Runtime: 3 ms
- * Memory: 9.7 MB
+ * Runtime: 0 ms
+ * Memory: 9.8 MB
  */
 
 class Solution {
