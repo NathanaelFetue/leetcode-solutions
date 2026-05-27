@@ -1,8 +1,8 @@
 {
   "easy": 66,
-  "medium": 44,
+  "medium": 45,
   "hard": 11,
-  "total": 123,
+  "total": 124,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -986,6 +986,14 @@
       "title": "Count the Number of Special Characters I",
       "questionId": "3120",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-27",
+      "slug": "count-the-number-of-special-characters-ii",
+      "title": "Count the Number of Special Characters II",
+      "questionId": "3121",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
