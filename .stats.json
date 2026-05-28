@@ -1,8 +1,8 @@
 {
   "easy": 67,
   "medium": 45,
-  "hard": 11,
-  "total": 125,
+  "hard": 12,
+  "total": 126,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1002,6 +1002,14 @@
       "title": "Score of a String",
       "questionId": "3110",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-28",
+      "slug": "longest-common-suffix-queries",
+      "title": "Longest Common Suffix Queries",
+      "questionId": "3093",
+      "difficulty": "Hard",
       "lang": "cpp"
     }
   ],
