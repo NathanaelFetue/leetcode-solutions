@@ -1,8 +1,8 @@
 {
-  "easy": 68,
+  "easy": 69,
   "medium": 45,
   "hard": 12,
-  "total": 127,
+  "total": 128,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1017,6 +1017,14 @@
       "slug": "length-of-last-word",
       "title": "Length of Last Word",
       "questionId": "58",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-29",
+      "slug": "minimum-element-after-replacement-with-digit-sum",
+      "title": "Minimum Element After Replacement With Digit Sum",
+      "questionId": "3300",
       "difficulty": "Easy",
       "lang": "cpp"
     }
