@@ -1,19 +1,17 @@
 /*
- * Problem 58: Length of Last Word
+ * Problem #58 - Length of Last Word
  * Difficulty: Easy
  * URL: https://leetcode.com/problems/length-of-last-word/
  *
  * Approach: Two-pass linear scan from the end of the string.
- * First, skip any trailing whitespace by decrementing the index.
+ * First, skip any trailing spaces by decrementing the index.
  * Then, count consecutive non-space characters until a space or the start of the string is reached.
  *
- * Time Complexity: O(n) in the worst case, where n is the length of the string,
- * as we may scan the entire string if it consists mostly of spaces.
+ * Time Complexity: O(n) - in the worst case we traverse the entire string (e.g., all spaces or one long word).
+ * Space Complexity: O(1) - only a constant number of integer variables are used regardless of input size.
  *
- * Space Complexity: O(1) — only a constant amount of extra space is used
- * regardless of the input size.
- *
- * Runtime: 2 ms | Memory: 8.7 MB
+ * Runtime: 0 ms
+ * Memory: 8.9 MB
  */
 
 class Solution {
