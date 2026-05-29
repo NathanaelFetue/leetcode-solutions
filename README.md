@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 67 |
+| Easy       | 68 |
 | Medium     | 45 |
 | Hard       | 12 |
-| **Total**  | **126** |
+| **Total**  | **127** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-05-29 | #58 [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | Easy | cpp |
 | 2026-05-28 | #3093 [Longest Common Suffix Queries](https://leetcode.com/problems/longest-common-suffix-queries/) | Hard | cpp |
 | 2026-05-28 | #3110 [Score of a String](https://leetcode.com/problems/score-of-a-string/) | Easy | cpp |
 | 2026-05-27 | #3121 [Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-05-22 | #33 [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Medium | cpp |
 | 2026-05-21 | #49 [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | cpp |
 | 2026-05-21 | #1929 [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) | Easy | cpp |
-| 2026-05-21 | #1 [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | cpp |
 
 ## Structure
 
