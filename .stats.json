@@ -1,8 +1,8 @@
 {
-  "easy": 67,
+  "easy": 68,
   "medium": 45,
   "hard": 12,
-  "total": 126,
+  "total": 127,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1010,6 +1010,14 @@
       "title": "Longest Common Suffix Queries",
       "questionId": "3093",
       "difficulty": "Hard",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-29",
+      "slug": "length-of-last-word",
+      "title": "Length of Last Word",
+      "questionId": "58",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
