@@ -1,18 +1,18 @@
 /*
  * Problem #36 - Valid Sudoku (Medium)
- * https://leetcode.com/problems/valid-sudoku/
+ * LeetCode URL: https://leetcode.com/problems/valid-sudoku/
  *
  * Approach: Hash Set Tracking
- * Use three arrays of unordered sets (one per row, column, and 3x3 box) to track
- * seen digits. For each non-empty cell, compute its box index as (i/3)*3 + (j/3),
- * then check and insert into the corresponding row, column, and box sets.
+ * Iterate through every cell once, using three arrays of hash sets (one per row, column,
+ * and 3x3 box) to track seen digits. For each non-empty cell, check if the digit already
+ * exists in its corresponding row, column, or box set; if so, return false immediately.
+ * The 3x3 box index is computed as (i/3)*3 + (j/3), mapping each cell to one of 9 boxes.
  *
- * Time Complexity: O(1) — The board is always 9x9 (81 cells), so iteration is constant.
- * Space Complexity: O(1) — At most 9 sets of 9 elements each for rows, cols, and boxes;
- *                          all bounded by the fixed 9x9 board size.
+ * Time Complexity: O(1) - The board is always 9x9 (81 cells), so iteration is constant.
+ * Space Complexity: O(1) - At most 9 digits stored across 27 fixed-size hash sets (bounded).
  *
- * Runtime : 6 ms
- * Memory  : 25.8 MB
+ * Runtime: 1 ms
+ * Memory: 25.7 MB
  */
 
 class Solution {
