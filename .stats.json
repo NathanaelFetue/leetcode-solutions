@@ -1,8 +1,8 @@
 {
   "easy": 69,
   "medium": 46,
-  "hard": 12,
-  "total": 129,
+  "hard": 13,
+  "total": 130,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1034,6 +1034,14 @@
       "title": "Valid Sudoku",
       "questionId": "36",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-30",
+      "slug": "block-placement-queries",
+      "title": "Block Placement Queries",
+      "questionId": "3161",
+      "difficulty": "Hard",
       "lang": "cpp"
     }
   ],
