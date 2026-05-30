@@ -1,8 +1,8 @@
 {
   "easy": 69,
-  "medium": 45,
+  "medium": 46,
   "hard": 12,
-  "total": 128,
+  "total": 129,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1026,6 +1026,14 @@
       "title": "Minimum Element After Replacement With Digit Sum",
       "questionId": "3300",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-30",
+      "slug": "valid-sudoku",
+      "title": "Valid Sudoku",
+      "questionId": "36",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
