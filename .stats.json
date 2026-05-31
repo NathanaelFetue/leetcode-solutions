@@ -1,8 +1,8 @@
 {
-  "easy": 70,
+  "easy": 71,
   "medium": 48,
   "hard": 13,
-  "total": 133,
+  "total": 134,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1066,6 +1066,14 @@
       "title": "Longest Consecutive Sequence",
       "questionId": "128",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-31",
+      "slug": "valid-palindrome",
+      "title": "Valid Palindrome",
+      "questionId": "125",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
