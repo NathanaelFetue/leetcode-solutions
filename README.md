@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 70 |
-| Medium     | 47 |
+| Medium     | 48 |
 | Hard       | 13 |
-| **Total**  | **132** |
+| **Total**  | **133** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-05-31 | #128 [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium | cpp |
 | 2026-05-31 | #2126 [Destroying Asteroids](https://leetcode.com/problems/destroying-asteroids/) | Medium | cpp |
 | 2026-05-31 | #485 [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | Easy | cpp |
 | 2026-05-30 | #3161 [Block Placement Queries](https://leetcode.com/problems/block-placement-queries/) | Hard | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-05-25 | #912 [Sort an Array](https://leetcode.com/problems/sort-an-array/) | Medium | cpp |
 | 2026-05-25 | #169 [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | cpp |
 | 2026-05-25 | #238 [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | cpp |
-| 2026-05-24 | #1340 [Jump Game V](https://leetcode.com/problems/jump-game-v/) | Hard | cpp |
 
 ## Structure
 
