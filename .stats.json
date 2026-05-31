@@ -1,8 +1,8 @@
 {
   "easy": 70,
-  "medium": 47,
+  "medium": 48,
   "hard": 13,
-  "total": 132,
+  "total": 133,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1057,6 +1057,14 @@
       "slug": "destroying-asteroids",
       "title": "Destroying Asteroids",
       "questionId": "2126",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-31",
+      "slug": "longest-consecutive-sequence",
+      "title": "Longest Consecutive Sequence",
+      "questionId": "128",
       "difficulty": "Medium",
       "lang": "cpp"
     }
