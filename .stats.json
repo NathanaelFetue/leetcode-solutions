@@ -1,8 +1,8 @@
 {
   "easy": 70,
-  "medium": 46,
+  "medium": 47,
   "hard": 13,
-  "total": 131,
+  "total": 132,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1050,6 +1050,14 @@
       "title": "Max Consecutive Ones",
       "questionId": "485",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-31",
+      "slug": "destroying-asteroids",
+      "title": "Destroying Asteroids",
+      "questionId": "2126",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
