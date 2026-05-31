@@ -1,8 +1,8 @@
 {
-  "easy": 69,
+  "easy": 70,
   "medium": 46,
   "hard": 13,
-  "total": 130,
+  "total": 131,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1042,6 +1042,14 @@
       "title": "Block Placement Queries",
       "questionId": "3161",
       "difficulty": "Hard",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-05-31",
+      "slug": "max-consecutive-ones",
+      "title": "Max Consecutive Ones",
+      "questionId": "485",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
