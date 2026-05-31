@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 69 |
+| Easy       | 70 |
 | Medium     | 46 |
 | Hard       | 13 |
-| **Total**  | **130** |
+| **Total**  | **131** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-05-31 | #485 [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | Easy | cpp |
 | 2026-05-30 | #3161 [Block Placement Queries](https://leetcode.com/problems/block-placement-queries/) | Hard | cpp |
 | 2026-05-30 | #36 [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Medium | cpp |
 | 2026-05-29 | #3300 [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/) | Easy | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-05-25 | #238 [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | cpp |
 | 2026-05-24 | #1340 [Jump Game V](https://leetcode.com/problems/jump-game-v/) | Hard | cpp |
 | 2026-05-23 | #347 [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | cpp |
-| 2026-05-23 | #1752 [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) | Easy | cpp |
 
 ## Structure
 
