@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 71 |
+| Easy       | 72 |
 | Medium     | 48 |
 | Hard       | 13 |
-| **Total**  | **134** |
+| **Total**  | **135** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-06-01 | #2144 [Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/) | Easy | cpp |
 | 2026-05-31 | #125 [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | cpp |
 | 2026-05-31 | #128 [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium | cpp |
 | 2026-05-31 | #2126 [Destroying Asteroids](https://leetcode.com/problems/destroying-asteroids/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-05-26 | #3120 [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | Easy | cpp |
 | 2026-05-25 | #1871 [Jump Game VII](https://leetcode.com/problems/jump-game-vii/) | Medium | cpp |
 | 2026-05-25 | #912 [Sort an Array](https://leetcode.com/problems/sort-an-array/) | Medium | cpp |
-| 2026-05-25 | #169 [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | cpp |
 
 ## Structure
 
