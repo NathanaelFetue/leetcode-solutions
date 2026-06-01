@@ -1,8 +1,8 @@
 {
-  "easy": 71,
+  "easy": 72,
   "medium": 48,
   "hard": 13,
-  "total": 134,
+  "total": 135,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1073,6 +1073,14 @@
       "slug": "valid-palindrome",
       "title": "Valid Palindrome",
       "questionId": "125",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-06-01",
+      "slug": "minimum-cost-of-buying-candies-with-discount",
+      "title": "Minimum Cost of Buying Candies With Discount",
+      "questionId": "2144",
       "difficulty": "Easy",
       "lang": "cpp"
     }
