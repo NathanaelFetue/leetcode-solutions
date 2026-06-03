@@ -1,8 +1,8 @@
 {
   "easy": 73,
-  "medium": 48,
+  "medium": 49,
   "hard": 13,
-  "total": 136,
+  "total": 137,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1090,6 +1090,14 @@
       "title": "Earliest Finish Time for Land and Water Rides I",
       "questionId": "3633",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-06-03",
+      "slug": "earliest-finish-time-for-land-and-water-rides-ii",
+      "title": "Earliest Finish Time for Land and Water Rides II",
+      "questionId": "3635",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
