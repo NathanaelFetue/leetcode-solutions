@@ -1,8 +1,8 @@
 {
   "easy": 73,
-  "medium": 49,
+  "medium": 50,
   "hard": 13,
-  "total": 137,
+  "total": 138,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1097,6 +1097,14 @@
       "slug": "earliest-finish-time-for-land-and-water-rides-ii",
       "title": "Earliest Finish Time for Land and Water Rides II",
       "questionId": "3635",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-06-04",
+      "slug": "total-waviness-of-numbers-in-range-i",
+      "title": "Total Waviness of Numbers in Range I",
+      "questionId": "3751",
       "difficulty": "Medium",
       "lang": "cpp"
     }
