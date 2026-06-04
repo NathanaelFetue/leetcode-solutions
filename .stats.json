@@ -1,8 +1,8 @@
 {
-  "easy": 73,
+  "easy": 74,
   "medium": 50,
   "hard": 13,
-  "total": 138,
+  "total": 139,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1106,6 +1106,14 @@
       "title": "Total Waviness of Numbers in Range I",
       "questionId": "3751",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-06-04",
+      "slug": "number-of-senior-citizens",
+      "title": "Number of Senior Citizens",
+      "questionId": "2678",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
