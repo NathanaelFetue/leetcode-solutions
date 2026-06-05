@@ -1,8 +1,8 @@
 {
   "easy": 74,
   "medium": 50,
-  "hard": 13,
-  "total": 139,
+  "hard": 14,
+  "total": 140,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1114,6 +1114,14 @@
       "title": "Number of Senior Citizens",
       "questionId": "2678",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-06-05",
+      "slug": "total-waviness-of-numbers-in-range-ii",
+      "title": "Total Waviness of Numbers in Range II",
+      "questionId": "3753",
+      "difficulty": "Hard",
       "lang": "cpp"
     }
   ],
