@@ -1,8 +1,8 @@
 {
-  "easy": 74,
+  "easy": 75,
   "medium": 50,
   "hard": 14,
-  "total": 140,
+  "total": 141,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1122,6 +1122,14 @@
       "title": "Total Waviness of Numbers in Range II",
       "questionId": "3753",
       "difficulty": "Hard",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-06-06",
+      "slug": "left-and-right-sum-differences",
+      "title": "Left and Right Sum Differences",
+      "questionId": "2574",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
