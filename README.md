@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 74 |
+| Easy       | 75 |
 | Medium     | 50 |
 | Hard       | 14 |
-| **Total**  | **140** |
+| **Total**  | **141** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-06-06 | #2574 [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) | Easy | cpp |
 | 2026-06-05 | #3753 [Total Waviness of Numbers in Range II](https://leetcode.com/problems/total-waviness-of-numbers-in-range-ii/) | Hard | cpp |
 | 2026-06-04 | #2678 [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens/) | Easy | cpp |
 | 2026-06-04 | #3751 [Total Waviness of Numbers in Range I](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-05-30 | #36 [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Medium | cpp |
 | 2026-05-29 | #3300 [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/) | Easy | cpp |
 | 2026-05-29 | #58 [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | Easy | cpp |
-| 2026-05-28 | #3093 [Longest Common Suffix Queries](https://leetcode.com/problems/longest-common-suffix-queries/) | Hard | cpp |
 
 ## Structure
 
