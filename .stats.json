@@ -1,8 +1,8 @@
 {
-  "easy": 75,
+  "easy": 76,
   "medium": 51,
   "hard": 14,
-  "total": 142,
+  "total": 143,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1138,6 +1138,14 @@
       "title": "Create Binary Tree From Descriptions",
       "questionId": "2196",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-06-07",
+      "slug": "sum-of-compatible-numbers-in-range-i",
+      "title": "Sum of Compatible Numbers in Range I",
+      "questionId": "3954",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
