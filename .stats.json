@@ -1,8 +1,8 @@
 {
   "easy": 75,
-  "medium": 50,
+  "medium": 51,
   "hard": 14,
-  "total": 141,
+  "total": 142,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1130,6 +1130,14 @@
       "title": "Left and Right Sum Differences",
       "questionId": "2574",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-06-07",
+      "slug": "create-binary-tree-from-descriptions",
+      "title": "Create Binary Tree From Descriptions",
+      "questionId": "2196",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
