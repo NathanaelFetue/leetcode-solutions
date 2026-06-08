@@ -1,18 +1,17 @@
 /*
- * Problem #2161: Partition Array According to Given Pivot
+ * 2161. Partition Array According to Given Pivot
  * Difficulty: Medium
- * URL: https://leetcode.com/problems/partition-array-according-to-given-pivot/
+ * https://leetcode.com/problems/partition-array-according-to-given-pivot/
  *
- * Approach: Three-pass partitioning using three auxiliary vectors.
- * Iterate through nums once, distributing each element into a 'less', 'equal',
- * or 'greater' bucket based on its comparison to pivot, then concatenate them.
- * This preserves relative order within each partition as required.
+ * Approach: Three-pass partitioning using three separate auxiliary vectors.
+ * Iterate through nums once, placing each element into a 'less', 'equal', or
+ * 'greater' bucket based on its comparison with pivot, then concatenate them.
  *
- * Time Complexity: O(n) - single pass to partition, single pass to concatenate.
- * Space Complexity: O(n) - three auxiliary vectors store all n elements combined.
+ * Time Complexity: O(n) — single pass to partition, single pass to build result.
+ * Space Complexity: O(n) — three auxiliary vectors collectively store all n elements.
  *
- * Runtime: 17 ms
- * Memory: 143.9 MB
+ * Runtime: 12 ms
+ * Memory: 143.7 MB
  */
 
 class Solution {
