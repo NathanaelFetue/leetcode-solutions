@@ -1,8 +1,8 @@
 {
   "easy": 76,
-  "medium": 51,
+  "medium": 52,
   "hard": 14,
-  "total": 143,
+  "total": 144,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1146,6 +1146,14 @@
       "title": "Sum of Compatible Numbers in Range I",
       "questionId": "3954",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-06-08",
+      "slug": "partition-array-according-to-given-pivot",
+      "title": "Partition Array According to Given Pivot",
+      "questionId": "2161",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
