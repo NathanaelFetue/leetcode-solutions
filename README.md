@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 76 |
-| Medium     | 53 |
+| Medium     | 54 |
 | Hard       | 14 |
-| **Total**  | **145** |
+| **Total**  | **146** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-06-09 | #3689 [Maximum Total Subarray Value I](https://leetcode.com/problems/maximum-total-subarray-value-i/) | Medium | cpp |
 | 2026-06-09 | #11 [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | cpp |
 | 2026-06-08 | #2161 [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/) | Medium | cpp |
 | 2026-06-07 | #3954 [Sum of Compatible Numbers in Range I](https://leetcode.com/problems/sum-of-compatible-numbers-in-range-i/) | Easy | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-05-31 | #125 [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | cpp |
 | 2026-05-31 | #128 [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium | cpp |
 | 2026-05-31 | #2126 [Destroying Asteroids](https://leetcode.com/problems/destroying-asteroids/) | Medium | cpp |
-| 2026-05-31 | #485 [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | Easy | cpp |
 
 ## Structure
 
