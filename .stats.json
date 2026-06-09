@@ -1,8 +1,8 @@
 {
   "easy": 76,
-  "medium": 52,
+  "medium": 53,
   "hard": 14,
-  "total": 144,
+  "total": 145,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1153,6 +1153,14 @@
       "slug": "partition-array-according-to-given-pivot",
       "title": "Partition Array According to Given Pivot",
       "questionId": "2161",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-06-09",
+      "slug": "container-with-most-water",
+      "title": "Container With Most Water",
+      "questionId": "11",
       "difficulty": "Medium",
       "lang": "cpp"
     }
