@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 76 |
-| Medium     | 52 |
+| Medium     | 53 |
 | Hard       | 14 |
-| **Total**  | **144** |
+| **Total**  | **145** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-06-09 | #11 [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | cpp |
 | 2026-06-08 | #2161 [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/) | Medium | cpp |
 | 2026-06-07 | #3954 [Sum of Compatible Numbers in Range I](https://leetcode.com/problems/sum-of-compatible-numbers-in-range-i/) | Easy | cpp |
 | 2026-06-07 | #2196 [Create Binary Tree From Descriptions](https://leetcode.com/problems/create-binary-tree-from-descriptions/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-05-31 | #128 [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium | cpp |
 | 2026-05-31 | #2126 [Destroying Asteroids](https://leetcode.com/problems/destroying-asteroids/) | Medium | cpp |
 | 2026-05-31 | #485 [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | Easy | cpp |
-| 2026-05-30 | #3161 [Block Placement Queries](https://leetcode.com/problems/block-placement-queries/) | Hard | cpp |
 
 ## Structure
 
