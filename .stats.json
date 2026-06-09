@@ -1,8 +1,8 @@
 {
   "easy": 76,
-  "medium": 53,
+  "medium": 54,
   "hard": 14,
-  "total": 145,
+  "total": 146,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1161,6 +1161,14 @@
       "slug": "container-with-most-water",
       "title": "Container With Most Water",
       "questionId": "11",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-06-09",
+      "slug": "maximum-total-subarray-value-i",
+      "title": "Maximum Total Subarray Value I",
+      "questionId": "3689",
       "difficulty": "Medium",
       "lang": "cpp"
     }
