@@ -8,13 +8,14 @@ Auto-synced from accepted LeetCode submissions.
 |------------|--------|
 | Easy       | 76 |
 | Medium     | 54 |
-| Hard       | 14 |
-| **Total**  | **146** |
+| Hard       | 15 |
+| **Total**  | **147** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-06-10 | #3691 [Maximum Total Subarray Value II](https://leetcode.com/problems/maximum-total-subarray-value-ii/) | Hard | cpp |
 | 2026-06-09 | #3689 [Maximum Total Subarray Value I](https://leetcode.com/problems/maximum-total-subarray-value-i/) | Medium | cpp |
 | 2026-06-09 | #11 [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | cpp |
 | 2026-06-08 | #2161 [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-06-01 | #2144 [Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/) | Easy | cpp |
 | 2026-05-31 | #125 [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | cpp |
 | 2026-05-31 | #128 [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium | cpp |
-| 2026-05-31 | #2126 [Destroying Asteroids](https://leetcode.com/problems/destroying-asteroids/) | Medium | cpp |
 
 ## Structure
 
