@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 76 |
-| Medium     | 54 |
+| Medium     | 55 |
 | Hard       | 15 |
-| **Total**  | **147** |
+| **Total**  | **148** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-06-11 | #3558 [Number of Ways to Assign Edge Weights I](https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-i/) | Medium | cpp |
 | 2026-06-10 | #3691 [Maximum Total Subarray Value II](https://leetcode.com/problems/maximum-total-subarray-value-ii/) | Hard | cpp |
 | 2026-06-09 | #3689 [Maximum Total Subarray Value I](https://leetcode.com/problems/maximum-total-subarray-value-i/) | Medium | cpp |
 | 2026-06-09 | #11 [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-06-02 | #3633 [Earliest Finish Time for Land and Water Rides I](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/) | Easy | cpp |
 | 2026-06-01 | #2144 [Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/) | Easy | cpp |
 | 2026-05-31 | #125 [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | cpp |
-| 2026-05-31 | #128 [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium | cpp |
 
 ## Structure
 
