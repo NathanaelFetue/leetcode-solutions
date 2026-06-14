@@ -1,8 +1,8 @@
 {
   "easy": 77,
-  "medium": 55,
+  "medium": 56,
   "hard": 15,
-  "total": 149,
+  "total": 150,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1194,6 +1194,14 @@
       "title": "Weighted Word Mapping",
       "questionId": "3838",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-06-14",
+      "slug": "maximum-twin-sum-of-a-linked-list",
+      "title": "Maximum Twin Sum of a Linked List",
+      "questionId": "2130",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
