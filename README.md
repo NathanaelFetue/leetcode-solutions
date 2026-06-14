@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 77 |
-| Medium     | 55 |
+| Medium     | 56 |
 | Hard       | 15 |
-| **Total**  | **149** |
+| **Total**  | **150** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-06-14 | #2130 [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | Medium | cpp |
 | 2026-06-14 | #3838 [Weighted Word Mapping](https://leetcode.com/problems/weighted-word-mapping/) | Easy | cpp |
 | 2026-06-11 | #3558 [Number of Ways to Assign Edge Weights I](https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-i/) | Medium | cpp |
 | 2026-06-10 | #3691 [Maximum Total Subarray Value II](https://leetcode.com/problems/maximum-total-subarray-value-ii/) | Hard | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-06-04 | #3751 [Total Waviness of Numbers in Range I](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) | Medium | cpp |
 | 2026-06-03 | #3635 [Earliest Finish Time for Land and Water Rides II](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/) | Medium | cpp |
 | 2026-06-02 | #3633 [Earliest Finish Time for Land and Water Rides I](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/) | Easy | cpp |
-| 2026-06-01 | #2144 [Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/) | Easy | cpp |
 
 ## Structure
 
