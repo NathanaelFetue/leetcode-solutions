@@ -1,8 +1,8 @@
 {
-  "easy": 76,
+  "easy": 77,
   "medium": 55,
   "hard": 15,
-  "total": 148,
+  "total": 149,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1186,6 +1186,14 @@
       "title": "Number of Ways to Assign Edge Weights I",
       "questionId": "3558",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-06-14",
+      "slug": "weighted-word-mapping",
+      "title": "Weighted Word Mapping",
+      "questionId": "3838",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
