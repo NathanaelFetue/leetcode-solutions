@@ -1,8 +1,8 @@
 {
   "easy": 77,
-  "medium": 56,
+  "medium": 57,
   "hard": 15,
-  "total": 150,
+  "total": 151,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1201,6 +1201,14 @@
       "slug": "maximum-twin-sum-of-a-linked-list",
       "title": "Maximum Twin Sum of a Linked List",
       "questionId": "2130",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-06-15",
+      "slug": "delete-the-middle-node-of-a-linked-list",
+      "title": "Delete the Middle Node of a Linked List",
+      "questionId": "2095",
       "difficulty": "Medium",
       "lang": "cpp"
     }
