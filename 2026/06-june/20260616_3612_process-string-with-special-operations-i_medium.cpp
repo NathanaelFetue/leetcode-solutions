@@ -1,43 +1,32 @@
 /*
- * Problem #3612 - Process String with Special Operations I
- * Difficulty: Medium
- * URL: https://leetcode.com/problems/process-string-with-special-operations-i/
+ * Problem #3612 - Process String with Special Operations I (Medium)
+ * https://leetcode.com/problems/process-string-with-special-operations-i/
  *
- * Approach/Algorithm:
- * Iterates through the input string character by character, maintaining a result string.
- * Lowercase letters are appended directly; '#' doubles the result by appending it to itself;
- * '%' reverses the entire result; '*' removes the last character if the result is non-empty.
+ * Approach: Linear scan simulation using a mutable result string.
+ * Each character is processed once: lowercase letters are appended, '*' removes
+ * the last character, '#' doubles the string by appending it to itself, and '%'
+ * reverses the entire result string in place.
  *
- * Time Complexity: O(n * m) where n is the length of s and m is the max length of result,
- * due to potential string doubling on '#' and reversal on '%'.
+ * Time Complexity: O(n * m) where n is the length of s and m is the max length
+ * of result; '#' and '%' operations iterate over result, making each potentially O(m).
+ * Space Complexity: O(m) where m is the final length of the result string,
+ * which can grow up to exponentially large due to '#' doubling.
  *
- * Space Complexity: O(m) where m is the maximum size the result string can grow to,
- * proportional to the number of lowercase chars and '#' operations.
- *
- * Runtime: 3 ms
+ * Runtime: 7 ms
  * Memory: 39.7 MB
  */
 
 class Solution {
 public:
     string processStr(string s) {
-        char last;
         string result = "";
 
-        for(int i=0; i<s.length();i++){
-            if(islower(s[i])) {
-                result += s[i];
-            }
-            if(s[i] == '#') {
-                result += result;
-            }
-            if(s[i] == '%') {
-                reverse(result.begin() , result.end());
-            }
-            if(s[i] == '*' && result.length() >= 1) {
-                result.pop_back();
-            }
+        for (char c : s) {
+            if (islower(c))              result += c;
+            else if (c == '*' && !result.empty()) result.pop_back();
+            else if (c == '#')           result += result;
+            else if (c == '%')           reverse(result.begin(), result.end());
         }
-        return result;;
+        return result;
     }
 };
