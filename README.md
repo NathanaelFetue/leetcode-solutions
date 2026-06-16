@@ -8,13 +8,14 @@ Auto-synced from accepted LeetCode submissions.
 |------------|--------|
 | Easy       | 78 |
 | Medium     | 58 |
-| Hard       | 15 |
-| **Total**  | **153** |
+| Hard       | 16 |
+| **Total**  | **154** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-06-16 | #42 [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Hard | cpp |
 | 2026-06-16 | #868 [Binary Gap](https://leetcode.com/problems/binary-gap/) | Easy | cpp |
 | 2026-06-16 | #3612 [Process String with Special Operations I](https://leetcode.com/problems/process-string-with-special-operations-i/) | Medium | cpp |
 | 2026-06-15 | #2095 [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-06-07 | #2196 [Create Binary Tree From Descriptions](https://leetcode.com/problems/create-binary-tree-from-descriptions/) | Medium | cpp |
 | 2026-06-06 | #2574 [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) | Easy | cpp |
 | 2026-06-05 | #3753 [Total Waviness of Numbers in Range II](https://leetcode.com/problems/total-waviness-of-numbers-in-range-ii/) | Hard | cpp |
-| 2026-06-04 | #2678 [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens/) | Easy | cpp |
 
 ## Structure
 
