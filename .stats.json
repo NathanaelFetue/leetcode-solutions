@@ -1,8 +1,8 @@
 {
-  "easy": 77,
+  "easy": 78,
   "medium": 58,
   "hard": 15,
-  "total": 152,
+  "total": 153,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1218,6 +1218,14 @@
       "title": "Process String with Special Operations I",
       "questionId": "3612",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-06-16",
+      "slug": "binary-gap",
+      "title": "Binary Gap",
+      "questionId": "868",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
