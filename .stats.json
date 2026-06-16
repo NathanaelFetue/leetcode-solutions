@@ -1,8 +1,8 @@
 {
   "easy": 78,
   "medium": 58,
-  "hard": 15,
-  "total": 153,
+  "hard": 16,
+  "total": 154,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1226,6 +1226,14 @@
       "title": "Binary Gap",
       "questionId": "868",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-06-16",
+      "slug": "trapping-rain-water",
+      "title": "Trapping Rain Water",
+      "questionId": "42",
+      "difficulty": "Hard",
       "lang": "cpp"
     }
   ],
