@@ -1,8 +1,8 @@
 {
   "easy": 77,
-  "medium": 57,
+  "medium": 58,
   "hard": 15,
-  "total": 151,
+  "total": 152,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1209,6 +1209,14 @@
       "slug": "delete-the-middle-node-of-a-linked-list",
       "title": "Delete the Middle Node of a Linked List",
       "questionId": "2095",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-06-16",
+      "slug": "process-string-with-special-operations-i",
+      "title": "Process String with Special Operations I",
+      "questionId": "3612",
       "difficulty": "Medium",
       "lang": "cpp"
     }
