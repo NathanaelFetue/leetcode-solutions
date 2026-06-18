@@ -1,8 +1,8 @@
 {
   "easy": 78,
-  "medium": 58,
+  "medium": 59,
   "hard": 16,
-  "total": 154,
+  "total": 155,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1234,6 +1234,14 @@
       "title": "Trapping Rain Water",
       "questionId": "42",
       "difficulty": "Hard",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-06-18",
+      "slug": "angle-between-hands-of-a-clock",
+      "title": "Angle Between Hands of a Clock",
+      "questionId": "1344",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
