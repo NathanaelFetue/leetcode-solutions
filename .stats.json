@@ -1,8 +1,8 @@
 {
-  "easy": 78,
+  "easy": 79,
   "medium": 59,
   "hard": 16,
-  "total": 155,
+  "total": 156,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1242,6 +1242,14 @@
       "title": "Angle Between Hands of a Clock",
       "questionId": "1344",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-06-19",
+      "slug": "find-the-highest-altitude",
+      "title": "Find the Highest Altitude",
+      "questionId": "1732",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
