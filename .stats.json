@@ -1,8 +1,8 @@
 {
   "easy": 79,
-  "medium": 59,
+  "medium": 60,
   "hard": 16,
-  "total": 156,
+  "total": 157,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1250,6 +1250,14 @@
       "title": "Find the Highest Altitude",
       "questionId": "1732",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-06-19",
+      "slug": "construct-the-minimum-bitwise-array-ii",
+      "title": "Construct the Minimum Bitwise Array II",
+      "questionId": "3315",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
