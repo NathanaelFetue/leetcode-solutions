@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 79 |
-| Medium     | 60 |
+| Medium     | 61 |
 | Hard       | 16 |
-| **Total**  | **157** |
+| **Total**  | **158** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-06-19 | #3 [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | python3 |
 | 2026-06-19 | #3315 [Construct the Minimum Bitwise Array II](https://leetcode.com/problems/construct-the-minimum-bitwise-array-ii/) | Medium | cpp |
 | 2026-06-19 | #1732 [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/) | Easy | cpp |
 | 2026-06-18 | #1344 [Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-06-09 | #3689 [Maximum Total Subarray Value I](https://leetcode.com/problems/maximum-total-subarray-value-i/) | Medium | cpp |
 | 2026-06-09 | #11 [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | cpp |
 | 2026-06-08 | #2161 [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/) | Medium | cpp |
-| 2026-06-07 | #3954 [Sum of Compatible Numbers in Range I](https://leetcode.com/problems/sum-of-compatible-numbers-in-range-i/) | Easy | cpp |
 
 ## Structure
 
