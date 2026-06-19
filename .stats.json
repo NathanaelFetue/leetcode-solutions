@@ -1,8 +1,8 @@
 {
   "easy": 79,
-  "medium": 60,
+  "medium": 61,
   "hard": 16,
-  "total": 157,
+  "total": 158,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1259,6 +1259,14 @@
       "questionId": "3315",
       "difficulty": "Medium",
       "lang": "cpp"
+    },
+    {
+      "date": "2026-06-19",
+      "slug": "longest-substring-without-repeating-characters",
+      "title": "Longest Substring Without Repeating Characters",
+      "questionId": "3",
+      "difficulty": "Medium",
+      "lang": "python3"
     }
   ],
   "unknown": 2
