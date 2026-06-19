@@ -3,19 +3,18 @@
  * Difficulty: Medium
  * URL: https://leetcode.com/problems/construct-the-minimum-bitwise-array-ii/
  *
- * Approach/Algorithm:
- * For each prime number in nums, we need to find the smallest x such that (x | (x+1)) == nums[i].
- * The key insight is that (x | (x+1)) sets the lowest 0-bit of x to 1, so to reverse this,
- * we find the position q of the lowest 0-bit in nums[i] and clear the bit just below it (q-1).
- * If nums[i] == 2 (binary 10), no valid x exists, so we return -1 for that entry.
+ * Approach: For each number in nums, we need to find the minimum x such that x | (x+1) == nums[i].
+ * The key insight is that x | (x+1) flips the lowest 0-bit of x to 1, so we find the position of
+ * the lowest 0-bit in nums[i] (by scanning past trailing 1s) and clear the bit just below it.
+ * Special case: nums[i] == 2 has no valid answer, so it remains -1.
  *
- * Time Complexity: O(n * log(max_val)) - for each of the n elements we scan at most log2(nums[i]) bits
- * to find the lowest zero bit.
+ * Algorithm: Bit manipulation - find lowest 0-bit position q via trailing 1s scan,
+ * then compute result as nums[i] XOR (1 << (q-1)) to clear the bit below the lowest 0-bit.
  *
+ * Time Complexity: O(n * log(max_val)) - for each of n elements, we scan up to log2(max_val) bits.
  * Space Complexity: O(n) - for the result array of size n.
  *
- * Runtime: 3 ms
- * Memory: 28.2 MB
+ * Runtime: 0 ms | Memory: 28.1 MB
  */
 
 class Solution {
