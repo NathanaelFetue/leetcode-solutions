@@ -1,8 +1,8 @@
 {
   "easy": 79,
   "medium": 61,
-  "hard": 16,
-  "total": 158,
+  "hard": 17,
+  "total": 159,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1267,6 +1267,14 @@
       "questionId": "3",
       "difficulty": "Medium",
       "lang": "python3"
+    },
+    {
+      "date": "2026-06-20",
+      "slug": "maximum-building-height",
+      "title": "Maximum Building Height",
+      "questionId": "1840",
+      "difficulty": "Hard",
+      "lang": "cpp"
     }
   ],
   "unknown": 2
