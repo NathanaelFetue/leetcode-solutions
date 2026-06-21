@@ -1,30 +1,39 @@
 /*
- * 1833. Maximum Ice Cream Bars - Medium
- * https://leetcode.com/problems/maximum-ice-cream-bars/
+ * Problem #1833 - Maximum Ice Cream Bars (Medium)
+ * URL: https://leetcode.com/problems/maximum-ice-cream-bars/
  *
- * Approach: Greedy with Sorting
- * Sort the costs array in ascending order so the cheapest ice cream bars come first.
- * Iterate through the sorted costs, greedily purchasing each bar if coins remain sufficient, stopping as soon as we can no longer afford the next bar.
- * This greedy strategy guarantees the maximum number of bars since spending less per bar leaves more coins for additional purchases.
+ * Approach: Counting Sort / Frequency Array Greedy
+ * Build a frequency array indexed by cost value, then greedily iterate from
+ * the cheapest cost upward, buying as many bars as possible at each price
+ * level given the remaining coins. This ensures we maximize the count.
  *
- * Time Complexity: O(n log n) - dominated by sorting the costs array of size n.
- * Space Complexity: O(1) - sorting is done in-place and only a constant number of extra variables are used (excluding input).
+ * Time Complexity: O(n + m) where n is the number of bars and m is the
+ * maximum cost value. Building the frequency array is O(n) and iterating
+ * over it is O(m).
  *
- * Runtime: 38 ms
- * Memory: 80.2 MB
+ * Space Complexity: O(m) where m is the maximum cost value, used for the
+ * frequency array.
+ *
+ * Runtime: 0 ms
+ * Memory: 84.5 MB
  */
 
 class Solution {
 public:
     int maxIceCream(vector<int>& costs, int coins) {
-        sort(costs.begin(), costs.end());
-        int count = 0;
+        int big = *max_element(costs.begin(), costs.end());
+        vector<int> freq(big + 1, 0);
 
-        for (int cost : costs) {
-            if (coins < cost) break;
-            coins -= cost;
-            count++;
+        for (int c : costs) freq[c]++;
+
+        int nb = 0;
+        for (int i = 1; i < freq.size(); i++) {
+            if (coins <= 0 || freq[i] == 0) continue;
+
+            int canBuy = min(freq[i], coins / i);
+            nb += canBuy;
+            coins -= canBuy * i;
         }
-        return count;
+        return nb;
     }
 };
