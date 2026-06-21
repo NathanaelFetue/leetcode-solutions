@@ -1,8 +1,8 @@
 {
   "easy": 79,
-  "medium": 61,
+  "medium": 62,
   "hard": 17,
-  "total": 159,
+  "total": 160,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1274,6 +1274,14 @@
       "title": "Maximum Building Height",
       "questionId": "1840",
       "difficulty": "Hard",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-06-21",
+      "slug": "maximum-ice-cream-bars",
+      "title": "Maximum Ice Cream Bars",
+      "questionId": "1833",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
