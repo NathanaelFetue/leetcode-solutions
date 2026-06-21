@@ -1,21 +1,19 @@
 /*
  * Problem #1833 - Maximum Ice Cream Bars (Medium)
- * URL: https://leetcode.com/problems/maximum-ice-cream-bars/
+ * LeetCode URL: https://leetcode.com/problems/maximum-ice-cream-bars/
  *
- * Approach: Counting Sort / Frequency Array Greedy
- * Build a frequency array indexed by cost value, then greedily iterate from
- * the cheapest cost upward, buying as many bars as possible at each price
- * level given the remaining coins. This ensures we maximize the count.
+ * Approach: Greedy with Counting Sort (Frequency Array)
+ * Build a frequency array indexed by cost value, then greedily purchase as many
+ * bars as possible starting from the cheapest price, buying the maximum affordable
+ * quantity at each price level before moving to the next.
  *
- * Time Complexity: O(n + m) where n is the number of bars and m is the
- * maximum cost value. Building the frequency array is O(n) and iterating
- * over it is O(m).
+ * Time Complexity: O(n + m) where n is the number of bars and m is the maximum
+ * cost value. One pass to build frequency array, one pass over cost range.
  *
- * Space Complexity: O(m) where m is the maximum cost value, used for the
- * frequency array.
+ * Space Complexity: O(m) for the frequency array of size max_cost + 1.
  *
- * Runtime: 0 ms
- * Memory: 84.5 MB
+ * Runtime: 4 ms
+ * Memory: 84.4 MB
  */
 
 class Solution {
