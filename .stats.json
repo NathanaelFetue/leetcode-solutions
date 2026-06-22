@@ -1,8 +1,8 @@
 {
-  "easy": 80,
+  "easy": 81,
   "medium": 62,
   "hard": 17,
-  "total": 161,
+  "total": 162,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1289,6 +1289,14 @@
       "slug": "maximum-number-of-balloons",
       "title": "Maximum Number of Balloons",
       "questionId": "1189",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-06-22",
+      "slug": "rearrange-characters-to-make-target-string",
+      "title": "Rearrange Characters to Make Target String",
+      "questionId": "2287",
       "difficulty": "Easy",
       "lang": "cpp"
     }
