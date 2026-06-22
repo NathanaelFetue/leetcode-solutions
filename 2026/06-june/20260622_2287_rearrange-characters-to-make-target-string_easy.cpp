@@ -1,21 +1,20 @@
 /*
- * 2287. Rearrange Characters to Make Target String - Easy
+ * 2287. Rearrange Characters to Make Target String (Easy)
  * https://leetcode.com/problems/rearrange-characters-to-make-target-string/
  *
- * Approach: Frequency Count with Division
+ * Approach: Frequency Count
  * Count the frequency of each character in both s and target using hash maps.
- * For each character required by target, compute how many times it can be
- * supplied from s by integer division (mp1[c] / freq), then take the minimum
- * across all target characters to determine the maximum number of copies.
+ * For each character required by target, compute how many complete copies can be
+ * formed by dividing its count in s by its required count in target. The answer
+ * is the minimum across all such characters.
  *
- * Time Complexity : O(n + m) where n = len(s) and m = len(target)
- *   - Single pass over each string to build frequency maps, then one pass
- *     over the unique characters in target.
- * Space Complexity: O(1) - at most 26 distinct lowercase letters stored in maps,
- *   so space is bounded by the alphabet size, not input length.
+ * Time Complexity : O(n + m) where n = len(s) and m = len(target),
+ *                   for building the two frequency maps and iterating over target chars.
+ * Space Complexity: O(1) since the maps hold at most 26 distinct lowercase letters,
+ *                   which is a constant bound regardless of input size.
  *
- * Runtime : 1 ms
- * Memory  : 8.9 MB
+ * Runtime : 3 ms
+ * Memory  : 8.7 MB
  */
 
 class Solution {
