@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 79 |
+| Easy       | 80 |
 | Medium     | 62 |
 | Hard       | 17 |
-| **Total**  | **160** |
+| **Total**  | **161** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-06-22 | #1189 [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | Easy | cpp |
 | 2026-06-21 | #1833 [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/) | Medium | cpp |
 | 2026-06-20 | #1840 [Maximum Building Height](https://leetcode.com/problems/maximum-building-height/) | Hard | cpp |
 | 2026-06-19 | #3 [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | python3 |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-06-14 | #3838 [Weighted Word Mapping](https://leetcode.com/problems/weighted-word-mapping/) | Easy | cpp |
 | 2026-06-11 | #3558 [Number of Ways to Assign Edge Weights I](https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-i/) | Medium | cpp |
 | 2026-06-10 | #3691 [Maximum Total Subarray Value II](https://leetcode.com/problems/maximum-total-subarray-value-ii/) | Hard | cpp |
-| 2026-06-09 | #3689 [Maximum Total Subarray Value I](https://leetcode.com/problems/maximum-total-subarray-value-i/) | Medium | cpp |
 
 ## Structure
 
