@@ -1,8 +1,8 @@
 {
-  "easy": 79,
+  "easy": 80,
   "medium": 62,
   "hard": 17,
-  "total": 160,
+  "total": 161,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1282,6 +1282,14 @@
       "title": "Maximum Ice Cream Bars",
       "questionId": "1833",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-06-22",
+      "slug": "maximum-number-of-balloons",
+      "title": "Maximum Number of Balloons",
+      "questionId": "1189",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
