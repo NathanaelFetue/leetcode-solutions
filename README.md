@@ -8,13 +8,14 @@ Auto-synced from accepted LeetCode submissions.
 |------------|--------|
 | Easy       | 81 |
 | Medium     | 62 |
-| Hard       | 17 |
-| **Total**  | **162** |
+| Hard       | 18 |
+| **Total**  | **163** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-06-23 | #3699 [Number of ZigZag Arrays I](https://leetcode.com/problems/number-of-zigzag-arrays-i/) | Hard | cpp |
 | 2026-06-22 | #2287 [Rearrange Characters to Make Target String](https://leetcode.com/problems/rearrange-characters-to-make-target-string/) | Easy | cpp |
 | 2026-06-22 | #1189 [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | Easy | cpp |
 | 2026-06-21 | #1833 [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-06-15 | #2095 [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) | Medium | cpp |
 | 2026-06-14 | #2130 [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | Medium | cpp |
 | 2026-06-14 | #3838 [Weighted Word Mapping](https://leetcode.com/problems/weighted-word-mapping/) | Easy | cpp |
-| 2026-06-11 | #3558 [Number of Ways to Assign Edge Weights I](https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-i/) | Medium | cpp |
 
 ## Structure
 
