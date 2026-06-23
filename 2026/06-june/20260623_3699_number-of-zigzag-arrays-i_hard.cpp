@@ -1,21 +1,18 @@
 /*
- * Problem #3699 - Number of ZigZag Arrays I
+ * Problem #3699: Number of ZigZag Arrays I
  * Difficulty: Hard
  * URL: https://leetcode.com/problems/number-of-zigzag-arrays-i/
  *
- * Approach: Dynamic Programming with prefix/suffix sums over value ranges.
- * dp0[y] = number of zigzag arrays ending with value y where last step was descending (or start),
- * dp1[y] = number ending with value y where last step was ascending.
- * At each position, use prefix sums of dp1 for transitions requiring a smaller next value,
- * and suffix sums of dp0 for transitions requiring a larger next value, enabling O(m) per step.
+ * Approach: Dynamic Programming with Prefix/Suffix Sum Optimization
+ * dp0[x] stores the number of valid zigzag arrays of length i ending at value (l+x) where the last step was descending (or it is the first element).
+ * dp1[x] similarly tracks arrays where the last step was ascending. For each new element y, ndp0[y] sums all dp1[x] where x > y (strictly less, via prefix sum), and ndp1[y] sums all dp0[x] where x < y (via suffix sum), reducing the naive O(m^2) per step to O(m).
  *
- * Time Complexity: O(n * m) where m = r - l + 1 (value range size) and n is array length.
- * Each of the n-1 transitions processes the m possible values in linear time via prefix/suffix scans.
+ * Time Complexity: O(n * m) where m = r - l + 1 (range size) and n is the array length.
+ *   Each of the n-1 transitions processes m elements with O(1) work each using prefix/suffix arrays.
  *
- * Space Complexity: O(m) — only a fixed number of vectors of size m (and m+1) are allocated,
- * with in-place swaps avoiding any extra allocation per iteration.
+ * Space Complexity: O(m) for the dp arrays, prefix/suffix arrays, and temporary buffers.
  *
- * Runtime: 723 ms | Memory: 25.8 MB
+ * Runtime: 732 ms | Memory: 25.8 MB
  */
 
 class Solution {
@@ -24,7 +21,6 @@ public:
         const int MOD = 1e9 + 7;
         int m = r - l + 1;
 
-        // Pré-allouer une seule fois
         vector<long long> dp0(m, 1), dp1(m, 1);
         vector<long long> ndp0(m), ndp1(m);
         vector<long long> pre(m + 1), suf(m + 1);
@@ -46,7 +42,7 @@ public:
                 ndp1[y] = suf[y + 1];
             }
 
-            swap(dp0, ndp0); // O(1) pas de copie
+            swap(dp0, ndp0);
             swap(dp1, ndp1);
         }
 
