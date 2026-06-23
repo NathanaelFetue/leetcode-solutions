@@ -1,8 +1,8 @@
 {
   "easy": 81,
   "medium": 62,
-  "hard": 17,
-  "total": 162,
+  "hard": 18,
+  "total": 163,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1298,6 +1298,14 @@
       "title": "Rearrange Characters to Make Target String",
       "questionId": "2287",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-06-23",
+      "slug": "number-of-zigzag-arrays-i",
+      "title": "Number of ZigZag Arrays I",
+      "questionId": "3699",
+      "difficulty": "Hard",
       "lang": "cpp"
     }
   ],
