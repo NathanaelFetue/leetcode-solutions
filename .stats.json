@@ -1,8 +1,8 @@
 {
   "easy": 81,
   "medium": 63,
-  "hard": 18,
-  "total": 164,
+  "hard": 19,
+  "total": 165,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1314,6 +1314,14 @@
       "title": "Sort Colors",
       "questionId": "75",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-06-24",
+      "slug": "number-of-zigzag-arrays-ii",
+      "title": "Number of ZigZag Arrays II",
+      "questionId": "3700",
+      "difficulty": "Hard",
       "lang": "cpp"
     }
   ],
