@@ -8,13 +8,14 @@ Auto-synced from accepted LeetCode submissions.
 |------------|--------|
 | Easy       | 81 |
 | Medium     | 63 |
-| Hard       | 18 |
-| **Total**  | **164** |
+| Hard       | 19 |
+| **Total**  | **165** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-06-24 | #3700 [Number of ZigZag Arrays II](https://leetcode.com/problems/number-of-zigzag-arrays-ii/) | Hard | cpp |
 | 2026-06-23 | #75 [Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium | cpp |
 | 2026-06-23 | #3699 [Number of ZigZag Arrays I](https://leetcode.com/problems/number-of-zigzag-arrays-i/) | Hard | cpp |
 | 2026-06-22 | #2287 [Rearrange Characters to Make Target String](https://leetcode.com/problems/rearrange-characters-to-make-target-string/) | Easy | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-06-16 | #868 [Binary Gap](https://leetcode.com/problems/binary-gap/) | Easy | cpp |
 | 2026-06-16 | #3612 [Process String with Special Operations I](https://leetcode.com/problems/process-string-with-special-operations-i/) | Medium | cpp |
 | 2026-06-15 | #2095 [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) | Medium | cpp |
-| 2026-06-14 | #2130 [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | Medium | cpp |
 
 ## Structure
 
