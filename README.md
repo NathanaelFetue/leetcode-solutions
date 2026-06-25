@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 81 |
-| Medium     | 64 |
+| Medium     | 65 |
 | Hard       | 19 |
-| **Total**  | **166** |
+| **Total**  | **167** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-06-25 | #5 [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | cpp |
 | 2026-06-25 | #3737 [Count Subarrays With Majority Element I](https://leetcode.com/problems/count-subarrays-with-majority-element-i/) | Medium | cpp |
 | 2026-06-24 | #3700 [Number of ZigZag Arrays II](https://leetcode.com/problems/number-of-zigzag-arrays-ii/) | Hard | cpp |
 | 2026-06-23 | #75 [Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-06-18 | #1344 [Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/) | Medium | cpp |
 | 2026-06-16 | #42 [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Hard | cpp |
 | 2026-06-16 | #868 [Binary Gap](https://leetcode.com/problems/binary-gap/) | Easy | cpp |
-| 2026-06-16 | #3612 [Process String with Special Operations I](https://leetcode.com/problems/process-string-with-special-operations-i/) | Medium | cpp |
 
 ## Structure
 
