@@ -1,8 +1,8 @@
 {
   "easy": 81,
-  "medium": 64,
+  "medium": 65,
   "hard": 19,
-  "total": 166,
+  "total": 167,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1329,6 +1329,14 @@
       "slug": "count-subarrays-with-majority-element-i",
       "title": "Count Subarrays With Majority Element I",
       "questionId": "3737",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-06-25",
+      "slug": "longest-palindromic-substring",
+      "title": "Longest Palindromic Substring",
+      "questionId": "5",
       "difficulty": "Medium",
       "lang": "cpp"
     }
