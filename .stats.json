@@ -1,8 +1,8 @@
 {
   "easy": 81,
-  "medium": 63,
+  "medium": 64,
   "hard": 19,
-  "total": 165,
+  "total": 166,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1322,6 +1322,14 @@
       "title": "Number of ZigZag Arrays II",
       "questionId": "3700",
       "difficulty": "Hard",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-06-25",
+      "slug": "count-subarrays-with-majority-element-i",
+      "title": "Count Subarrays With Majority Element I",
+      "questionId": "3737",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
