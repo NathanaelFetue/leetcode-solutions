@@ -1,8 +1,8 @@
 {
   "easy": 81,
-  "medium": 65,
+  "medium": 66,
   "hard": 20,
-  "total": 168,
+  "total": 169,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1346,6 +1346,14 @@
       "title": "Count Subarrays With Majority Element II",
       "questionId": "3739",
       "difficulty": "Hard",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-06-27",
+      "slug": "find-the-maximum-number-of-elements-in-subset",
+      "title": "Find the Maximum Number of Elements in Subset",
+      "questionId": "3020",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
