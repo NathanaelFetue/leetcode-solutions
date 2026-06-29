@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 81 |
+| Easy       | 82 |
 | Medium     | 67 |
 | Hard       | 20 |
-| **Total**  | **170** |
+| **Total**  | **171** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-06-29 | #1967 [Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/) | Easy | cpp |
 | 2026-06-29 | #1846 [Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/) | Medium | cpp |
 | 2026-06-27 | #3020 [Find the Maximum Number of Elements in Subset](https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/) | Medium | cpp |
 | 2026-06-26 | #3739 [Count Subarrays With Majority Element II](https://leetcode.com/problems/count-subarrays-with-majority-element-ii/) | Hard | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-06-20 | #1840 [Maximum Building Height](https://leetcode.com/problems/maximum-building-height/) | Hard | cpp |
 | 2026-06-19 | #3 [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | python3 |
 | 2026-06-19 | #3315 [Construct the Minimum Bitwise Array II](https://leetcode.com/problems/construct-the-minimum-bitwise-array-ii/) | Medium | cpp |
-| 2026-06-19 | #1732 [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/) | Easy | cpp |
 
 ## Structure
 
