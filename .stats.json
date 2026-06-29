@@ -1,8 +1,8 @@
 {
   "easy": 81,
-  "medium": 66,
+  "medium": 67,
   "hard": 20,
-  "total": 169,
+  "total": 170,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1353,6 +1353,14 @@
       "slug": "find-the-maximum-number-of-elements-in-subset",
       "title": "Find the Maximum Number of Elements in Subset",
       "questionId": "3020",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-06-29",
+      "slug": "maximum-element-after-decreasing-and-rearranging",
+      "title": "Maximum Element After Decreasing and Rearranging",
+      "questionId": "1846",
       "difficulty": "Medium",
       "lang": "cpp"
     }
