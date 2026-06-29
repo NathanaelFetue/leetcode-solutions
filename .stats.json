@@ -1,8 +1,8 @@
 {
-  "easy": 81,
+  "easy": 82,
   "medium": 67,
   "hard": 20,
-  "total": 170,
+  "total": 171,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1362,6 +1362,14 @@
       "title": "Maximum Element After Decreasing and Rearranging",
       "questionId": "1846",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-06-29",
+      "slug": "number-of-strings-that-appear-as-substrings-in-word",
+      "title": "Number of Strings That Appear as Substrings in Word",
+      "questionId": "1967",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
