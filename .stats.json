@@ -1,8 +1,8 @@
 {
   "easy": 82,
-  "medium": 67,
+  "medium": 68,
   "hard": 20,
-  "total": 171,
+  "total": 172,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1370,6 +1370,14 @@
       "title": "Number of Strings That Appear as Substrings in Word",
       "questionId": "1967",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-06-30",
+      "slug": "number-of-substrings-containing-all-three-characters",
+      "title": "Number of Substrings Containing All Three Characters",
+      "questionId": "1358",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
