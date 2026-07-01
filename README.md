@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 82 |
-| Medium     | 68 |
+| Medium     | 69 |
 | Hard       | 20 |
-| **Total**  | **172** |
+| **Total**  | **173** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-07-01 | #2812 [Find the Safest Path in a Grid](https://leetcode.com/problems/find-the-safest-path-in-a-grid/) | Medium | cpp |
 | 2026-06-30 | #1358 [Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/) | Medium | cpp |
 | 2026-06-29 | #1967 [Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/) | Easy | cpp |
 | 2026-06-29 | #1846 [Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-06-22 | #1189 [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | Easy | cpp |
 | 2026-06-21 | #1833 [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/) | Medium | cpp |
 | 2026-06-20 | #1840 [Maximum Building Height](https://leetcode.com/problems/maximum-building-height/) | Hard | cpp |
-| 2026-06-19 | #3 [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | python3 |
 
 ## Structure
 
