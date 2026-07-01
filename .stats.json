@@ -1,8 +1,8 @@
 {
   "easy": 82,
-  "medium": 68,
+  "medium": 69,
   "hard": 20,
-  "total": 172,
+  "total": 173,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1377,6 +1377,14 @@
       "slug": "number-of-substrings-containing-all-three-characters",
       "title": "Number of Substrings Containing All Three Characters",
       "questionId": "1358",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-01",
+      "slug": "find-the-safest-path-in-a-grid",
+      "title": "Find the Safest Path in a Grid",
+      "questionId": "2812",
       "difficulty": "Medium",
       "lang": "cpp"
     }
