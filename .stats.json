@@ -1,8 +1,8 @@
 {
   "easy": 82,
-  "medium": 69,
+  "medium": 70,
   "hard": 20,
-  "total": 173,
+  "total": 174,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1385,6 +1385,14 @@
       "slug": "find-the-safest-path-in-a-grid",
       "title": "Find the Safest Path in a Grid",
       "questionId": "2812",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-02",
+      "slug": "find-a-safe-walk-through-a-grid",
+      "title": "Find a Safe Walk Through a Grid",
+      "questionId": "3286",
       "difficulty": "Medium",
       "lang": "cpp"
     }
