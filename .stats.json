@@ -1,8 +1,8 @@
 {
   "easy": 82,
   "medium": 70,
-  "hard": 20,
-  "total": 174,
+  "hard": 21,
+  "total": 175,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1394,6 +1394,14 @@
       "title": "Find a Safe Walk Through a Grid",
       "questionId": "3286",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-03",
+      "slug": "network-recovery-pathways",
+      "title": "Network Recovery Pathways",
+      "questionId": "3620",
+      "difficulty": "Hard",
       "lang": "cpp"
     }
   ],
