@@ -8,13 +8,14 @@ Auto-synced from accepted LeetCode submissions.
 |------------|--------|
 | Easy       | 82 |
 | Medium     | 70 |
-| Hard       | 20 |
-| **Total**  | **174** |
+| Hard       | 21 |
+| **Total**  | **175** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-07-03 | #3620 [Network Recovery Pathways](https://leetcode.com/problems/network-recovery-pathways/) | Hard | cpp |
 | 2026-07-02 | #3286 [Find a Safe Walk Through a Grid](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) | Medium | cpp |
 | 2026-07-01 | #2812 [Find the Safest Path in a Grid](https://leetcode.com/problems/find-the-safest-path-in-a-grid/) | Medium | cpp |
 | 2026-06-30 | #1358 [Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-06-23 | #3699 [Number of ZigZag Arrays I](https://leetcode.com/problems/number-of-zigzag-arrays-i/) | Hard | cpp |
 | 2026-06-22 | #2287 [Rearrange Characters to Make Target String](https://leetcode.com/problems/rearrange-characters-to-make-target-string/) | Easy | cpp |
 | 2026-06-22 | #1189 [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | Easy | cpp |
-| 2026-06-21 | #1833 [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/) | Medium | cpp |
 
 ## Structure
 
