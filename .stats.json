@@ -1,8 +1,8 @@
 {
   "easy": 82,
-  "medium": 70,
+  "medium": 71,
   "hard": 21,
-  "total": 175,
+  "total": 176,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1402,6 +1402,14 @@
       "title": "Network Recovery Pathways",
       "questionId": "3620",
       "difficulty": "Hard",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-04",
+      "slug": "minimum-score-of-a-path-between-two-cities",
+      "title": "Minimum Score of a Path Between Two Cities",
+      "questionId": "2492",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
