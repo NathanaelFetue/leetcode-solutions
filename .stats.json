@@ -1,8 +1,8 @@
 {
   "easy": 82,
   "medium": 71,
-  "hard": 21,
-  "total": 176,
+  "hard": 22,
+  "total": 177,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1410,6 +1410,14 @@
       "title": "Minimum Score of a Path Between Two Cities",
       "questionId": "2492",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-05",
+      "slug": "number-of-paths-with-max-score",
+      "title": "Number of Paths with Max Score",
+      "questionId": "1301",
+      "difficulty": "Hard",
       "lang": "cpp"
     }
   ],
