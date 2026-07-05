@@ -8,13 +8,14 @@ Auto-synced from accepted LeetCode submissions.
 |------------|--------|
 | Easy       | 82 |
 | Medium     | 71 |
-| Hard       | 21 |
-| **Total**  | **176** |
+| Hard       | 22 |
+| **Total**  | **177** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-07-05 | #1301 [Number of Paths with Max Score](https://leetcode.com/problems/number-of-paths-with-max-score/) | Hard | cpp |
 | 2026-07-04 | #2492 [Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/) | Medium | cpp |
 | 2026-07-03 | #3620 [Network Recovery Pathways](https://leetcode.com/problems/network-recovery-pathways/) | Hard | cpp |
 | 2026-07-02 | #3286 [Find a Safe Walk Through a Grid](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-06-24 | #3700 [Number of ZigZag Arrays II](https://leetcode.com/problems/number-of-zigzag-arrays-ii/) | Hard | cpp |
 | 2026-06-23 | #75 [Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium | cpp |
 | 2026-06-23 | #3699 [Number of ZigZag Arrays I](https://leetcode.com/problems/number-of-zigzag-arrays-i/) | Hard | cpp |
-| 2026-06-22 | #2287 [Rearrange Characters to Make Target String](https://leetcode.com/problems/rearrange-characters-to-make-target-string/) | Easy | cpp |
 
 ## Structure
 
