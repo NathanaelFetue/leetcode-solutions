@@ -1,8 +1,8 @@
 {
   "easy": 82,
-  "medium": 71,
+  "medium": 72,
   "hard": 22,
-  "total": 177,
+  "total": 178,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1418,6 +1418,14 @@
       "title": "Number of Paths with Max Score",
       "questionId": "1301",
       "difficulty": "Hard",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-06",
+      "slug": "remove-covered-intervals",
+      "title": "Remove Covered Intervals",
+      "questionId": "1288",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
