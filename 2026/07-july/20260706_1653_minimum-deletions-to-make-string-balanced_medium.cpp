@@ -1,17 +1,17 @@
 /*
- * Problem #1653: Minimum Deletions to Make String Balanced (Medium)
+ * Problem #1653 - Minimum Deletions to Make String Balanced (Medium)
  * URL: https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/
  *
  * Approach: Dynamic Programming with 'b' count tracking.
- * At each character, dp[i] represents the minimum deletions to make s[0..i] balanced.
- * For 'b', dp[i] = dp[i-1] (no deletion needed); for 'a', dp[i] = min(dp[i-1]+1, countB),
- * choosing between deleting this 'a' or deleting all 'b's seen so far.
+ * dp[i] represents the minimum deletions to make s[0..i] balanced.
+ * For each 'b', dp[i] = dp[i-1] (no deletion needed). For each 'a', dp[i] = min(dp[i-1]+1, countB),
+ * choosing between deleting the current 'a' or deleting all 'b's seen so far.
  *
- * Time Complexity : O(n) — single linear pass through the string of length n.
- * Space Complexity: O(n) — dp array of size n (reducible to O(1) with two variables).
+ * Time Complexity: O(n) - single pass through the string of length n.
+ * Space Complexity: O(n) - dp array of size n.
  *
- * Runtime : 23 ms
- * Memory  : 40.3 MB
+ * Runtime: 23 ms
+ * Memory: 40.6 MB
  */
 
 class Solution {
