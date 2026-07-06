@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 82 |
-| Medium     | 71 |
+| Medium     | 72 |
 | Hard       | 22 |
-| **Total**  | **177** |
+| **Total**  | **178** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-07-06 | #1288 [Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/) | Medium | cpp |
 | 2026-07-05 | #1301 [Number of Paths with Max Score](https://leetcode.com/problems/number-of-paths-with-max-score/) | Hard | cpp |
 | 2026-07-04 | #2492 [Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/) | Medium | cpp |
 | 2026-07-03 | #3620 [Network Recovery Pathways](https://leetcode.com/problems/network-recovery-pathways/) | Hard | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-06-25 | #3737 [Count Subarrays With Majority Element I](https://leetcode.com/problems/count-subarrays-with-majority-element-i/) | Medium | cpp |
 | 2026-06-24 | #3700 [Number of ZigZag Arrays II](https://leetcode.com/problems/number-of-zigzag-arrays-ii/) | Hard | cpp |
 | 2026-06-23 | #75 [Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium | cpp |
-| 2026-06-23 | #3699 [Number of ZigZag Arrays I](https://leetcode.com/problems/number-of-zigzag-arrays-i/) | Hard | cpp |
 
 ## Structure
 
