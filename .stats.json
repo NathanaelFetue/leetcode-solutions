@@ -1,8 +1,8 @@
 {
   "easy": 82,
-  "medium": 72,
+  "medium": 73,
   "hard": 22,
-  "total": 178,
+  "total": 179,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1425,6 +1425,14 @@
       "slug": "remove-covered-intervals",
       "title": "Remove Covered Intervals",
       "questionId": "1288",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-06",
+      "slug": "minimum-deletions-to-make-string-balanced",
+      "title": "Minimum Deletions to Make String Balanced",
+      "questionId": "1653",
       "difficulty": "Medium",
       "lang": "cpp"
     }
