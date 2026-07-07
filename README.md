@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 82 |
+| Easy       | 83 |
 | Medium     | 73 |
 | Hard       | 22 |
-| **Total**  | **179** |
+| **Total**  | **180** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-07-07 | #3754 [Concatenate Non-Zero Digits and Multiply by Sum I](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/) | Easy | cpp |
 | 2026-07-06 | #1653 [Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/) | Medium | cpp |
 | 2026-07-06 | #1288 [Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/) | Medium | cpp |
 | 2026-07-05 | #1301 [Number of Paths with Max Score](https://leetcode.com/problems/number-of-paths-with-max-score/) | Hard | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-06-26 | #3739 [Count Subarrays With Majority Element II](https://leetcode.com/problems/count-subarrays-with-majority-element-ii/) | Hard | cpp |
 | 2026-06-25 | #5 [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | cpp |
 | 2026-06-25 | #3737 [Count Subarrays With Majority Element I](https://leetcode.com/problems/count-subarrays-with-majority-element-i/) | Medium | cpp |
-| 2026-06-24 | #3700 [Number of ZigZag Arrays II](https://leetcode.com/problems/number-of-zigzag-arrays-ii/) | Hard | cpp |
 
 ## Structure
 
