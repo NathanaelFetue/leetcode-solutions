@@ -1,8 +1,8 @@
 {
-  "easy": 82,
+  "easy": 83,
   "medium": 73,
   "hard": 22,
-  "total": 179,
+  "total": 180,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1434,6 +1434,14 @@
       "title": "Minimum Deletions to Make String Balanced",
       "questionId": "1653",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-07",
+      "slug": "concatenate-non-zero-digits-and-multiply-by-sum-i",
+      "title": "Concatenate Non-Zero Digits and Multiply by Sum I",
+      "questionId": "3754",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
