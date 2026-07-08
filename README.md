@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 83 |
-| Medium     | 73 |
+| Medium     | 74 |
 | Hard       | 22 |
-| **Total**  | **180** |
+| **Total**  | **181** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-07-08 | #3756 [Concatenate Non-Zero Digits and Multiply by Sum II](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Medium | cpp |
 | 2026-07-07 | #3754 [Concatenate Non-Zero Digits and Multiply by Sum I](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/) | Easy | cpp |
 | 2026-07-06 | #1653 [Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/) | Medium | cpp |
 | 2026-07-06 | #1288 [Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-06-27 | #3020 [Find the Maximum Number of Elements in Subset](https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/) | Medium | cpp |
 | 2026-06-26 | #3739 [Count Subarrays With Majority Element II](https://leetcode.com/problems/count-subarrays-with-majority-element-ii/) | Hard | cpp |
 | 2026-06-25 | #5 [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | cpp |
-| 2026-06-25 | #3737 [Count Subarrays With Majority Element I](https://leetcode.com/problems/count-subarrays-with-majority-element-i/) | Medium | cpp |
 
 ## Structure
 
