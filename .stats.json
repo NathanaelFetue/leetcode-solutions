@@ -1,8 +1,8 @@
 {
   "easy": 83,
-  "medium": 73,
+  "medium": 74,
   "hard": 22,
-  "total": 180,
+  "total": 181,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1442,6 +1442,14 @@
       "title": "Concatenate Non-Zero Digits and Multiply by Sum I",
       "questionId": "3754",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-08",
+      "slug": "concatenate-non-zero-digits-and-multiply-by-sum-ii",
+      "title": "Concatenate Non-Zero Digits and Multiply by Sum II",
+      "questionId": "3756",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
