@@ -1,8 +1,8 @@
 {
   "easy": 83,
-  "medium": 74,
+  "medium": 75,
   "hard": 22,
-  "total": 181,
+  "total": 182,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1449,6 +1449,14 @@
       "slug": "concatenate-non-zero-digits-and-multiply-by-sum-ii",
       "title": "Concatenate Non-Zero Digits and Multiply by Sum II",
       "questionId": "3756",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-09",
+      "slug": "path-existence-queries-in-a-graph-i",
+      "title": "Path Existence Queries in a Graph I",
+      "questionId": "3532",
       "difficulty": "Medium",
       "lang": "cpp"
     }
