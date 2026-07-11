@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 83 |
+| Easy       | 84 |
 | Medium     | 77 |
 | Hard       | 23 |
-| **Total**  | **185** |
+| **Total**  | **186** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-07-11 | #3090 [Maximum Length Substring With Two Occurrences](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/) | Easy | cpp |
 | 2026-07-11 | #424 [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | Medium | cpp |
 | 2026-07-11 | #3534 [Path Existence Queries in a Graph II](https://leetcode.com/problems/path-existence-queries-in-a-graph-ii/) | Hard | cpp |
 | 2026-07-11 | #2685 [Count the Number of Complete Components](https://leetcode.com/problems/count-the-number-of-complete-components/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-07-02 | #3286 [Find a Safe Walk Through a Grid](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) | Medium | cpp |
 | 2026-07-01 | #2812 [Find the Safest Path in a Grid](https://leetcode.com/problems/find-the-safest-path-in-a-grid/) | Medium | cpp |
 | 2026-06-30 | #1358 [Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/) | Medium | cpp |
-| 2026-06-29 | #1967 [Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/) | Easy | cpp |
 
 ## Structure
 
