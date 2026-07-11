@@ -1,8 +1,8 @@
 {
   "easy": 83,
   "medium": 76,
-  "hard": 22,
-  "total": 183,
+  "hard": 23,
+  "total": 184,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1466,6 +1466,14 @@
       "title": "Count the Number of Complete Components",
       "questionId": "2685",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-11",
+      "slug": "path-existence-queries-in-a-graph-ii",
+      "title": "Path Existence Queries in a Graph II",
+      "questionId": "3534",
+      "difficulty": "Hard",
       "lang": "cpp"
     }
   ],
