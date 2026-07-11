@@ -8,13 +8,14 @@ Auto-synced from accepted LeetCode submissions.
 |------------|--------|
 | Easy       | 83 |
 | Medium     | 76 |
-| Hard       | 22 |
-| **Total**  | **183** |
+| Hard       | 23 |
+| **Total**  | **184** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-07-11 | #3534 [Path Existence Queries in a Graph II](https://leetcode.com/problems/path-existence-queries-in-a-graph-ii/) | Hard | cpp |
 | 2026-07-11 | #2685 [Count the Number of Complete Components](https://leetcode.com/problems/count-the-number-of-complete-components/) | Medium | cpp |
 | 2026-07-09 | #3532 [Path Existence Queries in a Graph I](https://leetcode.com/problems/path-existence-queries-in-a-graph-i/) | Medium | cpp |
 | 2026-07-08 | #3756 [Concatenate Non-Zero Digits and Multiply by Sum II](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-06-30 | #1358 [Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/) | Medium | cpp |
 | 2026-06-29 | #1967 [Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/) | Easy | cpp |
 | 2026-06-29 | #1846 [Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/) | Medium | cpp |
-| 2026-06-27 | #3020 [Find the Maximum Number of Elements in Subset](https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/) | Medium | cpp |
 
 ## Structure
 
