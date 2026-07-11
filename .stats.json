@@ -1,8 +1,8 @@
 {
   "easy": 83,
-  "medium": 76,
+  "medium": 77,
   "hard": 23,
-  "total": 184,
+  "total": 185,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1474,6 +1474,14 @@
       "title": "Path Existence Queries in a Graph II",
       "questionId": "3534",
       "difficulty": "Hard",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-11",
+      "slug": "longest-repeating-character-replacement",
+      "title": "Longest Repeating Character Replacement",
+      "questionId": "424",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
