@@ -1,8 +1,8 @@
 {
-  "easy": 84,
+  "easy": 85,
   "medium": 77,
   "hard": 23,
-  "total": 186,
+  "total": 187,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1489,6 +1489,14 @@
       "slug": "maximum-length-substring-with-two-occurrences",
       "title": "Maximum Length Substring With Two Occurrences",
       "questionId": "3090",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-11",
+      "slug": "contains-duplicate-ii",
+      "title": "Contains Duplicate II",
+      "questionId": "219",
       "difficulty": "Easy",
       "lang": "cpp"
     }
