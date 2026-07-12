@@ -1,0 +1,24 @@
+/*
+ * Problem 192: Word Frequency
+ * Difficulty: Medium
+ * https://leetcode.com/problems/word-frequency/
+ *
+ * Approach: Pipeline of Unix utilities to count word frequencies.
+ * First, translate spaces to newlines (handling multiple spaces with -s) to get one word per line,
+ * then sort alphabetically, count consecutive duplicates with uniq -c, sort by count descending,
+ * and finally reformat output to print word before count using awk.
+ *
+ * Time Complexity: O(n log n) where n is the number of words, dominated by the sort step.
+ * Space Complexity: O(n) to store all words in intermediate pipeline buffers.
+ *
+ * Runtime: 71 ms
+ * Memory: 3.8 MB
+ */
+
+# Read from the file words.txt and output the word frequency list to stdout.
+cat words.txt \
+    | tr -s ' ' '\n' \
+    | sort \
+    | uniq -c \
+    | sort -rn \
+    | awk '{print $2, $1}'
