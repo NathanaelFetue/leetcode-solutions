@@ -1,8 +1,8 @@
 {
   "easy": 87,
   "medium": 79,
-  "hard": 23,
-  "total": 191,
+  "hard": 24,
+  "total": 192,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1530,6 +1530,14 @@
       "title": "Permutation in String",
       "questionId": "567",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-12",
+      "slug": "minimum-window-substring",
+      "title": "Minimum Window Substring",
+      "questionId": "76",
+      "difficulty": "Hard",
       "lang": "cpp"
     }
   ],
