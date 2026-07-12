@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 85 |
+| Easy       | 86 |
 | Medium     | 77 |
 | Hard       | 23 |
-| **Total**  | **187** |
+| **Total**  | **188** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-07-12 | #1331 [Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/) | Easy | cpp |
 | 2026-07-11 | #219 [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | Easy | cpp |
 | 2026-07-11 | #3090 [Maximum Length Substring With Two Occurrences](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/) | Easy | cpp |
 | 2026-07-11 | #424 [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-07-04 | #2492 [Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/) | Medium | cpp |
 | 2026-07-03 | #3620 [Network Recovery Pathways](https://leetcode.com/problems/network-recovery-pathways/) | Hard | cpp |
 | 2026-07-02 | #3286 [Find a Safe Walk Through a Grid](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) | Medium | cpp |
-| 2026-07-01 | #2812 [Find the Safest Path in a Grid](https://leetcode.com/problems/find-the-safest-path-in-a-grid/) | Medium | cpp |
 
 ## Structure
 
