@@ -1,8 +1,8 @@
 {
-  "easy": 86,
+  "easy": 87,
   "medium": 77,
   "hard": 23,
-  "total": 188,
+  "total": 189,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1505,6 +1505,14 @@
       "slug": "rank-transform-of-an-array",
       "title": "Rank Transform of an Array",
       "questionId": "1331",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-12",
+      "slug": "find-target-indices-after-sorting-array",
+      "title": "Find Target Indices After Sorting Array",
+      "questionId": "2089",
       "difficulty": "Easy",
       "lang": "cpp"
     }
