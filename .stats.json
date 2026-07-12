@@ -1,8 +1,8 @@
 {
   "easy": 87,
-  "medium": 78,
+  "medium": 79,
   "hard": 23,
-  "total": 190,
+  "total": 191,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1523,6 +1523,14 @@
       "questionId": "192",
       "difficulty": "Medium",
       "lang": "bash"
+    },
+    {
+      "date": "2026-07-12",
+      "slug": "permutation-in-string",
+      "title": "Permutation in String",
+      "questionId": "567",
+      "difficulty": "Medium",
+      "lang": "cpp"
     }
   ],
   "unknown": 2
