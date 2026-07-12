@@ -8,13 +8,14 @@ Auto-synced from accepted LeetCode submissions.
 |------------|--------|
 | Easy       | 87 |
 | Medium     | 79 |
-| Hard       | 23 |
-| **Total**  | **191** |
+| Hard       | 24 |
+| **Total**  | **192** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-07-12 | #76 [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Hard | cpp |
 | 2026-07-12 | #567 [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | Medium | cpp |
 | 2026-07-12 | #192 [Word Frequency](https://leetcode.com/problems/word-frequency/) | Medium | bash |
 | 2026-07-12 | #2089 [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | Easy | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-07-07 | #3754 [Concatenate Non-Zero Digits and Multiply by Sum I](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/) | Easy | cpp |
 | 2026-07-06 | #1653 [Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/) | Medium | cpp |
 | 2026-07-06 | #1288 [Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/) | Medium | cpp |
-| 2026-07-05 | #1301 [Number of Paths with Max Score](https://leetcode.com/problems/number-of-paths-with-max-score/) | Hard | cpp |
 
 ## Structure
 
