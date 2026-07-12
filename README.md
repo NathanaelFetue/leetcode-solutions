@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 87 |
-| Medium     | 77 |
+| Medium     | 78 |
 | Hard       | 23 |
-| **Total**  | **189** |
+| **Total**  | **190** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-07-12 | #192 [Word Frequency](https://leetcode.com/problems/word-frequency/) | Medium | bash |
 | 2026-07-12 | #2089 [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | Easy | cpp |
 | 2026-07-12 | #1331 [Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/) | Easy | cpp |
 | 2026-07-11 | #219 [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | Easy | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-07-06 | #1288 [Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/) | Medium | cpp |
 | 2026-07-05 | #1301 [Number of Paths with Max Score](https://leetcode.com/problems/number-of-paths-with-max-score/) | Hard | cpp |
 | 2026-07-04 | #2492 [Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/) | Medium | cpp |
-| 2026-07-03 | #3620 [Network Recovery Pathways](https://leetcode.com/problems/network-recovery-pathways/) | Hard | cpp |
 
 ## Structure
 
