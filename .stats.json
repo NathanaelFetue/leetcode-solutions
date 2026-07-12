@@ -1,8 +1,8 @@
 {
-  "easy": 85,
+  "easy": 86,
   "medium": 77,
   "hard": 23,
-  "total": 187,
+  "total": 188,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1497,6 +1497,14 @@
       "slug": "contains-duplicate-ii",
       "title": "Contains Duplicate II",
       "questionId": "219",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-12",
+      "slug": "rank-transform-of-an-array",
+      "title": "Rank Transform of an Array",
+      "questionId": "1331",
       "difficulty": "Easy",
       "lang": "cpp"
     }
