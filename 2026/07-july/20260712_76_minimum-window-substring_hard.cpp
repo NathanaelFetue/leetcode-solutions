@@ -1,22 +1,19 @@
 /*
  * Problem #76 - Minimum Window Substring (Hard)
- * URL: https://leetcode.com/problems/minimum-window-substring/
+ * https://leetcode.com/problems/minimum-window-substring/
  *
- * Approach: Sliding Window with Frequency Maps
- * Use two pointers (left, right) to maintain a sliding window over string s.
- * Expand the right pointer to include characters, then shrink from the left
- * whenever the window fully covers all characters in t (checked via frequency
- * map comparison). Track the smallest valid window seen during shrinking.
+ * Approach: Sliding Window with Two Hash Maps
+ * Maintain a sliding window [left, r] over string s, expanding right to include characters
+ * from t and shrinking left whenever the window fully covers all required characters.
+ * The covers() helper checks if the current window satisfies all character frequency
+ * requirements from t. Track the smallest valid window found throughout.
  *
- * Time Complexity: O(|s| * |t|) in the worst case — the covers() helper
- * iterates over all unique characters in t for each valid window state.
- * With optimization (a counter for matched chars), this can be reduced to O(|s| + |t|).
+ * Time Complexity: O(n * m) where n = len(s) and m = len(t) due to covers() being
+ * called O(n) times with O(m) work each call. Can be optimized to O(n + m) with a counter.
  *
- * Space Complexity: O(|s| + |t|) — two hash maps storing character frequencies
- * for the window and target string t.
+ * Space Complexity: O(m) for the two hash maps storing at most |t| unique characters.
  *
- * Runtime: 90 ms
- * Memory: 11.5 MB
+ * Runtime: 90 ms | Memory: 11.6 MB
  */
 
 class Solution {
