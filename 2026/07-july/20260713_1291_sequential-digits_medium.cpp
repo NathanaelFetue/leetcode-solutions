@@ -1,18 +1,21 @@
 /*
  * Problem #1291 - Sequential Digits (Medium)
- * https://leetcode.com/problems/sequential-digits/
+ * URL: https://leetcode.com/problems/sequential-digits/
  *
- * Approach: Sliding Window over '123456789' String
- * Use the string '123456789' as a source of all possible sequential digit sequences.
- * For each valid length (2 to 9), slide a window across the string to extract substrings,
- * convert them to integers, and collect those that fall within [low, high].
- * Iterating by length first ensures the result is naturally sorted in ascending order.
+ * Approach/Algorithm:
+ * Use the fixed string "123456789" as a source of all possible sequential digit sequences.
+ * For every possible length (2 to 9) and every valid starting position within that string,
+ * extract the substring, convert it to an integer, and collect those that fall within [low, high].
+ * This guarantees results are naturally produced in ascending order without sorting.
  *
- * Time Complexity: O(1) - At most 8+7+6+...+1 = 36 substrings are evaluated, a fixed constant.
- * Space Complexity: O(1) - Output aside, only a fixed-size string and loop variables are used.
+ * Time Complexity: O(1) - There are at most 8+7+6+...+1 = 36 substrings to evaluate,
+ * which is a constant number of operations regardless of input.
  *
- * Runtime : 0 ms
- * Memory  : 8.3 MB
+ * Space Complexity: O(1) - Excluding the output vector, only a constant-size string
+ * and a fixed number of loop variables are used.
+ *
+ * Runtime: 0 ms
+ * Memory: 8.3 MB
  */
 
 class Solution {
