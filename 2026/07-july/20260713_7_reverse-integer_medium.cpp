@@ -4,15 +4,16 @@
  * URL: https://leetcode.com/problems/reverse-integer/
  *
  * Approach/Algorithm:
- * The solution extracts digits one by one from the absolute value of the input using modulo and integer division,
- * building the reversed number iteratively. A long long accumulator is used to safely detect overflow before
- * casting back to int, returning 0 if the result exceeds 32-bit signed integer bounds.
+ * The solution extracts digits one by one from the absolute value of the input using modulo
+ * and division, building the reversed number iteratively. The sign is tracked separately and
+ * reapplied after reversal. Overflow is handled by using a 64-bit long long and checking
+ * against INT_MAX and INT_MIN before casting back to int, returning 0 if bounds are exceeded.
  *
- * Time Complexity: O(log10(x)) - the while loop iterates once per digit in the input number.
- * Space Complexity: O(1) - only a fixed number of variables are used, no extra data structures.
+ * Time Complexity: O(log10(x)) - we iterate once per digit in the input number.
+ * Space Complexity: O(1) - only a fixed number of variables are used regardless of input size.
  *
- * Runtime: 2 ms
- * Memory: 8.6 MB
+ * Runtime: 0 ms
+ * Memory: 8.5 MB
  */
 
 class Solution {
