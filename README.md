@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 87 |
-| Medium     | 79 |
+| Medium     | 80 |
 | Hard       | 24 |
-| **Total**  | **192** |
+| **Total**  | **193** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-07-13 | #7 [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Medium | cpp |
 | 2026-07-12 | #76 [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Hard | cpp |
 | 2026-07-12 | #567 [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | Medium | cpp |
 | 2026-07-12 | #192 [Word Frequency](https://leetcode.com/problems/word-frequency/) | Medium | bash |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-07-08 | #3756 [Concatenate Non-Zero Digits and Multiply by Sum II](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Medium | cpp |
 | 2026-07-07 | #3754 [Concatenate Non-Zero Digits and Multiply by Sum I](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/) | Easy | cpp |
 | 2026-07-06 | #1653 [Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/) | Medium | cpp |
-| 2026-07-06 | #1288 [Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/) | Medium | cpp |
 
 ## Structure
 
