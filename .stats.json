@@ -1,8 +1,8 @@
 {
   "easy": 87,
-  "medium": 79,
+  "medium": 80,
   "hard": 24,
-  "total": 192,
+  "total": 193,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1538,6 +1538,14 @@
       "title": "Minimum Window Substring",
       "questionId": "76",
       "difficulty": "Hard",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-13",
+      "slug": "reverse-integer",
+      "title": "Reverse Integer",
+      "questionId": "7",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
