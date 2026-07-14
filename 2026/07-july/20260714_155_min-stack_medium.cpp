@@ -1,22 +1,20 @@
 /*
  * Problem #155 - Min Stack (Medium)
- * LeetCode: https://leetcode.com/problems/min-stack/
+ * https://leetcode.com/problems/min-stack/
  *
- * Approach: Two-Vector Stack with Min-Index Tracking
- * Uses a primary vector `st` to store all values and an auxiliary vector `minIdx`
- * that tracks indices of elements which are the current minimum at the time of push.
- * The minIdx stack only grows when a new value is less than or equal to the current
- * minimum, and shrinks when the element at the top of minIdx is popped from the main stack.
- * This avoids storing redundant min values and instead references back into `st`.
+ * Approach: Two-vector approach where one vector acts as the main stack and a second
+ * vector (minIdx) tracks indices of minimum elements. On push, a new index is added
+ * to minIdx only when the new value is less than or equal to the current minimum,
+ * ensuring getMin always resolves via the last recorded minimum index.
  *
- * Time Complexity: O(1) for all operations (push, pop, top, getMin)
- *   - Each operation does at most constant work on the back of a vector.
+ * Time Complexity: O(1) for all operations (push, pop, top, getMin) - each operation
+ * performs at most a constant number of vector accesses or comparisons.
  *
- * Space Complexity: O(n) where n is the number of elements pushed
- *   - `st` holds all n elements; `minIdx` holds at most n indices.
+ * Space Complexity: O(n) where n is the number of elements pushed; in the worst case
+ * (monotonically decreasing inputs) minIdx grows proportionally with st.
  *
- * Runtime : 53 ms
- * Memory  : 152.6 MB
+ * Runtime : 59 ms
+ * Memory  : 152.4 MB
  */
 
 class MinStack {
