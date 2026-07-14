@@ -1,8 +1,8 @@
 {
   "easy": 87,
   "medium": 81,
-  "hard": 25,
-  "total": 195,
+  "hard": 26,
+  "total": 196,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1561,6 +1561,14 @@
       "slug": "sliding-window-maximum",
       "title": "Sliding Window Maximum",
       "questionId": "239",
+      "difficulty": "Hard",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-14",
+      "slug": "find-the-number-of-subsequences-with-equal-gcd",
+      "title": "Find the Number of Subsequences With Equal GCD",
+      "questionId": "3336",
       "difficulty": "Hard",
       "lang": "cpp"
     }
