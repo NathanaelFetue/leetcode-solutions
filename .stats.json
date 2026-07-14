@@ -1,8 +1,8 @@
 {
   "easy": 87,
-  "medium": 81,
+  "medium": 82,
   "hard": 26,
-  "total": 196,
+  "total": 197,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1570,6 +1570,14 @@
       "title": "Find the Number of Subsequences With Equal GCD",
       "questionId": "3336",
       "difficulty": "Hard",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-14",
+      "slug": "min-stack",
+      "title": "Min Stack",
+      "questionId": "155",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
