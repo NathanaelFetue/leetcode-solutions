@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 87 |
+| Easy       | 88 |
 | Medium     | 82 |
 | Hard       | 26 |
-| **Total**  | **197** |
+| **Total**  | **198** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-07-15 | #3658 [GCD of Odd and Even Sums](https://leetcode.com/problems/gcd-of-odd-and-even-sums/) | Easy | cpp |
 | 2026-07-14 | #155 [Min Stack](https://leetcode.com/problems/min-stack/) | Medium | cpp |
 | 2026-07-14 | #3336 [Find the Number of Subsequences With Equal GCD](https://leetcode.com/problems/find-the-number-of-subsequences-with-equal-gcd/) | Hard | cpp |
 | 2026-07-13 | #239 [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | Hard | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-07-11 | #3090 [Maximum Length Substring With Two Occurrences](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/) | Easy | cpp |
 | 2026-07-11 | #424 [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | Medium | cpp |
 | 2026-07-11 | #3534 [Path Existence Queries in a Graph II](https://leetcode.com/problems/path-existence-queries-in-a-graph-ii/) | Hard | cpp |
-| 2026-07-11 | #2685 [Count the Number of Complete Components](https://leetcode.com/problems/count-the-number-of-complete-components/) | Medium | cpp |
 
 ## Structure
 
