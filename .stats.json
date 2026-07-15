@@ -1,8 +1,8 @@
 {
   "easy": 88,
-  "medium": 82,
+  "medium": 83,
   "hard": 26,
-  "total": 198,
+  "total": 199,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1586,6 +1586,14 @@
       "title": "GCD of Odd and Even Sums",
       "questionId": "3658",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-15",
+      "slug": "evaluate-reverse-polish-notation",
+      "title": "Evaluate Reverse Polish Notation",
+      "questionId": "150",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
