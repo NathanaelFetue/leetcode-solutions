@@ -1,8 +1,8 @@
 {
-  "easy": 87,
+  "easy": 88,
   "medium": 82,
   "hard": 26,
-  "total": 197,
+  "total": 198,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1578,6 +1578,14 @@
       "title": "Min Stack",
       "questionId": "155",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-15",
+      "slug": "gcd-of-odd-and-even-sums",
+      "title": "GCD of Odd and Even Sums",
+      "questionId": "3658",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
