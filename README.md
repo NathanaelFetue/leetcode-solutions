@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 88 |
-| Medium     | 83 |
+| Medium     | 84 |
 | Hard       | 26 |
-| **Total**  | **199** |
+| **Total**  | **200** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-07-16 | #739 [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Medium | cpp |
 | 2026-07-15 | #150 [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Medium | cpp |
 | 2026-07-15 | #3658 [GCD of Odd and Even Sums](https://leetcode.com/problems/gcd-of-odd-and-even-sums/) | Easy | cpp |
 | 2026-07-14 | #155 [Min Stack](https://leetcode.com/problems/min-stack/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-07-12 | #1331 [Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/) | Easy | cpp |
 | 2026-07-11 | #219 [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | Easy | cpp |
 | 2026-07-11 | #3090 [Maximum Length Substring With Two Occurrences](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/) | Easy | cpp |
-| 2026-07-11 | #424 [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | Medium | cpp |
 
 ## Structure
 
