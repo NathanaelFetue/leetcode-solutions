@@ -1,8 +1,8 @@
 {
   "easy": 88,
-  "medium": 83,
+  "medium": 84,
   "hard": 26,
-  "total": 199,
+  "total": 200,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1593,6 +1593,14 @@
       "slug": "evaluate-reverse-polish-notation",
       "title": "Evaluate Reverse Polish Notation",
       "questionId": "150",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-16",
+      "slug": "daily-temperatures",
+      "title": "Daily Temperatures",
+      "questionId": "739",
       "difficulty": "Medium",
       "lang": "cpp"
     }
