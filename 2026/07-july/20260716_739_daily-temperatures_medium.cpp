@@ -1,18 +1,19 @@
 /*
- * Problem #739: Daily Temperatures (Medium)
- * https://leetcode.com/problems/daily-temperatures/
+ * Problem #739 - Daily Temperatures
+ * Difficulty: Medium
+ * URL: https://leetcode.com/problems/daily-temperatures/
  *
  * Approach: Monotonic Stack
- * We use a monotonic decreasing stack that stores indices of temperatures.
- * For each new temperature, we pop all stack entries with a lower temperature,
- * calculating the wait days as the difference between the current and stored index.
- * Remaining indices in the stack never find a warmer day and stay 0 in the result.
+ * We maintain a monotonic decreasing stack of indices representing days with unresolved temperatures.
+ * For each day i, we pop indices from the stack while the current temperature is warmer than the temperature
+ * at the top index, computing the waiting days as (i - popped_index). Remaining indices in the stack
+ * never find a warmer day and stay at 0 in the result.
  *
- * Time Complexity: O(n) - each index is pushed and popped at most once.
- * Space Complexity: O(n) - stack can hold up to n indices in the worst case.
+ * Time Complexity: O(n) - each index is pushed and popped from the stack at most once.
+ * Space Complexity: O(n) - the stack can hold at most n indices in the worst case (monotonically decreasing input).
  *
- * Runtime: 23 ms
- * Memory: 107.4 MB
+ * Runtime: 20 ms
+ * Memory: 107.5 MB
  */
 
 class Solution {
