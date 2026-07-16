@@ -1,8 +1,8 @@
 {
   "easy": 88,
-  "medium": 84,
+  "medium": 85,
   "hard": 26,
-  "total": 200,
+  "total": 201,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1601,6 +1601,14 @@
       "slug": "daily-temperatures",
       "title": "Daily Temperatures",
       "questionId": "739",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-16",
+      "slug": "sum-of-gcd-of-formed-pairs",
+      "title": "Sum of GCD of Formed Pairs",
+      "questionId": "3867",
       "difficulty": "Medium",
       "lang": "cpp"
     }
