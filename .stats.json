@@ -1,8 +1,8 @@
 {
   "easy": 88,
   "medium": 85,
-  "hard": 26,
-  "total": 201,
+  "hard": 27,
+  "total": 202,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1610,6 +1610,14 @@
       "title": "Sum of GCD of Formed Pairs",
       "questionId": "3867",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-17",
+      "slug": "sorted-gcd-pair-queries",
+      "title": "Sorted GCD Pair Queries",
+      "questionId": "3312",
+      "difficulty": "Hard",
       "lang": "cpp"
     }
   ],
