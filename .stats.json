@@ -1,8 +1,8 @@
 {
   "easy": 88,
-  "medium": 86,
+  "medium": 87,
   "hard": 27,
-  "total": 203,
+  "total": 204,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1625,6 +1625,14 @@
       "slug": "car-fleet",
       "title": "Car Fleet",
       "questionId": "853",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-18",
+      "slug": "count-collisions-on-a-road",
+      "title": "Count Collisions on a Road",
+      "questionId": "2211",
       "difficulty": "Medium",
       "lang": "cpp"
     }
