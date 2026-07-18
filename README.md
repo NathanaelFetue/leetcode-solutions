@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 88 |
-| Medium     | 85 |
+| Medium     | 86 |
 | Hard       | 27 |
-| **Total**  | **202** |
+| **Total**  | **203** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-07-18 | #853 [Car Fleet](https://leetcode.com/problems/car-fleet/) | Medium | cpp |
 | 2026-07-17 | #3312 [Sorted GCD Pair Queries](https://leetcode.com/problems/sorted-gcd-pair-queries/) | Hard | cpp |
 | 2026-07-16 | #3867 [Sum of GCD of Formed Pairs](https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/) | Medium | cpp |
 | 2026-07-16 | #739 [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-07-12 | #567 [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | Medium | cpp |
 | 2026-07-12 | #192 [Word Frequency](https://leetcode.com/problems/word-frequency/) | Medium | bash |
 | 2026-07-12 | #2089 [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | Easy | cpp |
-| 2026-07-12 | #1331 [Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/) | Easy | cpp |
 
 ## Structure
 
