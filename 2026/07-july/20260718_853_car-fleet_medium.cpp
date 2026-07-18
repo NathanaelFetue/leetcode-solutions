@@ -1,16 +1,20 @@
 /*
- * Problem #853 - Car Fleet (Medium)
+ * Problem #853: Car Fleet (Medium)
  * URL: https://leetcode.com/problems/car-fleet/
  *
- * Approach: Sort cars by starting position in descending order (closest to target first).
- * Compute the time each car takes to reach the target. Use a stack to track fleet counts:
- * if a car takes longer than the car ahead of it, it forms a new fleet; otherwise it merges.
+ * Approach: Greedy + Monotonic Stack
+ * First, pair each car's position with its speed and sort all cars in descending
+ * order by position (closest to target first). For each car, compute the time it
+ * would take to reach the target. Use a stack to track distinct fleets: if a car's
+ * time is greater than the top of the stack, it cannot catch the car ahead and
+ * forms a new fleet; otherwise it merges into the leading fleet and is discarded.
  *
  * Time Complexity: O(n log n) — dominated by the sorting step over n cars.
- * Space Complexity: O(n) — for the cars array and the stack storing at most n times.
+ * Space Complexity: O(n) — for the auxiliary cars array and the stack, each
+ * holding at most n elements.
  *
- * Runtime : 34 ms
- * Memory  : 105.9 MB
+ * Runtime: 46 ms
+ * Memory: 105.8 MB
  */
 
 class Solution {
