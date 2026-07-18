@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 88 |
-| Medium     | 86 |
+| Medium     | 87 |
 | Hard       | 27 |
-| **Total**  | **203** |
+| **Total**  | **204** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-07-18 | #2211 [Count Collisions on a Road](https://leetcode.com/problems/count-collisions-on-a-road/) | Medium | cpp |
 | 2026-07-18 | #853 [Car Fleet](https://leetcode.com/problems/car-fleet/) | Medium | cpp |
 | 2026-07-17 | #3312 [Sorted GCD Pair Queries](https://leetcode.com/problems/sorted-gcd-pair-queries/) | Hard | cpp |
 | 2026-07-16 | #3867 [Sum of GCD of Formed Pairs](https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-07-12 | #76 [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Hard | cpp |
 | 2026-07-12 | #567 [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | Medium | cpp |
 | 2026-07-12 | #192 [Word Frequency](https://leetcode.com/problems/word-frequency/) | Medium | bash |
-| 2026-07-12 | #2089 [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | Easy | cpp |
 
 ## Structure
 
