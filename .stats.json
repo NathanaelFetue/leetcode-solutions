@@ -1,8 +1,8 @@
 {
   "easy": 88,
-  "medium": 85,
+  "medium": 86,
   "hard": 27,
-  "total": 202,
+  "total": 203,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1618,6 +1618,14 @@
       "title": "Sorted GCD Pair Queries",
       "questionId": "3312",
       "difficulty": "Hard",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-18",
+      "slug": "car-fleet",
+      "title": "Car Fleet",
+      "questionId": "853",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
