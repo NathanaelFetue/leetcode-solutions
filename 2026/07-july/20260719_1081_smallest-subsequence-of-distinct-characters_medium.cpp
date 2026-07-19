@@ -2,19 +2,18 @@
  * Problem 1081: Smallest Subsequence of Distinct Characters (Medium)
  * https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/
  *
- * Approach: Greedy stack-based algorithm with character tracking.
- * For each character, we use a monotonic stack to greedily maintain the lexicographically smallest result.
- * If the current character is smaller than the stack top and the top character appears later in the string, we pop the top and replace it, ensuring all distinct characters are still reachable.
+ * Approach: Greedy stack-based algorithm.
+ * First, record the last occurrence index of each character. Then iterate through the string,
+ * using a greedy stack: for each character, pop the stack top if the current character is smaller
+ * and the top character appears again later, ensuring lexicographic minimality while preserving all distinct characters.
  *
- * Key Data Structures:
- * - 'last' map: stores the last occurrence index of each character.
- * - 'inStack' set: tracks characters currently in the result stack to avoid duplicates.
+ * Time Complexity: O(n) - single pass to build last-occurrence map, single pass to build result;
+ * each character is pushed and popped at most once.
+ * Space Complexity: O(1) - the stack and set hold at most 26 distinct characters (bounded constant),
+ * and the map holds at most 26 entries.
  *
- * Time Complexity: O(n) - single pass to build last-occurrence map, single pass to build the result;
- *   each character is pushed and popped at most once.
- * Space Complexity: O(1) - the stack and set hold at most 26 distinct characters (bounded by alphabet size).
- *
- * Runtime: 1 ms | Memory: 9 MB
+ * Runtime: 3 ms
+ * Memory: 8.8 MB
  */
 
 class Solution {
