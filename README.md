@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 88 |
+| Easy       | 89 |
 | Medium     | 88 |
 | Hard       | 27 |
-| **Total**  | **205** |
+| **Total**  | **206** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-07-19 | #20 [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | cpp |
 | 2026-07-19 | #1081 [Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/) | Medium | cpp |
 | 2026-07-18 | #2211 [Count Collisions on a Road](https://leetcode.com/problems/count-collisions-on-a-road/) | Medium | cpp |
 | 2026-07-18 | #853 [Car Fleet](https://leetcode.com/problems/car-fleet/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-07-13 | #1291 [Sequential Digits](https://leetcode.com/problems/sequential-digits/) | Medium | cpp |
 | 2026-07-13 | #7 [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Medium | cpp |
 | 2026-07-12 | #76 [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Hard | cpp |
-| 2026-07-12 | #567 [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | Medium | cpp |
 
 ## Structure
 
