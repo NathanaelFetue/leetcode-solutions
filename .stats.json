@@ -1,8 +1,8 @@
 {
-  "easy": 88,
+  "easy": 89,
   "medium": 88,
   "hard": 27,
-  "total": 205,
+  "total": 206,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1642,6 +1642,14 @@
       "title": "Smallest Subsequence of Distinct Characters",
       "questionId": "1081",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-19",
+      "slug": "valid-parentheses",
+      "title": "Valid Parentheses",
+      "questionId": "20",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
