@@ -1,8 +1,8 @@
 {
-  "easy": 89,
+  "easy": 90,
   "medium": 88,
   "hard": 27,
-  "total": 206,
+  "total": 207,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1649,6 +1649,14 @@
       "slug": "valid-parentheses",
       "title": "Valid Parentheses",
       "questionId": "20",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-20",
+      "slug": "shift-2d-grid",
+      "title": "Shift 2D Grid",
+      "questionId": "1260",
       "difficulty": "Easy",
       "lang": "cpp"
     }
