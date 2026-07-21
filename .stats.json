@@ -1,8 +1,8 @@
 {
-  "easy": 90,
+  "easy": 91,
   "medium": 89,
   "hard": 27,
-  "total": 208,
+  "total": 209,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1666,6 +1666,14 @@
       "title": "Maximize Active Section with Trade I",
       "questionId": "3499",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-21",
+      "slug": "binary-search",
+      "title": "Binary Search",
+      "questionId": "704",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
