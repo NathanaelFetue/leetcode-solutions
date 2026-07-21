@@ -1,8 +1,8 @@
 {
   "easy": 91,
-  "medium": 89,
+  "medium": 90,
   "hard": 27,
-  "total": 209,
+  "total": 210,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1674,6 +1674,14 @@
       "title": "Binary Search",
       "questionId": "704",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-21",
+      "slug": "search-a-2d-matrix",
+      "title": "Search a 2D Matrix",
+      "questionId": "74",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
