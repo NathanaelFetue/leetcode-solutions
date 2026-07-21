@@ -2,45 +2,40 @@
  * Problem #74 - Search a 2D Matrix (Medium)
  * https://leetcode.com/problems/search-a-2d-matrix/
  *
- * Approach: Parallel Binary Search using C++ threads
- * Each row of the matrix is searched concurrently using a dedicated thread.
- * Each thread performs a binary search on its assigned row, and an atomic boolean
- * flag is used to signal early termination once the target is found.
+ * Approach: Binary Search on Flattened Matrix
+ * The m x n matrix is treated as a single sorted array of m*n elements.
+ * For any virtual index mid, the corresponding 2D cell is matrix[mid/n][mid%n],
+ * enabling a standard binary search over the entire matrix in one pass.
  *
- * Time Complexity: O((m * log n) / m) = O(log n) in ideal parallel execution,
- * where m is the number of rows and n is the number of columns. In practice,
- * thread overhead may dominate for small inputs.
+ * Time Complexity: O(log(m*n)) - binary search over m*n elements
+ * Space Complexity: O(1) - only a constant number of variables are used
  *
- * Space Complexity: O(m) for spawning m threads, one per row.
- *
- * Runtime: 176 ms
- * Memory: 21 MB
+ * Runtime: 0 ms
+ * Memory: 13.3 MB
  */
 
 class Solution {
-    atomic<bool> found = false;
 public:
-    void searchRow(const vector<int>& row, int target) {
-        if (found.load()) return;
-
-        if (binary_search(row.begin(), row.end(), target))
-            found = true;
-    }
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
-        vector<thread> threads;
 
-        for (const auto& row : matrix) {
-            threads.emplace_back(
-                &Solution::searchRow,
-                this,
-                cref(row),
-                target
-            );
+        int m = matrix.size();
+        int n = matrix[0].size();
+
+        int left = 0;
+        int right = m*n - 1;
+
+        while(left <= right){
+            int mid = left + (right-left)/2;
+            int value = matrix[mid/n][mid%n];
+
+            if(value == target)
+                return true;
+            if(value < target)
+                left = mid + 1;
+            else
+                right = mid - 1;
         }
 
-        for (auto& t : threads)
-            t.join();
-
-        return found.load();
+        return false;
     }
 };
