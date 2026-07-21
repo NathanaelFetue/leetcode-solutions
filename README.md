@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 91 |
-| Medium     | 89 |
+| Medium     | 90 |
 | Hard       | 27 |
-| **Total**  | **209** |
+| **Total**  | **210** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-07-21 | #74 [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | Medium | cpp |
 | 2026-07-21 | #704 [Binary Search](https://leetcode.com/problems/binary-search/) | Easy | cpp |
 | 2026-07-21 | #3499 [Maximize Active Section with Trade I](https://leetcode.com/problems/maximize-active-section-with-trade-i/) | Medium | cpp |
 | 2026-07-20 | #1260 [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) | Easy | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-07-15 | #3658 [GCD of Odd and Even Sums](https://leetcode.com/problems/gcd-of-odd-and-even-sums/) | Easy | cpp |
 | 2026-07-14 | #155 [Min Stack](https://leetcode.com/problems/min-stack/) | Medium | cpp |
 | 2026-07-14 | #3336 [Find the Number of Subsequences With Equal GCD](https://leetcode.com/problems/find-the-number-of-subsequences-with-equal-gcd/) | Hard | cpp |
-| 2026-07-13 | #239 [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | Hard | cpp |
 
 ## Structure
 
