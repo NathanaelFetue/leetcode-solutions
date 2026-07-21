@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 90 |
-| Medium     | 88 |
+| Medium     | 89 |
 | Hard       | 27 |
-| **Total**  | **207** |
+| **Total**  | **208** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-07-21 | #3499 [Maximize Active Section with Trade I](https://leetcode.com/problems/maximize-active-section-with-trade-i/) | Medium | cpp |
 | 2026-07-20 | #1260 [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) | Easy | cpp |
 | 2026-07-19 | #20 [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | cpp |
 | 2026-07-19 | #1081 [Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-07-14 | #3336 [Find the Number of Subsequences With Equal GCD](https://leetcode.com/problems/find-the-number-of-subsequences-with-equal-gcd/) | Hard | cpp |
 | 2026-07-13 | #239 [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | Hard | cpp |
 | 2026-07-13 | #1291 [Sequential Digits](https://leetcode.com/problems/sequential-digits/) | Medium | cpp |
-| 2026-07-13 | #7 [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Medium | cpp |
 
 ## Structure
 
