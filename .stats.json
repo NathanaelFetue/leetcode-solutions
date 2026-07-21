@@ -1,8 +1,8 @@
 {
   "easy": 90,
-  "medium": 88,
+  "medium": 89,
   "hard": 27,
-  "total": 207,
+  "total": 208,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1658,6 +1658,14 @@
       "title": "Shift 2D Grid",
       "questionId": "1260",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-21",
+      "slug": "maximize-active-section-with-trade-i",
+      "title": "Maximize Active Section with Trade I",
+      "questionId": "3499",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
