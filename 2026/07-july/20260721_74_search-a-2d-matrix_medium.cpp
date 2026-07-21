@@ -1,22 +1,20 @@
 /*
- * Problem 74: Search a 2D Matrix
- * Difficulty: Medium
- * URL: https://leetcode.com/problems/search-a-2d-matrix/
+ * Problem #74 - Search a 2D Matrix (Medium)
+ * https://leetcode.com/problems/search-a-2d-matrix/
  *
- * Approach: Parallel Binary Search using C++ std::thread and std::atomic.
- * Each row of the matrix is searched concurrently using a dedicated thread that
- * performs a binary search on its row. An atomic boolean flag short-circuits
- * remaining threads once the target is found, and all threads are joined before
- * returning the result.
+ * Approach: Parallel Binary Search using C++ threads
+ * Each row of the matrix is searched concurrently using a dedicated thread.
+ * Each thread performs a binary search on its assigned row, and an atomic boolean
+ * flag is used to signal early termination once the target is found.
  *
- * Time Complexity: O((m * log n) / m) = O(log n) theoretical with perfect parallelism,
+ * Time Complexity: O((m * log n) / m) = O(log n) in ideal parallel execution,
  * where m is the number of rows and n is the number of columns. In practice,
  * thread overhead may dominate for small inputs.
  *
- * Space Complexity: O(m) for the thread pool holding one thread per row.
+ * Space Complexity: O(m) for spawning m threads, one per row.
  *
- * Runtime: 188 ms
- * Memory: 19.1 MB
+ * Runtime: 176 ms
+ * Memory: 21 MB
  */
 
 class Solution {
