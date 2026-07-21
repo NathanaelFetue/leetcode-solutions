@@ -1,20 +1,20 @@
 /*
- * Problem 3499: Maximize Active Section with Trade I (Medium)
+ * Problem #3499: Maximize Active Section with Trade I (Medium)
  * https://leetcode.com/problems/maximize-active-section-with-trade-i/
  *
  * Approach: Run-length encode the string (padded with sentinel '1's on both ends)
- * to form blocks of consecutive characters. For each block of '1's that is flanked
- * on both sides by blocks of '0's, compute the gain from merging those two '0' blocks
- * into the '1' block via a trade. Track the maximum such gain and add it to the
- * baseline count of '1's in the original string.
+ * to form blocks of consecutive characters. For each block of '1's flanked by
+ * two blocks of '0's, compute the total zeros gained by merging those zero blocks
+ * around the ones block, tracking the maximum such gain.
  *
- * Time Complexity: O(n) - single pass to build blocks, single pass over blocks to
- * find maximum gain, plus O(n) to count original '1's.
+ * The answer is the count of existing '1's in the original string plus the best
+ * gain achievable from a single trade (converting a '1'-block to '0's and merging
+ * adjacent zero blocks).
  *
- * Space Complexity: O(n) - storage for the padded string and the run-length encoded
- * blocks vector.
+ * Time Complexity: O(n) - single pass to build blocks, single pass over blocks.
+ * Space Complexity: O(n) - for the block list and padded string.
  *
- * Runtime: 139 ms | Memory: 175.9 MB
+ * Runtime: 167 ms | Memory: 176 MB
  */
 
 class Solution {
