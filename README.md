@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 91 |
-| Medium     | 90 |
+| Medium     | 91 |
 | Hard       | 28 |
-| **Total**  | **211** |
+| **Total**  | **212** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-07-22 | #875 [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | Medium | cpp |
 | 2026-07-22 | #3501 [Maximize Active Section with Trade II](https://leetcode.com/problems/maximize-active-section-with-trade-ii/) | Hard | cpp |
 | 2026-07-21 | #74 [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | Medium | cpp |
 | 2026-07-21 | #704 [Binary Search](https://leetcode.com/problems/binary-search/) | Easy | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-07-16 | #739 [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Medium | cpp |
 | 2026-07-15 | #150 [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Medium | cpp |
 | 2026-07-15 | #3658 [GCD of Odd and Even Sums](https://leetcode.com/problems/gcd-of-odd-and-even-sums/) | Easy | cpp |
-| 2026-07-14 | #155 [Min Stack](https://leetcode.com/problems/min-stack/) | Medium | cpp |
 
 ## Structure
 
