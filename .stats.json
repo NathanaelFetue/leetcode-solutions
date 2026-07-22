@@ -1,8 +1,8 @@
 {
   "easy": 91,
   "medium": 90,
-  "hard": 27,
-  "total": 210,
+  "hard": 28,
+  "total": 211,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1682,6 +1682,14 @@
       "title": "Search a 2D Matrix",
       "questionId": "74",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-22",
+      "slug": "maximize-active-section-with-trade-ii",
+      "title": "Maximize Active Section with Trade II",
+      "questionId": "3501",
+      "difficulty": "Hard",
       "lang": "cpp"
     }
   ],
