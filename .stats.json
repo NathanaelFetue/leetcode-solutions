@@ -1,8 +1,8 @@
 {
   "easy": 91,
-  "medium": 90,
+  "medium": 91,
   "hard": 28,
-  "total": 211,
+  "total": 212,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1690,6 +1690,14 @@
       "title": "Maximize Active Section with Trade II",
       "questionId": "3501",
       "difficulty": "Hard",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-22",
+      "slug": "koko-eating-bananas",
+      "title": "Koko Eating Bananas",
+      "questionId": "875",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
