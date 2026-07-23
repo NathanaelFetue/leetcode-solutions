@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 91 |
-| Medium     | 91 |
+| Medium     | 92 |
 | Hard       | 28 |
-| **Total**  | **212** |
+| **Total**  | **213** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-07-23 | #3513 [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | Medium | cpp |
 | 2026-07-22 | #875 [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | Medium | cpp |
 | 2026-07-22 | #3501 [Maximize Active Section with Trade II](https://leetcode.com/problems/maximize-active-section-with-trade-ii/) | Hard | cpp |
 | 2026-07-21 | #74 [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-07-16 | #3867 [Sum of GCD of Formed Pairs](https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/) | Medium | cpp |
 | 2026-07-16 | #739 [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Medium | cpp |
 | 2026-07-15 | #150 [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Medium | cpp |
-| 2026-07-15 | #3658 [GCD of Odd and Even Sums](https://leetcode.com/problems/gcd-of-odd-and-even-sums/) | Easy | cpp |
 
 ## Structure
 
