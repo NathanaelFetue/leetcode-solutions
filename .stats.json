@@ -1,8 +1,8 @@
 {
   "easy": 91,
-  "medium": 91,
+  "medium": 92,
   "hard": 28,
-  "total": 212,
+  "total": 213,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1697,6 +1697,14 @@
       "slug": "koko-eating-bananas",
       "title": "Koko Eating Bananas",
       "questionId": "875",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-23",
+      "slug": "number-of-unique-xor-triplets-i",
+      "title": "Number of Unique XOR Triplets I",
+      "questionId": "3513",
       "difficulty": "Medium",
       "lang": "cpp"
     }
