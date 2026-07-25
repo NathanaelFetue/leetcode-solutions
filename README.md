@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 91 |
+| Easy       | 92 |
 | Medium     | 93 |
 | Hard       | 28 |
-| **Total**  | **214** |
+| **Total**  | **215** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-07-25 | #3536 [Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/) | Easy | cpp |
 | 2026-07-24 | #3514 [Number of Unique XOR Triplets II](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/) | Medium | cpp |
 | 2026-07-23 | #3513 [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | Medium | cpp |
 | 2026-07-22 | #875 [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-07-18 | #853 [Car Fleet](https://leetcode.com/problems/car-fleet/) | Medium | cpp |
 | 2026-07-17 | #3312 [Sorted GCD Pair Queries](https://leetcode.com/problems/sorted-gcd-pair-queries/) | Hard | cpp |
 | 2026-07-16 | #3867 [Sum of GCD of Formed Pairs](https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/) | Medium | cpp |
-| 2026-07-16 | #739 [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Medium | cpp |
 
 ## Structure
 
