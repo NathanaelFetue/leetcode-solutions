@@ -1,8 +1,8 @@
 {
-  "easy": 91,
+  "easy": 92,
   "medium": 93,
   "hard": 28,
-  "total": 214,
+  "total": 215,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1714,6 +1714,14 @@
       "title": "Number of Unique XOR Triplets II",
       "questionId": "3514",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-25",
+      "slug": "maximum-product-of-two-digits",
+      "title": "Maximum Product of Two Digits",
+      "questionId": "3536",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
