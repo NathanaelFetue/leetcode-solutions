@@ -1,32 +1,32 @@
 /*
- * Problem #3536: Maximum Product of Two Digits
+ * Problem #3536 - Maximum Product of Two Digits
  * Difficulty: Easy
  * URL: https://leetcode.com/problems/maximum-product-of-two-digits/
  *
- * Approach: Extract all digits of the integer by repeatedly taking the remainder
- * when divided by 10 and appending to a vector. Sort the digits in descending
- * order and return the product of the two largest digits.
+ * Approach/Algorithm:
+ * Extract each digit of the number by repeatedly taking modulo 10 and dividing by 10.
+ * Track the two largest digits seen so far using two variables (first and second).
+ * Return the product of these two largest digits.
  *
- * Time Complexity: O(d log d) where d is the number of digits in n (at most 10),
- * making it effectively O(1) since d is bounded by a constant.
+ * Time Complexity: O(d) where d is the number of digits in n (at most 10 for a 32-bit integer), effectively O(1).
+ * Space Complexity: O(1) — only a constant number of variables are used regardless of input size.
  *
- * Space Complexity: O(d) for storing the digits vector, also effectively O(1)
- * since the number of digits is bounded by a constant.
- *
- * Runtime: 2 ms
- * Memory: 9.1 MB
+ * Runtime: 0 ms
+ * Memory: 8.5 MB
  */
 
 class Solution {
 public:
     int maxProduct(int n) {
-        vector<int> digits;
+        int first=0, second=0;
         while(n>0){
-            digits.push_back(n%10);
+            int x = n%10;
+            if(x > first){
+                second = first;
+                first = x;
+            } else if (x > second) second = x;
             n = n/10;
         }
-        sort(digits.begin(), digits.end() , greater<int>());
-
-        return digits[0]*digits[1];
+        return first*second;
     }
 };
