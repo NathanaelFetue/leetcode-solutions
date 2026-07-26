@@ -1,20 +1,21 @@
 /*
- * Problem #4: Median of Two Sorted Arrays
+ * Problem #4 - Median of Two Sorted Arrays
  * Difficulty: Hard
  * URL: https://leetcode.com/problems/median-of-two-sorted-arrays/
  *
  * Approach: Merge and Sort
- * The two input arrays are merged into a single array by appending all elements of nums2
- * into nums1. The merged array is then sorted, and the median is computed directly from
- * the middle element(s) based on whether the total length is odd or even.
+ * The two input arrays are merged into a single array by appending nums2 to the end of nums1.
+ * The merged array is then sorted, and the median is computed directly based on whether the total length is odd or even.
+ * For odd length, the middle element is returned; for even length, the average of the two middle elements is returned.
  *
  * Time Complexity: O((m + n) log(m + n))
- * Sorting the merged array of size m + n dominates the runtime.
+ * Sorting the combined array of size m + n dominates the overall time complexity.
  *
- * Space Complexity: O(1) extra (in-place merge into nums1, ignoring input mutation)
- * No additional data structures are allocated beyond reusing nums1.
+ * Space Complexity: O(1) auxiliary (excluding input modification)
+ * The merge is done in-place by extending nums1; no additional data structures are used.
  *
- * Runtime: 4 ms | Memory: 95.5 MB
+ * Runtime: 3 ms
+ * Memory: 95.7 MB
  */
 
 class Solution {
