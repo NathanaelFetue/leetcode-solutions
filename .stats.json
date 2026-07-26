@@ -1,8 +1,8 @@
 {
   "easy": 93,
   "medium": 94,
-  "hard": 28,
-  "total": 217,
+  "hard": 29,
+  "total": 218,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1738,6 +1738,14 @@
       "title": "Time Based Key-Value Store",
       "questionId": "981",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-26",
+      "slug": "median-of-two-sorted-arrays",
+      "title": "Median of Two Sorted Arrays",
+      "questionId": "4",
+      "difficulty": "Hard",
       "lang": "cpp"
     }
   ],
