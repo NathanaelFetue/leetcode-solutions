@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 92 |
+| Easy       | 93 |
 | Medium     | 93 |
 | Hard       | 28 |
-| **Total**  | **215** |
+| **Total**  | **216** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-07-26 | #628 [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/) | Easy | cpp |
 | 2026-07-25 | #3536 [Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/) | Easy | cpp |
 | 2026-07-24 | #3514 [Number of Unique XOR Triplets II](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/) | Medium | cpp |
 | 2026-07-23 | #3513 [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-07-18 | #2211 [Count Collisions on a Road](https://leetcode.com/problems/count-collisions-on-a-road/) | Medium | cpp |
 | 2026-07-18 | #853 [Car Fleet](https://leetcode.com/problems/car-fleet/) | Medium | cpp |
 | 2026-07-17 | #3312 [Sorted GCD Pair Queries](https://leetcode.com/problems/sorted-gcd-pair-queries/) | Hard | cpp |
-| 2026-07-16 | #3867 [Sum of GCD of Formed Pairs](https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/) | Medium | cpp |
 
 ## Structure
 
