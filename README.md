@@ -8,13 +8,14 @@ Auto-synced from accepted LeetCode submissions.
 |------------|--------|
 | Easy       | 93 |
 | Medium     | 94 |
-| Hard       | 28 |
-| **Total**  | **217** |
+| Hard       | 29 |
+| **Total**  | **218** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-07-26 | #4 [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard | cpp |
 | 2026-07-26 | #981 [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) | Medium | cpp |
 | 2026-07-26 | #628 [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/) | Easy | cpp |
 | 2026-07-25 | #3536 [Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/) | Easy | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-07-19 | #20 [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | cpp |
 | 2026-07-19 | #1081 [Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/) | Medium | cpp |
 | 2026-07-18 | #2211 [Count Collisions on a Road](https://leetcode.com/problems/count-collisions-on-a-road/) | Medium | cpp |
-| 2026-07-18 | #853 [Car Fleet](https://leetcode.com/problems/car-fleet/) | Medium | cpp |
 
 ## Structure
 
