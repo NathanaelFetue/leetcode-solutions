@@ -1,8 +1,8 @@
 {
-  "easy": 93,
+  "easy": 94,
   "medium": 94,
   "hard": 29,
-  "total": 218,
+  "total": 219,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1746,6 +1746,14 @@
       "title": "Median of Two Sorted Arrays",
       "questionId": "4",
       "difficulty": "Hard",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-27",
+      "slug": "maximum-product-of-two-elements-in-an-array",
+      "title": "Maximum Product of Two Elements in an Array",
+      "questionId": "1464",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
