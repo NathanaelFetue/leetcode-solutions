@@ -1,8 +1,8 @@
 {
   "easy": 94,
-  "medium": 94,
+  "medium": 95,
   "hard": 29,
-  "total": 219,
+  "total": 220,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1754,6 +1754,14 @@
       "title": "Maximum Product of Two Elements in an Array",
       "questionId": "1464",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-28",
+      "slug": "smallest-palindromic-rearrangement-i",
+      "title": "Smallest Palindromic Rearrangement I",
+      "questionId": "3517",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
