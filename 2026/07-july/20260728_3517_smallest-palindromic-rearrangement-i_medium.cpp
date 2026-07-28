@@ -1,18 +1,23 @@
 /*
- * Problem #3517: Smallest Palindromic Rearrangement I (Medium)
- * URL: https://leetcode.com/problems/smallest-palindromic-rearrangement-i/
+ * Problem #3517 - Smallest Palindromic Rearrangement I (Medium)
+ * https://leetcode.com/problems/smallest-palindromic-rearrangement-i/
  *
- * Approach: Greedy Sort on Half
- * Since the input string is guaranteed to be a palindrome, extract the left half,
- * sort it in ascending order to get the lexicographically smallest arrangement,
- * then mirror it to form the right half. If the length is odd, preserve the middle character.
- * This works because sorting the left half and reflecting it produces the smallest valid palindrome.
+ * Approach: Since the input string is guaranteed to be a palindrome, the first half
+ * already contains the characters needed to form the left half of the result. We sort
+ * the left half lexicographically to get the smallest arrangement, then mirror it to
+ * form the right half, preserving the middle character if the length is odd.
  *
- * Time Complexity: O(n log n) — dominated by sorting the left half of length n/2.
- * Space Complexity: O(n) — for storing the left, mid, and right substrings.
+ * Algorithm:
+ * 1. Extract the left half of the palindrome.
+ * 2. Sort it to produce the lexicographically smallest sequence.
+ * 3. Reverse the sorted left half to form the right half.
+ * 4. Concatenate left + optional middle character + right.
  *
- * Runtime: 107 ms
- * Memory: 71.4 MB
+ * Time Complexity : O((n/2) log(n/2)) — dominated by sorting the left half of length n/2.
+ * Space Complexity : O(n) — for storing left, right, mid, and the result string.
+ *
+ * Runtime : 74 ms
+ * Memory  : 71.4 MB
  */
 
 class Solution {
