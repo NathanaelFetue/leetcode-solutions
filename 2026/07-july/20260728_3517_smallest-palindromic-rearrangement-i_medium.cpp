@@ -2,36 +2,32 @@
  * Problem #3517: Smallest Palindromic Rearrangement I (Medium)
  * URL: https://leetcode.com/problems/smallest-palindromic-rearrangement-i/
  *
- * Approach: Frequency Count + Greedy Construction
- * Count character frequencies, then greedily build the lexicographically smallest palindrome.
- * The left half is built by taking floor(freq/2) of each character in alphabetical order,
- * any character with an odd frequency becomes the middle character, and the right half
- * is the reverse of the left half.
+ * Approach: Greedy Sort on Half
+ * Since the input string is guaranteed to be a palindrome, extract the left half,
+ * sort it in ascending order to get the lexicographically smallest arrangement,
+ * then mirror it to form the right half. If the length is odd, preserve the middle character.
+ * This works because sorting the left half and reflecting it produces the smallest valid palindrome.
  *
- * Time Complexity: O(n + 26) = O(n)
- *   - O(n) to count frequencies, O(26) to iterate alphabet and build the result.
+ * Time Complexity: O(n log n) — dominated by sorting the left half of length n/2.
+ * Space Complexity: O(n) — for storing the left, mid, and right substrings.
  *
- * Space Complexity: O(n)
- *   - O(n) for the output string (left, mid, right), O(26) for the frequency map.
- *
- * Runtime: 58 ms | Memory: 82.3 MB
+ * Runtime: 107 ms
+ * Memory: 71.4 MB
  */
 
 class Solution {
 public:
     string smallestPalindrome(string s) {
         int n = s.size();
-        unordered_map<char,int> mp;
-        for (char c : s) mp[c]++;
-        string left = "", mid = "";
-
-        for (char c = 'a'; c <= 'z'; c++) {
-            if (mp[c] % 2 == 1) mid = c;        
-            left += string(mp[c] / 2, c);
-        }
+        string left = s.substr(0, n / 2);
+        
+        sort(left.begin(), left.end());
+    
         string right = left;
         reverse(right.begin(), right.end());
-
+        
+        string mid = (n % 2 == 1) ? string(1, s[n/2]) : "";
+        
         return left + mid + right;
     }
 };
