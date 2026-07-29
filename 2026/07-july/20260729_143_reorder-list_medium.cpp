@@ -2,19 +2,18 @@
  * Problem #143: Reorder List (Medium)
  * https://leetcode.com/problems/reorder-list/
  *
- * Approach: Recursive tail-insertion reordering.
- * At each recursive step, find the last node in the remaining list, detach it,
- * and insert it immediately after the current head. Then recurse on the sublist
- * starting two nodes ahead, effectively interleaving front and back nodes.
+ * Approach: Recursive tail-to-head interleaving.
+ * In each recursive call, the last node is found by traversing to the second-to-last node,
+ * then detached and inserted immediately after the head, effectively interleaving the tail
+ * with the front. Recursion then proceeds on the sublist starting at head->next->next.
  *
- * Time Complexity: O(n^2) - each recursive call traverses the remaining list
- * to find the last node, and there are n/2 such calls.
+ * Time Complexity: O(n^2) - each recursive call traverses up to O(n) nodes to find the
+ * tail, and there are O(n/2) recursive calls total.
  *
- * Space Complexity: O(n) - recursive call stack depth is O(n/2) due to
- * the recursive calls on the shortened list.
+ * Space Complexity: O(n) - due to the recursive call stack depth of O(n/2).
  *
- * Runtime: 701 ms
- * Memory: 22.7 MB
+ * Runtime: 695 ms
+ * Memory: 22.6 MB
  */
 
 /**
