@@ -1,24 +1,60 @@
 /*
- * Problem 3518: Smallest Palindromic Rearrangement II (Hard)
+ * Problem #3518 - Smallest Palindromic Rearrangement II (Hard)
  * URL: https://leetcode.com/problems/smallest-palindromic-rearrangement-ii/
  *
- * Approach: Combinatorial ranking (k-th lexicographic permutation).
- * First, validate the string can form a palindrome (at most one odd-frequency character).
- * Halve all character counts to work only on the left half, then greedily build the
- * left half by computing unique permutations of remaining characters at each position,
- * determining which character to place by comparing k against available branch counts.
- * The full palindrome is constructed as left + optional_middle_char + reverse(left).
+ * Approach: Combinatorial ranking / k-th permutation selection.
+ * The left half of the palindrome is built character by character using a greedy strategy:
+ * for each position, we try the smallest available character, count the number of unique
+ * permutations of the remaining characters via multinomial coefficients C(n,k), and either
+ * place that character (if k falls within its subtree) or subtract its count and move to the
+ * next candidate. The right half is simply the reverse of the left half.
  *
- * Time Complexity: O(n * 26 * 26) — for each of the n/2 positions, we iterate over
- * up to 26 characters and compute unique permutations in O(26) per call.
- * Space Complexity: O(26 + n) — O(26) for frequency counts, O(n) for the output string.
+ * Time Complexity: O(n * 26^2) where n is the length of the left half (~s.size()/2).
+ * For each of the n positions we iterate over 26 letters and recompute permutationsUniques
+ * (itself O(26)) giving O(n * 26 * 26).
  *
- * Runtime: 1495 ms | Memory: 17.3 MB
+ * Space Complexity: O(n) for storing the left half string and the counts array of size 26.
+ *
+ * Runtime: 1470 ms | Memory: 17.1 MB
  */
 
 #include <string>
 #include <vector>
 #include <algorithm>
+
+// I've also done this , but TLE and naive non generalistic 
+// approach to count factorielle instead C(n,k)
+/*
+class Solution {
+public:
+    unsigned long long factorielleRecursive(int n) {
+        if (n <= 1) {
+            return 1;
+        }
+        return n * factorielleRecursive(n - 1);
+    }
+    
+    string smallestPalindrome(string s, int k) {
+        int n = s.size();
+        string left = s.substr(0, n/2) , rigth;
+        if (k > factorielleRecursive(left.size())) return "";
+        sort(left.begin() , left.end());
+        vector <string> vec;
+        string mid = (n%2 == 0) ? "": string(1, s[n/2]);
+
+        do{
+            rigth = left;
+            reverse(rigth.begin() , rigth.end());
+            vec.push_back(left+mid+rigth);
+
+        } while ( next_permutation(left.begin() , left.end()) );
+
+        if(k - 1 >= vec.size() || k <= 0){
+            return "";
+        }else  return vec[k-1];
+    }
+};
+*/
 
 class Solution {
 public:
