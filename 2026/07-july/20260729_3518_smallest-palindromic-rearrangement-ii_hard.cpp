@@ -1,19 +1,19 @@
 /*
- * Problem #3518: Smallest Palindromic Rearrangement II (Hard)
+ * Problem 3518: Smallest Palindromic Rearrangement II (Hard)
  * URL: https://leetcode.com/problems/smallest-palindromic-rearrangement-ii/
  *
- * Approach: Combinatorial ranking / lexicographic enumeration of unique palindrome permutations.
- * First, halve character counts to build the left half of the palindrome (handle odd-count middle char).
- * Then greedily pick each position of the left half by computing the count of unique permutations
- * of remaining characters using multinomial coefficients; decrement k accordingly until k=1.
- * The full palindrome is constructed as left + optional_mid_char + reverse(left).
+ * Approach: Combinatorial ranking (k-th lexicographic permutation).
+ * First, validate the string can form a palindrome (at most one odd-frequency character).
+ * Halve all character counts to work only on the left half, then greedily build the
+ * left half by computing unique permutations of remaining characters at each position,
+ * determining which character to place by comparing k against available branch counts.
+ * The full palindrome is constructed as left + optional_middle_char + reverse(left).
  *
- * Time Complexity: O(n * 26^2) — for each of the n/2 positions we iterate over 26 characters
- * and compute a multinomial coefficient over up to 26 distinct counts.
+ * Time Complexity: O(n * 26 * 26) — for each of the n/2 positions, we iterate over
+ * up to 26 characters and compute unique permutations in O(26) per call.
+ * Space Complexity: O(26 + n) — O(26) for frequency counts, O(n) for the output string.
  *
- * Space Complexity: O(n) — for storing the left half string and character count arrays.
- *
- * Runtime: 1467 ms | Memory: 17.2 MB
+ * Runtime: 1495 ms | Memory: 17.3 MB
  */
 
 #include <string>
