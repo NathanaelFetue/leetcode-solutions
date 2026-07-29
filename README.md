@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 94 |
-| Medium     | 95 |
+| Medium     | 96 |
 | Hard       | 30 |
-| **Total**  | **221** |
+| **Total**  | **222** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-07-29 | #143 [Reorder List](https://leetcode.com/problems/reorder-list/) | Medium | cpp |
 | 2026-07-29 | #3518 [Smallest Palindromic Rearrangement II](https://leetcode.com/problems/smallest-palindromic-rearrangement-ii/) | Hard | cpp |
 | 2026-07-28 | #3517 [Smallest Palindromic Rearrangement I](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/) | Medium | cpp |
 | 2026-07-27 | #1464 [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | Easy | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-07-21 | #74 [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | Medium | cpp |
 | 2026-07-21 | #704 [Binary Search](https://leetcode.com/problems/binary-search/) | Easy | cpp |
 | 2026-07-21 | #3499 [Maximize Active Section with Trade I](https://leetcode.com/problems/maximize-active-section-with-trade-i/) | Medium | cpp |
-| 2026-07-20 | #1260 [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) | Easy | cpp |
 
 ## Structure
 
