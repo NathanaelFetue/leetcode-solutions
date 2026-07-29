@@ -1,8 +1,8 @@
 {
   "easy": 94,
-  "medium": 95,
+  "medium": 96,
   "hard": 30,
-  "total": 221,
+  "total": 222,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1770,6 +1770,14 @@
       "title": "Smallest Palindromic Rearrangement II",
       "questionId": "3518",
       "difficulty": "Hard",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-29",
+      "slug": "reorder-list",
+      "title": "Reorder List",
+      "questionId": "143",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
