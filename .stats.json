@@ -1,8 +1,8 @@
 {
-  "easy": 94,
+  "easy": 95,
   "medium": 96,
   "hard": 30,
-  "total": 222,
+  "total": 223,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1778,6 +1778,14 @@
       "title": "Reorder List",
       "questionId": "143",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-30",
+      "slug": "minimum-number-of-pushes-to-type-word-i",
+      "title": "Minimum Number of Pushes to Type Word I",
+      "questionId": "3014",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
