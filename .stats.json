@@ -1,8 +1,8 @@
 {
   "easy": 95,
-  "medium": 96,
+  "medium": 97,
   "hard": 30,
-  "total": 223,
+  "total": 224,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1786,6 +1786,14 @@
       "title": "Minimum Number of Pushes to Type Word I",
       "questionId": "3014",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-07-31",
+      "slug": "minimum-number-of-pushes-to-type-word-ii",
+      "title": "Minimum Number of Pushes to Type Word II",
+      "questionId": "3016",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
