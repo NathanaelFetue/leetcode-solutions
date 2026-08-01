@@ -1,8 +1,8 @@
 {
   "easy": 95,
-  "medium": 98,
+  "medium": 99,
   "hard": 30,
-  "total": 225,
+  "total": 226,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1801,6 +1801,14 @@
       "slug": "remove-nth-node-from-end-of-list",
       "title": "Remove Nth Node From End of List",
       "questionId": "19",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-08-01",
+      "slug": "predict-the-winner",
+      "title": "Predict the Winner",
+      "questionId": "486",
       "difficulty": "Medium",
       "lang": "cpp"
     }
