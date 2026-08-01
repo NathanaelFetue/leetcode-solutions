@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 95 |
-| Medium     | 98 |
+| Medium     | 99 |
 | Hard       | 30 |
-| **Total**  | **225** |
+| **Total**  | **226** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-08-01 | #486 [Predict the Winner](https://leetcode.com/problems/predict-the-winner/) | Medium | cpp |
 | 2026-07-31 | #19 [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Medium | cpp |
 | 2026-07-31 | #3016 [Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/) | Medium | cpp |
 | 2026-07-30 | #3014 [Minimum Number of Pushes to Type Word I](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/) | Easy | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-07-24 | #3514 [Number of Unique XOR Triplets II](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/) | Medium | cpp |
 | 2026-07-23 | #3513 [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | Medium | cpp |
 | 2026-07-22 | #875 [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | Medium | cpp |
-| 2026-07-22 | #3501 [Maximize Active Section with Trade II](https://leetcode.com/problems/maximize-active-section-with-trade-ii/) | Hard | cpp |
 
 ## Structure
 
