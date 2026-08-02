@@ -1,8 +1,8 @@
 {
   "easy": 95,
-  "medium": 99,
+  "medium": 100,
   "hard": 30,
-  "total": 226,
+  "total": 227,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1809,6 +1809,14 @@
       "slug": "predict-the-winner",
       "title": "Predict the Winner",
       "questionId": "486",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-08-02",
+      "slug": "stone-game",
+      "title": "Stone Game",
+      "questionId": "877",
       "difficulty": "Medium",
       "lang": "cpp"
     }
