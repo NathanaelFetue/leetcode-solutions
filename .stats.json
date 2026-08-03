@@ -1,8 +1,8 @@
 {
   "easy": 98,
-  "medium": 101,
+  "medium": 102,
   "hard": 31,
-  "total": 232,
+  "total": 233,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1857,6 +1857,14 @@
       "slug": "binary-tree-level-order-traversal",
       "title": "Binary Tree Level Order Traversal",
       "questionId": "102",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-08-03",
+      "slug": "validate-binary-search-tree",
+      "title": "Validate Binary Search Tree",
+      "questionId": "98",
       "difficulty": "Medium",
       "lang": "cpp"
     }
