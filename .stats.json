@@ -1,8 +1,8 @@
 {
-  "easy": 96,
+  "easy": 97,
   "medium": 100,
   "hard": 31,
-  "total": 229,
+  "total": 230,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1833,6 +1833,14 @@
       "slug": "maximum-depth-of-binary-tree",
       "title": "Maximum Depth of Binary Tree",
       "questionId": "104",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-08-03",
+      "slug": "same-tree",
+      "title": "Same Tree",
+      "questionId": "100",
       "difficulty": "Easy",
       "lang": "cpp"
     }
