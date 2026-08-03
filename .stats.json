@@ -1,8 +1,8 @@
 {
   "easy": 98,
-  "medium": 100,
+  "medium": 101,
   "hard": 31,
-  "total": 231,
+  "total": 232,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1850,6 +1850,14 @@
       "title": "Invert Binary Tree",
       "questionId": "226",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-08-03",
+      "slug": "binary-tree-level-order-traversal",
+      "title": "Binary Tree Level Order Traversal",
+      "questionId": "102",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
