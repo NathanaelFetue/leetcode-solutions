@@ -1,8 +1,8 @@
 {
   "easy": 98,
-  "medium": 103,
+  "medium": 104,
   "hard": 31,
-  "total": 234,
+  "total": 235,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1873,6 +1873,14 @@
       "slug": "lowest-common-ancestor-of-a-binary-search-tree",
       "title": "Lowest Common Ancestor of a Binary Search Tree",
       "questionId": "235",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-08-03",
+      "slug": "number-of-islands",
+      "title": "Number of Islands",
+      "questionId": "200",
       "difficulty": "Medium",
       "lang": "cpp"
     }
