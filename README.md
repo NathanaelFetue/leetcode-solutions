@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 95 |
+| Easy       | 96 |
 | Medium     | 100 |
 | Hard       | 31 |
-| **Total**  | **228** |
+| **Total**  | **229** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-08-03 | #104 [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | cpp |
 | 2026-08-03 | #1406 [Stone Game III](https://leetcode.com/problems/stone-game-iii/) | Hard | cpp |
 | 2026-08-02 | #877 [Stone Game](https://leetcode.com/problems/stone-game/) | Medium | cpp |
 | 2026-08-01 | #486 [Predict the Winner](https://leetcode.com/problems/predict-the-winner/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-07-26 | #981 [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) | Medium | cpp |
 | 2026-07-26 | #628 [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/) | Easy | cpp |
 | 2026-07-25 | #3536 [Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/) | Easy | cpp |
-| 2026-07-24 | #3514 [Number of Unique XOR Triplets II](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/) | Medium | cpp |
 
 ## Structure
 
