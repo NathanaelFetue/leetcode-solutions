@@ -1,8 +1,8 @@
 {
-  "easy": 95,
+  "easy": 96,
   "medium": 100,
   "hard": 31,
-  "total": 228,
+  "total": 229,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1826,6 +1826,14 @@
       "title": "Stone Game III",
       "questionId": "1406",
       "difficulty": "Hard",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-08-03",
+      "slug": "maximum-depth-of-binary-tree",
+      "title": "Maximum Depth of Binary Tree",
+      "questionId": "104",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
