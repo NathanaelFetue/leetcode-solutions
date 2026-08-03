@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 98 |
-| Medium     | 101 |
+| Medium     | 102 |
 | Hard       | 31 |
-| **Total**  | **232** |
+| **Total**  | **233** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-08-03 | #98 [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | cpp |
 | 2026-08-03 | #102 [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | cpp |
 | 2026-08-03 | #226 [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | cpp |
 | 2026-08-03 | #100 [Same Tree](https://leetcode.com/problems/same-tree/) | Easy | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-07-29 | #3518 [Smallest Palindromic Rearrangement II](https://leetcode.com/problems/smallest-palindromic-rearrangement-ii/) | Hard | cpp |
 | 2026-07-28 | #3517 [Smallest Palindromic Rearrangement I](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/) | Medium | cpp |
 | 2026-07-27 | #1464 [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | Easy | cpp |
-| 2026-07-26 | #4 [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard | cpp |
 
 ## Structure
 
