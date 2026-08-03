@@ -1,8 +1,8 @@
 {
   "easy": 98,
-  "medium": 104,
+  "medium": 105,
   "hard": 31,
-  "total": 235,
+  "total": 236,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1881,6 +1881,14 @@
       "slug": "number-of-islands",
       "title": "Number of Islands",
       "questionId": "200",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-08-03",
+      "slug": "clone-graph",
+      "title": "Clone Graph",
+      "questionId": "133",
       "difficulty": "Medium",
       "lang": "cpp"
     }
