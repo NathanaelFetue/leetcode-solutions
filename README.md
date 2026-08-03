@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 98 |
-| Medium     | 103 |
+| Medium     | 104 |
 | Hard       | 31 |
-| **Total**  | **234** |
+| **Total**  | **235** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-08-03 | #200 [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | cpp |
 | 2026-08-03 | #235 [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | Medium | cpp |
 | 2026-08-03 | #98 [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | cpp |
 | 2026-08-03 | #102 [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-07-30 | #3014 [Minimum Number of Pushes to Type Word I](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/) | Easy | cpp |
 | 2026-07-29 | #143 [Reorder List](https://leetcode.com/problems/reorder-list/) | Medium | cpp |
 | 2026-07-29 | #3518 [Smallest Palindromic Rearrangement II](https://leetcode.com/problems/smallest-palindromic-rearrangement-ii/) | Hard | cpp |
-| 2026-07-28 | #3517 [Smallest Palindromic Rearrangement I](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/) | Medium | cpp |
 
 ## Structure
 
