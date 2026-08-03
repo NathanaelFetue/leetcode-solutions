@@ -1,8 +1,8 @@
 {
   "easy": 95,
   "medium": 100,
-  "hard": 30,
-  "total": 227,
+  "hard": 31,
+  "total": 228,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1818,6 +1818,14 @@
       "title": "Stone Game",
       "questionId": "877",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-08-03",
+      "slug": "stone-game-iii",
+      "title": "Stone Game III",
+      "questionId": "1406",
+      "difficulty": "Hard",
       "lang": "cpp"
     }
   ],
