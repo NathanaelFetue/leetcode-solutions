@@ -1,8 +1,8 @@
 {
   "easy": 98,
-  "medium": 102,
+  "medium": 103,
   "hard": 31,
-  "total": 233,
+  "total": 234,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1865,6 +1865,14 @@
       "slug": "validate-binary-search-tree",
       "title": "Validate Binary Search Tree",
       "questionId": "98",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-08-03",
+      "slug": "lowest-common-ancestor-of-a-binary-search-tree",
+      "title": "Lowest Common Ancestor of a Binary Search Tree",
+      "questionId": "235",
       "difficulty": "Medium",
       "lang": "cpp"
     }
