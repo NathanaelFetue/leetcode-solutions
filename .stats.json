@@ -1,8 +1,8 @@
 {
-  "easy": 98,
+  "easy": 99,
   "medium": 105,
   "hard": 31,
-  "total": 236,
+  "total": 237,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1890,6 +1890,14 @@
       "title": "Clone Graph",
       "questionId": "133",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-08-04",
+      "slug": "find-missing-elements",
+      "title": "Find Missing Elements",
+      "questionId": "3731",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
