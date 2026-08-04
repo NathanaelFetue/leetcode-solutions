@@ -1,8 +1,8 @@
 {
-  "easy": 100,
+  "easy": 101,
   "medium": 105,
   "hard": 31,
-  "total": 238,
+  "total": 239,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1905,6 +1905,14 @@
       "slug": "n-th-tribonacci-number",
       "title": "N-th Tribonacci Number",
       "questionId": "1137",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-08-04",
+      "slug": "min-cost-climbing-stairs",
+      "title": "Min Cost Climbing Stairs",
+      "questionId": "746",
       "difficulty": "Easy",
       "lang": "cpp"
     }
