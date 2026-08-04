@@ -1,8 +1,8 @@
 {
   "easy": 101,
-  "medium": 105,
+  "medium": 106,
   "hard": 31,
-  "total": 239,
+  "total": 240,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1914,6 +1914,14 @@
       "title": "Min Cost Climbing Stairs",
       "questionId": "746",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-08-04",
+      "slug": "unique-paths-ii",
+      "title": "Unique Paths II",
+      "questionId": "63",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
