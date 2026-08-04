@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 100 |
+| Easy       | 101 |
 | Medium     | 105 |
 | Hard       | 31 |
-| **Total**  | **238** |
+| **Total**  | **239** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-08-04 | #746 [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | Easy | cpp |
 | 2026-08-04 | #1137 [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | Easy | cpp |
 | 2026-08-04 | #3731 [Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | Easy | cpp |
 | 2026-08-03 | #133 [Clone Graph](https://leetcode.com/problems/clone-graph/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-08-02 | #877 [Stone Game](https://leetcode.com/problems/stone-game/) | Medium | cpp |
 | 2026-08-01 | #486 [Predict the Winner](https://leetcode.com/problems/predict-the-winner/) | Medium | cpp |
 | 2026-07-31 | #19 [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Medium | cpp |
-| 2026-07-31 | #3016 [Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/) | Medium | cpp |
 
 ## Structure
 
