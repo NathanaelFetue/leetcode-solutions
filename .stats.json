@@ -1,8 +1,8 @@
 {
   "easy": 101,
-  "medium": 106,
+  "medium": 107,
   "hard": 31,
-  "total": 240,
+  "total": 241,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1921,6 +1921,14 @@
       "slug": "unique-paths-ii",
       "title": "Unique Paths II",
       "questionId": "63",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-08-04",
+      "slug": "longest-common-subsequence",
+      "title": "Longest Common Subsequence",
+      "questionId": "1143",
       "difficulty": "Medium",
       "lang": "cpp"
     }
