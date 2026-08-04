@@ -1,8 +1,8 @@
 {
-  "easy": 99,
+  "easy": 100,
   "medium": 105,
   "hard": 31,
-  "total": 237,
+  "total": 238,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1897,6 +1897,14 @@
       "slug": "find-missing-elements",
       "title": "Find Missing Elements",
       "questionId": "3731",
+      "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-08-04",
+      "slug": "n-th-tribonacci-number",
+      "title": "N-th Tribonacci Number",
+      "questionId": "1137",
       "difficulty": "Easy",
       "lang": "cpp"
     }
