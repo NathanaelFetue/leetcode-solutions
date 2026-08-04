@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 101 |
-| Medium     | 106 |
+| Medium     | 107 |
 | Hard       | 31 |
-| **Total**  | **240** |
+| **Total**  | **241** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-08-04 | #1143 [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | Medium | cpp |
 | 2026-08-04 | #63 [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | Medium | cpp |
 | 2026-08-04 | #746 [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | Easy | cpp |
 | 2026-08-04 | #1137 [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | Easy | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-08-03 | #104 [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | cpp |
 | 2026-08-03 | #1406 [Stone Game III](https://leetcode.com/problems/stone-game-iii/) | Hard | cpp |
 | 2026-08-02 | #877 [Stone Game](https://leetcode.com/problems/stone-game/) | Medium | cpp |
-| 2026-08-01 | #486 [Predict the Winner](https://leetcode.com/problems/predict-the-winner/) | Medium | cpp |
 
 ## Structure
 
