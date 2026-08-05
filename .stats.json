@@ -1,8 +1,8 @@
 {
   "easy": 101,
-  "medium": 108,
+  "medium": 109,
   "hard": 31,
-  "total": 242,
+  "total": 243,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1937,6 +1937,14 @@
       "slug": "edit-distance",
       "title": "Edit Distance",
       "questionId": "72",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-08-05",
+      "slug": "remove-methods-from-project",
+      "title": "Remove Methods From Project",
+      "questionId": "3310",
       "difficulty": "Medium",
       "lang": "cpp"
     }
