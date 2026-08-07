@@ -8,13 +8,14 @@ Auto-synced from accepted LeetCode submissions.
 |------------|--------|
 | Easy       | 102 |
 | Medium     | 109 |
-| Hard       | 31 |
-| **Total**  | **244** |
+| Hard       | 32 |
+| **Total**  | **245** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-08-07 | #3348 [Smallest Divisible Digit Product II](https://leetcode.com/problems/smallest-divisible-digit-product-ii/) | Hard | cpp |
 | 2026-08-07 | #3345 [Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/) | Easy | cpp |
 | 2026-08-05 | #3310 [Remove Methods From Project](https://leetcode.com/problems/remove-methods-from-project/) | Medium | cpp |
 | 2026-08-04 | #72 [Edit Distance](https://leetcode.com/problems/edit-distance/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-08-03 | #98 [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | cpp |
 | 2026-08-03 | #102 [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | cpp |
 | 2026-08-03 | #226 [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | cpp |
-| 2026-08-03 | #100 [Same Tree](https://leetcode.com/problems/same-tree/) | Easy | cpp |
 
 ## Structure
 
