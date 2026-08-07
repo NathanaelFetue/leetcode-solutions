@@ -1,8 +1,8 @@
 {
-  "easy": 101,
+  "easy": 102,
   "medium": 109,
   "hard": 31,
-  "total": 243,
+  "total": 244,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1946,6 +1946,14 @@
       "title": "Remove Methods From Project",
       "questionId": "3310",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-08-07",
+      "slug": "smallest-divisible-digit-product-i",
+      "title": "Smallest Divisible Digit Product I",
+      "questionId": "3345",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
