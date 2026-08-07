@@ -1,8 +1,8 @@
 {
   "easy": 102,
   "medium": 109,
-  "hard": 31,
-  "total": 244,
+  "hard": 32,
+  "total": 245,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1954,6 +1954,14 @@
       "title": "Smallest Divisible Digit Product I",
       "questionId": "3345",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-08-07",
+      "slug": "smallest-divisible-digit-product-ii",
+      "title": "Smallest Divisible Digit Product II",
+      "questionId": "3348",
+      "difficulty": "Hard",
       "lang": "cpp"
     }
   ],
