@@ -1,8 +1,8 @@
 {
-  "easy": 102,
+  "easy": 103,
   "medium": 109,
   "hard": 32,
-  "total": 245,
+  "total": 246,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1962,6 +1962,14 @@
       "title": "Smallest Divisible Digit Product II",
       "questionId": "3348",
       "difficulty": "Hard",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-08-12",
+      "slug": "smallest-missing-integer-greater-than-sequential-prefix-sum",
+      "title": "Smallest Missing Integer Greater Than Sequential Prefix Sum",
+      "questionId": "2996",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
