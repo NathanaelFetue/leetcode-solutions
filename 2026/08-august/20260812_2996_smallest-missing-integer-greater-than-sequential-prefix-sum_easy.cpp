@@ -3,12 +3,13 @@
  * Difficulty: Easy
  * URL: https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/
  *
- * Approach: Calculate the sum of the longest sequential prefix starting from the first element. Store all elements of the array in a hash set for O(1) lookups. Beginning with the prefix sum, incrementally check for its existence in the hash set, adding 1 until finding the smallest missing integer.
+ * Approach:
+ * The key insight is to separate the problem into two distinct phases: finding the sum of the longest sequential prefix and then resolving collisions against the existing elements. By definition, a sequential prefix must start at index 0 and increment by exactly 1 at each step. We calculate this prefix sum in a single linear pass that terminates immediately upon encountering a non-sequential element. Utilizing a hash set for O(1) lookups allows us to efficiently increment this sum until we find the smallest integer not present in the original array.
  *
- * Time Complexity: O(N)
- * Space Complexity: O(N)
- * Runtime: 0 ms
- * Memory: 22.8 MB
+ * Time Complexity: O(N) — Populating the hash set and calculating the sequential prefix sum takes O(N) time, followed by at most O(N) lookup operations to find the smallest missing integer.
+ * Space Complexity: O(N) — An unordered set is used to store the unique elements of the input array for O(1) lookup performance.
+ *
+ * Runtime: 0 ms | Memory: 23.1 MB
  */
 
 class Solution {
