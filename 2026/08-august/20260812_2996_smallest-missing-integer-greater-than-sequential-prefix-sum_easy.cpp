@@ -4,12 +4,12 @@
  * URL: https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/
  *
  * Approach:
- * The key insight is to separate the problem into two distinct phases: finding the sum of the longest sequential prefix and then resolving collisions against the existing elements. By definition, a sequential prefix must start at index 0 and increment by exactly 1 at each step. We calculate this prefix sum in a single linear pass that terminates immediately upon encountering a non-sequential element. Utilizing a hash set for O(1) lookups allows us to efficiently increment this sum until we find the smallest integer not present in the original array.
+ * The key insight is to decouple the problem into finding the sequential prefix sum and searching for the smallest missing integer. We greedily accumulate consecutive elements starting from the first element as long as the sequential relationship (nums[i] == nums[i-1] + 1) holds. To optimize the subsequent search, we populate a hash set containing all array elements. This allows us to increment the sequential prefix sum iteratively and verify its existence in the set in O(1) time, guaranteeing we find the smallest missing integer in at most N steps.
  *
- * Time Complexity: O(N) — Populating the hash set and calculating the sequential prefix sum takes O(N) time, followed by at most O(N) lookup operations to find the smallest missing integer.
- * Space Complexity: O(N) — An unordered set is used to store the unique elements of the input array for O(1) lookup performance.
+ * Time Complexity: O(N) — One linear scan is performed to build the hash set and determine the sequential prefix sum. The subsequent search increments the prefix sum and checks existence in the set in O(1) time, running at most N times since there are at most N unique elements.
+ * Space Complexity: O(N) — An unordered hash set stores up to N elements of the input array to facilitate constant-time lookup checks during the sequential missing integer search.
  *
- * Runtime: 0 ms | Memory: 23.1 MB
+ * Runtime: 2 ms | Memory: 23.1 MB
  */
 
 class Solution {
