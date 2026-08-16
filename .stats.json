@@ -1,8 +1,8 @@
 {
   "easy": 103,
-  "medium": 109,
+  "medium": 110,
   "hard": 32,
-  "total": 246,
+  "total": 247,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1970,6 +1970,14 @@
       "title": "Smallest Missing Integer Greater Than Sequential Prefix Sum",
       "questionId": "2996",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-08-16",
+      "slug": "longest-subsequence-with-non-zero-bitwise-xor",
+      "title": "Longest Subsequence With Non-Zero Bitwise XOR",
+      "questionId": "3702",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
