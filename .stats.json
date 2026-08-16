@@ -1,8 +1,8 @@
 {
-  "easy": 103,
+  "easy": 104,
   "medium": 111,
   "hard": 32,
-  "total": 248,
+  "total": 249,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1986,6 +1986,14 @@
       "title": "Stone Game IX",
       "questionId": "2029",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-08-16",
+      "slug": "binary-tree-inorder-traversal",
+      "title": "Binary Tree Inorder Traversal",
+      "questionId": "94",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
