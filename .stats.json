@@ -1,8 +1,8 @@
 {
   "easy": 103,
-  "medium": 110,
+  "medium": 111,
   "hard": 32,
-  "total": 247,
+  "total": 248,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1977,6 +1977,14 @@
       "slug": "longest-subsequence-with-non-zero-bitwise-xor",
       "title": "Longest Subsequence With Non-Zero Bitwise XOR",
       "questionId": "3702",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-08-16",
+      "slug": "stone-game-ix",
+      "title": "Stone Game IX",
+      "questionId": "2029",
       "difficulty": "Medium",
       "lang": "cpp"
     }
