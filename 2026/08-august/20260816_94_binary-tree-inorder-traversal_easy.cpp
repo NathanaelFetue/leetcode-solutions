@@ -4,12 +4,12 @@
  * URL: https://leetcode.com/problems/binary-tree-inorder-traversal/
  *
  * Approach:
- * The key insight behind inorder traversal (Left-Root-Right) is that it processes nodes in ascending order of their physical left-to-right positions, which naturally yields sorted keys in binary search trees. This implementation uses a recursive divide-and-conquer depth-first search, breaking the problem into independent subproblems where left and right subtrees are traversed to yield local result arrays. These intermediate arrays are then physically combined with the current root's value at each frame of recursion. Although conceptually elegant, this delegation pattern incurs copying overhead at each merge step compared to passing a single vector reference accumulator.
+ * The key insight to inorder traversal is preserving the Left-Root-Right visitation sequence, which can be modeled as a divide-and-conquer recursive decomposition. By treating the left and right subtrees as independent subproblems, we can compute their traversals and merge them around the current root's value. This functional recursion style avoids global state or shared reference parameters by constructing and returning intermediate vectors up the call stack. While this design introduces copying overhead, it highlights the structural decomposition of tree problems into sub-problems.
  *
- * Time Complexity: O(N log N) on average — Driven by the vector concatenation operations (`vector::insert`) performed at each recursive step. In a balanced tree, copying subtree results of size K yields a recurrence relation of T(N) = 2T(N/2) + O(N) which resolves to O(N log N) time; in a completely skewed tree, this degrades to O(N^2) time.
- * Space Complexity: O(N) — Dominated by the call stack depth which scales to O(N) in skewed trees, along with the temporary vector instances created and returned up the call stack during traversal reconstruction.
+ * Time Complexity: O(N^2) — driven by the repeated vector copying and concatenation operations at each level of recursion on highly skewed trees, which degrades from the optimal linear time to quadratic; for balanced trees, this overhead is O(N log N).
+ * Space Complexity: O(N^2) — driven by the creation of intermediate vector copies across O(H) call stack frames (where H is the tree height), resulting in quadratic space in the worst case (skewed tree) and O(N log N) on average.
  *
- * Runtime: 3 ms | Memory: 12.6 MB
+ * Runtime: 0 ms | Memory: 12.4 MB
  */
 
 class Solution {
