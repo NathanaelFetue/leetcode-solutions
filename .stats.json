@@ -1,8 +1,8 @@
 {
   "easy": 104,
   "medium": 111,
-  "hard": 32,
-  "total": 249,
+  "hard": 33,
+  "total": 250,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -1994,6 +1994,14 @@
       "title": "Binary Tree Inorder Traversal",
       "questionId": "94",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-08-17",
+      "slug": "stone-game-v",
+      "title": "Stone Game V",
+      "questionId": "1563",
+      "difficulty": "Hard",
       "lang": "cpp"
     }
   ],
