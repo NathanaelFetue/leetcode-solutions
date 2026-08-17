@@ -8,13 +8,14 @@ Auto-synced from accepted LeetCode submissions.
 |------------|--------|
 | Easy       | 104 |
 | Medium     | 111 |
-| Hard       | 32 |
-| **Total**  | **249** |
+| Hard       | 33 |
+| **Total**  | **250** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-08-17 | #1563 [Stone Game V](https://leetcode.com/problems/stone-game-v/) | Hard | cpp |
 | 2026-08-16 | #94 [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Easy | cpp |
 | 2026-08-16 | #2029 [Stone Game IX](https://leetcode.com/problems/stone-game-ix/) | Medium | cpp |
 | 2026-08-16 | #3702 [Longest Subsequence With Non-Zero Bitwise XOR](https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-08-04 | #1137 [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | Easy | cpp |
 | 2026-08-04 | #3731 [Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | Easy | cpp |
 | 2026-08-03 | #133 [Clone Graph](https://leetcode.com/problems/clone-graph/) | Medium | cpp |
-| 2026-08-03 | #200 [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | cpp |
 
 ## Structure
 
