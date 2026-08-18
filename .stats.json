@@ -1,8 +1,8 @@
 {
-  "easy": 104,
+  "easy": 105,
   "medium": 111,
   "hard": 33,
-  "total": 250,
+  "total": 251,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -2002,6 +2002,14 @@
       "title": "Stone Game V",
       "questionId": "1563",
       "difficulty": "Hard",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-08-18",
+      "slug": "find-the-largest-almost-missing-integer",
+      "title": "Find the Largest Almost Missing Integer",
+      "questionId": "3471",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
