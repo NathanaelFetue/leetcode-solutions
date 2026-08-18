@@ -4,12 +4,12 @@
  * URL: https://leetcode.com/problems/find-the-largest-almost-missing-integer/
  *
  * Approach:
- * The key insight is to track how many unique subarrays (windows) of size k contain each integer, ensuring that duplicates within any single window are not double-counted. We achieve this by iterating through all possible fixed-size sliding windows of length k and using an auxiliary hash set to deduplicate elements inside the current window. These unique elements are then used to increment a global frequency map that records the number of windows containing each value. Finally, we scan the frequency map to find the maximum element that appeared in exactly one window, returning -1 if no such element exists.
+ * The key insight is to track the window-level frequency of each unique element across all possible subarrays of length k. An integer is "almost missing" if it appears in exactly one of these subarrays. We simulate this by shifting a window of size k across the array, deduplicating elements within the current window using a hash set, and then updating a global frequency map that counts how many windows each element belongs to. Finally, we scan the frequency map to find the maximum element with a frequency of exactly one.
  *
- * Time Complexity: O(N * K) — where N is the number of elements in the array and K is the window size. There are N - K + 1 sliding windows, and for each window, we perform O(K) average-time operations to deduplicate its elements and update their global window counts.
- * Space Complexity: O(N) — driven by the global frequency map which stores up to N unique elements, alongside the auxiliary hash set which requires at most O(K) space for deduplicating elements in a single window.
+ * Time Complexity: O((N - K) * K) — driven by processing each of the N - K + 1 sliding windows of size K, deduplicating its elements, and updating their global frequencies in a hash map.
+ * Space Complexity: O(N) — driven by the global hash map storing window frequencies for up to N unique elements and the temporary hash set storing up to K elements per window.
  *
- * Runtime: 15 ms | Memory: 32.6 MB
+ * Runtime: 18 ms | Memory: 32.7 MB
  */
 
 class Solution {
