@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 104 |
+| Easy       | 105 |
 | Medium     | 111 |
 | Hard       | 33 |
-| **Total**  | **250** |
+| **Total**  | **251** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-08-18 | #3471 [Find the Largest Almost Missing Integer](https://leetcode.com/problems/find-the-largest-almost-missing-integer/) | Easy | cpp |
 | 2026-08-17 | #1563 [Stone Game V](https://leetcode.com/problems/stone-game-v/) | Hard | cpp |
 | 2026-08-16 | #94 [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Easy | cpp |
 | 2026-08-16 | #2029 [Stone Game IX](https://leetcode.com/problems/stone-game-ix/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-08-04 | #746 [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | Easy | cpp |
 | 2026-08-04 | #1137 [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | Easy | cpp |
 | 2026-08-04 | #3731 [Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | Easy | cpp |
-| 2026-08-03 | #133 [Clone Graph](https://leetcode.com/problems/clone-graph/) | Medium | cpp |
 
 ## Structure
 
