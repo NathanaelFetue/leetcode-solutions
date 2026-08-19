@@ -1,8 +1,8 @@
 {
   "easy": 105,
-  "medium": 111,
+  "medium": 112,
   "hard": 33,
-  "total": 251,
+  "total": 252,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -2010,6 +2010,14 @@
       "title": "Find the Largest Almost Missing Integer",
       "questionId": "3471",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-08-19",
+      "slug": "cinema-seat-allocation",
+      "title": "Cinema Seat Allocation",
+      "questionId": "1386",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
