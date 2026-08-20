@@ -1,8 +1,8 @@
 {
-  "easy": 105,
+  "easy": 106,
   "medium": 112,
   "hard": 33,
-  "total": 252,
+  "total": 253,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -2018,6 +2018,14 @@
       "title": "Cinema Seat Allocation",
       "questionId": "1386",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-08-20",
+      "slug": "distribute-elements-into-two-arrays-i",
+      "title": "Distribute Elements Into Two Arrays I",
+      "questionId": "3069",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
