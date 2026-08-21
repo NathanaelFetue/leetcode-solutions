@@ -1,8 +1,8 @@
 {
   "easy": 106,
   "medium": 112,
-  "hard": 33,
-  "total": 253,
+  "hard": 34,
+  "total": 254,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -2026,6 +2026,14 @@
       "title": "Distribute Elements Into Two Arrays I",
       "questionId": "3069",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-08-21",
+      "slug": "kth-smallest-amount-with-single-denomination-combination",
+      "title": "Kth Smallest Amount With Single Denomination Combination",
+      "questionId": "3116",
+      "difficulty": "Hard",
       "lang": "cpp"
     }
   ],
