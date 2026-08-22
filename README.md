@@ -6,15 +6,16 @@ Auto-synced from accepted LeetCode submissions.
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 106 |
+| Easy       | 107 |
 | Medium     | 112 |
 | Hard       | 34 |
-| **Total**  | **254** |
+| **Total**  | **255** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-08-22 | #3622 [Check Divisibility by Digit Sum and Product](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/) | Easy | cpp |
 | 2026-08-21 | #3116 [Kth Smallest Amount With Single Denomination Combination](https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination/) | Hard | cpp |
 | 2026-08-20 | #3069 [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | Easy | cpp |
 | 2026-08-19 | #1386 [Cinema Seat Allocation](https://leetcode.com/problems/cinema-seat-allocation/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-08-05 | #3310 [Remove Methods From Project](https://leetcode.com/problems/remove-methods-from-project/) | Medium | cpp |
 | 2026-08-04 | #72 [Edit Distance](https://leetcode.com/problems/edit-distance/) | Medium | cpp |
 | 2026-08-04 | #1143 [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | Medium | cpp |
-| 2026-08-04 | #63 [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | Medium | cpp |
 
 ## Structure
 
