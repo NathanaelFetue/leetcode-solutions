@@ -1,8 +1,8 @@
 {
-  "easy": 106,
+  "easy": 107,
   "medium": 112,
   "hard": 34,
-  "total": 254,
+  "total": 255,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -2034,6 +2034,14 @@
       "title": "Kth Smallest Amount With Single Denomination Combination",
       "questionId": "3116",
       "difficulty": "Hard",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-08-22",
+      "slug": "check-divisibility-by-digit-sum-and-product",
+      "title": "Check Divisibility by Digit Sum and Product",
+      "questionId": "3622",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
