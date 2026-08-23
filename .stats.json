@@ -1,8 +1,8 @@
 {
-  "easy": 107,
+  "easy": 108,
   "medium": 113,
   "hard": 34,
-  "total": 256,
+  "total": 257,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -2050,6 +2050,14 @@
       "title": "Sum Game",
       "questionId": "1927",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-08-23",
+      "slug": "check-ascii-palindromic",
+      "title": "Check ASCII Palindromic",
+      "questionId": "4030",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
