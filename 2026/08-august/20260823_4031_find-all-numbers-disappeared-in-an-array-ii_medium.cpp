@@ -4,12 +4,12 @@
  * URL: https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array-ii/
  *
  * Approach:
- * The key insight is that sorting the array allows us to sequentially scan for missing intervals by maintaining a running pointer (`cur`) initialized to the `lower` bound. As we iterate through the sorted numbers, we ignore duplicates or values below `cur` and terminate early once we exceed `upper`. Any element strictly greater than `cur` reveals a disappeared contiguous range from `cur` to `x - 1`, which we record before advancing `cur` to `x + 1`. This sorting-based sequential scanning guarantees we identify all gaps in a single pass without the high memory overhead of hash sets.
+ * The key insight is to sort the input array to process elements in increasing order, transforming the search for missing ranges into a sequential boundary-tracking task. By maintaining a pointer `cur` initialized to `lower` that tracks the next expected integer in the range, we can identify missing gaps whenever we encounter an element `x` strictly greater than `cur`. This sorted interval tracking technique allows us to greedily construct missing sub-ranges `[cur, x - 1]` in a single linear scan while naturally ignoring duplicate values and elements outside the boundaries.
  *
- * Time Complexity: O(N log N) — Driven by sorting the input array `nums` of size N, while the subsequent gap scanning runs in a single linear pass of O(N).
- * Space Complexity: O(1) — Operating in-place on the input array, requiring only O(1) auxiliary space (excluding the memory used by the sorting algorithm's recursion stack and the returned result).
+ * Time Complexity: O(N log N) — dominated by the initial sorting of the input array, followed by a linear scan of O(N) to identify the missing intervals.
+ * Space Complexity: O(1) — using constant auxiliary space besides the output buffer, assuming the sorting algorithm operates in-place (or O(log N) space for the recursive call stack of the sorting algorithm).
  *
- * Runtime: 100 ms | Memory: 242.3 MB
+ * Runtime: 113 ms | Memory: 242.3 MB
  */
 
 class Solution {
