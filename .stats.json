@@ -1,8 +1,8 @@
 {
   "easy": 107,
-  "medium": 112,
+  "medium": 113,
   "hard": 34,
-  "total": 255,
+  "total": 256,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -2042,6 +2042,14 @@
       "title": "Check Divisibility by Digit Sum and Product",
       "questionId": "3622",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-08-23",
+      "slug": "sum-game",
+      "title": "Sum Game",
+      "questionId": "1927",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
