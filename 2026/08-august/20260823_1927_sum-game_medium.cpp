@@ -4,18 +4,13 @@
  * URL: https://leetcode.com/problems/sum-game/
  *
  * Approach:
- * The key insight is reducing the game to a balancing act using game theory and symmetric play. Since Alice and Bob play optimally, Bob can always counter Alice's moves: any pair of question marks on opposite sides can cancel each other out, and any pair of question marks on the same side can be forced by Bob to sum to exactly 9 by playing the complement (9 - x) of whatever Alice plays. This effectively values each net question mark at 4.5. Consequently, Bob wins if and only if the deficit between the two halves' sums is perfectly balanced by the net difference in question marks valued at 4.5 each.
+ * The key insight is that Bob can force a win if and only if he can pair up the '?' moves to perfectly neutralize Alice's strategy. By using a symmetric game-theory pairing strategy, Bob can guarantee that any pair of '?' marks on the same side contributes exactly 9 to the sum (if Alice plays x, Bob plays 9-x), which averages to 4.5 per '?'. Conversely, '?' marks on opposite sides can be neutralized to a net difference of 0 by Bob mirroring Alice's moves. Thus, Alice wins unless the initial sum deficit on one side is perfectly balanced by the excess '?' marks on the other side at a rate of 4.5 per '?'.
  *
- * Time Complexity: O(N) — a single linear scan of the string to accumulate the sums and count the question marks in both halves.
- * Space Complexity: O(1) — only a few integer counters are used, requiring constant auxiliary space.
+ * Time Complexity: O(N) — a single linear scan of the string of length N to count '?' characters and accumulate digit sums on both halves.
+ * Space Complexity: O(1) — only constant auxiliary space is used for the sum and question mark counters.
  *
  * Runtime: 3 ms | Memory: 14 MB
  */
-
-#include <string>
-#include <numeric>
-
-using namespace std;
 
 class Solution {
 public:
