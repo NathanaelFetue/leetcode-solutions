@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 108 |
-| Medium     | 113 |
+| Medium     | 114 |
 | Hard       | 34 |
-| **Total**  | **257** |
+| **Total**  | **258** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-08-23 | #4031 [Find All Numbers Disappeared in an Array II](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array-ii/) | Medium | cpp |
 | 2026-08-23 | #4030 [Check ASCII Palindromic](https://leetcode.com/problems/check-ascii-palindromic/) | Easy | cpp |
 | 2026-08-23 | #1927 [Sum Game](https://leetcode.com/problems/sum-game/) | Medium | cpp |
 | 2026-08-22 | #3622 [Check Divisibility by Digit Sum and Product](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/) | Easy | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-08-12 | #2996 [Smallest Missing Integer Greater Than Sequential Prefix Sum](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/) | Easy | cpp |
 | 2026-08-07 | #3348 [Smallest Divisible Digit Product II](https://leetcode.com/problems/smallest-divisible-digit-product-ii/) | Hard | cpp |
 | 2026-08-07 | #3345 [Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/) | Easy | cpp |
-| 2026-08-05 | #3310 [Remove Methods From Project](https://leetcode.com/problems/remove-methods-from-project/) | Medium | cpp |
 
 ## Structure
 
