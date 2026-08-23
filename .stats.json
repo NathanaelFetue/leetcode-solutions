@@ -1,8 +1,8 @@
 {
   "easy": 108,
-  "medium": 113,
+  "medium": 114,
   "hard": 34,
-  "total": 257,
+  "total": 258,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -2058,6 +2058,14 @@
       "title": "Check ASCII Palindromic",
       "questionId": "4030",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-08-23",
+      "slug": "find-all-numbers-disappeared-in-an-array-ii",
+      "title": "Find All Numbers Disappeared in an Array II",
+      "questionId": "4031",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
