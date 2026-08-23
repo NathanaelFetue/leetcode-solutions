@@ -4,12 +4,12 @@
  * URL: https://leetcode.com/problems/check-ascii-palindromic/
  *
  * Approach:
- * The key insight is that ASCII palindromic validation must be performed on the continuous 8-bit binary representation of the entire string rather than the character literals themselves. By flattening the string into a monolithic bitstream where each character is mapped to its 8-bit binary equivalent via std::bitset, we establish a uniform sequence of '0' and '1' characters. We then apply a two-pointer convergent search from both ends of the bitstream to verify symmetry. This reduction guarantees that any asymmetric bit pattern is immediately caught, ensuring correctness while avoiding complex bit-manipulation offsets.
+ * The key insight is to transform the character-level palindrome check into a bit-level representation check by converting each ASCII character into its 8-bit binary equivalent. By flattening the entire string into a contiguous sequence of bits, we can determine if the overall binary structure is symmetric. The algorithm utilizes the two-pointer collision technique to validate symmetry from both ends of the concatenated binary string toward the center, failing early on any mismatch. This ensures that we verify the binary representation of the ASCII values as a unified palindromic sequence.
  *
- * Time Complexity: O(N) — where N is the length of the input string. Converting each character to its 8-bit representation takes O(1) auxiliary operations, and the subsequent two-pointer traversal scales linearly with the size of the bitstream (8 * N).
- * Space Complexity: O(N) — to store the flattened binary string representation, which dynamically allocates 8 * N bytes of memory.
+ * Time Complexity: O(N) — where N is the length of the input string, driven by the linear pass to convert each character to an 8-bit representation and a subsequent linear scan of the resulting string of length 8N.
+ * Space Complexity: O(N) — due to the allocation of a temporary binary string of size 8 * N to store the concatenated bitwise representations of the input characters.
  *
- * Runtime: 4 ms | Memory: 9.3 MB
+ * Runtime: 0 ms | Memory: 9.2 MB
  */
 
 class Solution {
