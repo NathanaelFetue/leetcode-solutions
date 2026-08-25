@@ -1,8 +1,8 @@
 {
-  "easy": 108,
+  "easy": 109,
   "medium": 114,
   "hard": 34,
-  "total": 258,
+  "total": 259,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -2066,6 +2066,14 @@
       "title": "Find All Numbers Disappeared in an Array II",
       "questionId": "4031",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-08-25",
+      "slug": "smallest-missing-multiple-of-k",
+      "title": "Smallest Missing Multiple of K",
+      "questionId": "3718",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
