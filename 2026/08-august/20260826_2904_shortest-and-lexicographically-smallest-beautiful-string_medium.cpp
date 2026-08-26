@@ -4,36 +4,38 @@
  * URL: https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/
  *
  * Approach:
- * Every beautiful substring must start and end with a '1' to minimize its length. By initiating a search only at indices where s[l] == '1', we can expand a right pointer 'r' until exactly 'k' ones are encountered. Once the k-th '1' is found, we capture this substring as a candidate and immediately break, as any further rightward expansion would only increase the substring's length. We then compare this candidate to our globally tracked best result, prioritizing shorter length first, and then lexicographical order in case of ties.
+ * The key insight to finding the shortest beautiful string is that any optimal substring must begin and end with '1' to avoid unnecessary padding. By utilizing an anchored search technique, we iterate through the string and treat each '1' as a fixed starting point `l`. We then expand a right pointer `r` until we encompass exactly `k` ones, guaranteeing that `s[l...r]` is the shortest valid beautiful substring starting at `l`. We then compare this candidate to our globally tracked best solution, updating it if the candidate is shorter, or lexicographically smaller when lengths are equal.
  *
- * Time Complexity: O(N^2) — For each of the N characters, we potentially scan up to the end of the string to find the k-th '1', followed by an O(N) substring extraction and comparison.
- * Space Complexity: O(N) — Required to store the candidate and final result substrings, which are bounded by the length of the input string.
+ * Time Complexity: O(N^2) — The outer loop scans the string of length N, and for each '1' encountered, the inner loop expands up to N times to locate the k-th '1'. Extracting and comparing candidate substrings takes O(N) time, making the total worst-case time complexity O(N^2) which runs extremely fast for N <= 100.
+ * Space Complexity: O(N) — This space is used to store the optimal result string and the temporary candidate substring during the comparative checks.
  *
- * Runtime: 0 ms | Memory: 8.5 MB
+ * Runtime: 2 ms | Memory: 8.7 MB
  */
 
 class Solution {
 public:
     string shortestBeautifulSubstring(string s, int k) {
         string res = "";
-        int n = s.size();
+        int n= s.size();
 
-        for (int l = 0; l < n; l++) {
-            if (s[l] != '1') continue;
-            
+        for(int l=0; l<n; l++){
+            if(s[l] != '1') continue;
+
             int ones = 0;
-            for (int r = l; r < n; r++) {
-                if (s[r] == '1') ones++;
-                
-                if (ones == k) {
-                    string candidate = s.substr(l, r - l + 1);
-                    if (res.empty() || candidate.size() < res.size() ||
-                       (candidate.size() == res.size() && candidate < res))
+            for(int r=l ; r<n; r++){
+                if(s[r] == '1') ones++;
+                if(ones == k){
+                    string candidate = s.substr(l, r-l+1);
+                    if( res.empty() || candidate.size() < res.size() || candidate.size() == res.size() && candidate < res){
                         res = candidate;
-                    break; 
+                    }
+                    break;
                 }
+                
             }
         }
+
+
         return res;
     }
 };
