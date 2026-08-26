@@ -1,8 +1,8 @@
 {
   "easy": 109,
-  "medium": 114,
+  "medium": 115,
   "hard": 34,
-  "total": 259,
+  "total": 260,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -2074,6 +2074,14 @@
       "title": "Smallest Missing Multiple of K",
       "questionId": "3718",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-08-26",
+      "slug": "shortest-and-lexicographically-smallest-beautiful-string",
+      "title": "Shortest and Lexicographically Smallest Beautiful String",
+      "questionId": "2904",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
