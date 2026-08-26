@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 109 |
-| Medium     | 114 |
+| Medium     | 115 |
 | Hard       | 34 |
-| **Total**  | **259** |
+| **Total**  | **260** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-08-26 | #2904 [Shortest and Lexicographically Smallest Beautiful String](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/) | Medium | cpp |
 | 2026-08-25 | #3718 [Smallest Missing Multiple of K](https://leetcode.com/problems/smallest-missing-multiple-of-k/) | Easy | cpp |
 | 2026-08-23 | #4031 [Find All Numbers Disappeared in an Array II](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array-ii/) | Medium | cpp |
 | 2026-08-23 | #4030 [Check ASCII Palindromic](https://leetcode.com/problems/check-ascii-palindromic/) | Easy | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-08-16 | #2029 [Stone Game IX](https://leetcode.com/problems/stone-game-ix/) | Medium | cpp |
 | 2026-08-16 | #3702 [Longest Subsequence With Non-Zero Bitwise XOR](https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/) | Medium | cpp |
 | 2026-08-12 | #2996 [Smallest Missing Integer Greater Than Sequential Prefix Sum](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/) | Easy | cpp |
-| 2026-08-07 | #3348 [Smallest Divisible Digit Product II](https://leetcode.com/problems/smallest-divisible-digit-product-ii/) | Hard | cpp |
 
 ## Structure
 
