@@ -1,8 +1,8 @@
 {
   "easy": 109,
-  "medium": 115,
+  "medium": 116,
   "hard": 34,
-  "total": 260,
+  "total": 261,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -2081,6 +2081,14 @@
       "slug": "shortest-and-lexicographically-smallest-beautiful-string",
       "title": "Shortest and Lexicographically Smallest Beautiful String",
       "questionId": "2904",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-08-27",
+      "slug": "lexicographically-smallest-permutation-greater-than-target",
+      "title": "Lexicographically Smallest Permutation Greater Than Target",
+      "questionId": "3720",
       "difficulty": "Medium",
       "lang": "cpp"
     }
