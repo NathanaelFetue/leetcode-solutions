@@ -4,12 +4,12 @@
  * URL: https://leetcode.com/problems/lexicographically-smallest-permutation-greater-than-target/
  *
  * Approach:
- * The key insight is that any permutation of `s` strictly greater than `target` must share a common prefix with `target` up to some index `i - 1`, have a strictly larger character at index `i`, and have the remaining characters sorted in ascending order to minimize the suffix. We iterate over all possible branch-off indices `i` from `0` to `n - 1`. For each index, we verify if `s` contains the required prefix `target[0...i-1]`, find the smallest available character greater than `target[i]` to place at index `i`, and greedily append the rest of the characters in sorted order. By comparing the resulting candidates for all valid branch-off points, we find the globally lexicographically smallest permutation.
+ * The key insight is that any permutation of the string strictly greater than the target must share a common prefix with the target of some length, diverge at the next index with a strictly larger character, and minimize the remaining suffix. By iterating over all possible divergence points, we verify if the prefix can be formed from the available character multiset, greedily select the smallest possible larger character for the split, and sort the remaining characters in ascending order to construct the smallest possible suffix. This greedy prefix exploration with suffix sorting guarantees that the lexicographically smallest of all valid candidates generated is the absolute minimum greater permutation.
  *
- * Time Complexity: O(N^2) — the outer loop runs N times for each possible branch-off index, and inside the loop, verifying the prefix and constructing the candidate string takes O(N) time.
- * Space Complexity: O(N) — to store the candidate and result strings of length N, with O(1) auxiliary space for the fixed-size character frequency arrays.
+ * Time Complexity: O(N^2) — For each of the N possible split indices, we validate the prefix in O(N) time and build the candidate by filling the suffix in O(N) time using a fixed-size character frequency map.
+ * Space Complexity: O(N) — Auxiliary space is required to store the candidate and result strings of length N, while the character frequency arrays use a constant O(1) space.
  *
- * Runtime: 17 ms | Memory: 18.1 MB
+ * Runtime: 23 ms | Memory: 18.2 MB
  */
 
 class Solution {
