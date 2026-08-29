@@ -1,8 +1,8 @@
 {
   "easy": 109,
-  "medium": 116,
+  "medium": 117,
   "hard": 35,
-  "total": 262,
+  "total": 263,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -2098,6 +2098,14 @@
       "title": "Lexicographically Smallest Palindromic Permutation Greater Than Target",
       "questionId": "3734",
       "difficulty": "Hard",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-08-29",
+      "slug": "make-lexicographically-smallest-array-by-swapping-elements",
+      "title": "Make Lexicographically Smallest Array by Swapping Elements",
+      "questionId": "2948",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
