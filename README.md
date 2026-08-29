@@ -8,13 +8,14 @@ Auto-synced from accepted LeetCode submissions.
 |------------|--------|
 | Easy       | 109 |
 | Medium     | 116 |
-| Hard       | 34 |
-| **Total**  | **261** |
+| Hard       | 35 |
+| **Total**  | **262** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-08-29 | #3734 [Lexicographically Smallest Palindromic Permutation Greater Than Target](https://leetcode.com/problems/lexicographically-smallest-palindromic-permutation-greater-than-target/) | Hard | cpp |
 | 2026-08-27 | #3720 [Lexicographically Smallest Permutation Greater Than Target](https://leetcode.com/problems/lexicographically-smallest-permutation-greater-than-target/) | Medium | cpp |
 | 2026-08-26 | #2904 [Shortest and Lexicographically Smallest Beautiful String](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/) | Medium | cpp |
 | 2026-08-25 | #3718 [Smallest Missing Multiple of K](https://leetcode.com/problems/smallest-missing-multiple-of-k/) | Easy | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-08-17 | #1563 [Stone Game V](https://leetcode.com/problems/stone-game-v/) | Hard | cpp |
 | 2026-08-16 | #94 [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Easy | cpp |
 | 2026-08-16 | #2029 [Stone Game IX](https://leetcode.com/problems/stone-game-ix/) | Medium | cpp |
-| 2026-08-16 | #3702 [Longest Subsequence With Non-Zero Bitwise XOR](https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/) | Medium | cpp |
 
 ## Structure
 
