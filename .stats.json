@@ -1,8 +1,8 @@
 {
   "easy": 109,
   "medium": 116,
-  "hard": 34,
-  "total": 261,
+  "hard": 35,
+  "total": 262,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -2090,6 +2090,14 @@
       "title": "Lexicographically Smallest Permutation Greater Than Target",
       "questionId": "3720",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-08-29",
+      "slug": "lexicographically-smallest-palindromic-permutation-greater-than-target",
+      "title": "Lexicographically Smallest Palindromic Permutation Greater Than Target",
+      "questionId": "3734",
+      "difficulty": "Hard",
       "lang": "cpp"
     }
   ],
