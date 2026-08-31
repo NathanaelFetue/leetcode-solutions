@@ -1,8 +1,8 @@
 {
   "easy": 109,
-  "medium": 117,
+  "medium": 118,
   "hard": 35,
-  "total": 263,
+  "total": 264,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -2105,6 +2105,14 @@
       "slug": "make-lexicographically-smallest-array-by-swapping-elements",
       "title": "Make Lexicographically Smallest Array by Swapping Elements",
       "questionId": "2948",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-08-31",
+      "slug": "find-the-minimum-and-maximum-number-of-nodes-between-critical-points",
+      "title": "Find the Minimum and Maximum Number of Nodes Between Critical Points",
+      "questionId": "2058",
       "difficulty": "Medium",
       "lang": "cpp"
     }
