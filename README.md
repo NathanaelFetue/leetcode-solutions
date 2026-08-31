@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 109 |
-| Medium     | 117 |
+| Medium     | 118 |
 | Hard       | 35 |
-| **Total**  | **263** |
+| **Total**  | **264** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-08-31 | #2058 [Find the Minimum and Maximum Number of Nodes Between Critical Points](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/) | Medium | cpp |
 | 2026-08-29 | #2948 [Make Lexicographically Smallest Array by Swapping Elements](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/) | Medium | cpp |
 | 2026-08-29 | #3734 [Lexicographically Smallest Palindromic Permutation Greater Than Target](https://leetcode.com/problems/lexicographically-smallest-palindromic-permutation-greater-than-target/) | Hard | cpp |
 | 2026-08-27 | #3720 [Lexicographically Smallest Permutation Greater Than Target](https://leetcode.com/problems/lexicographically-smallest-permutation-greater-than-target/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-08-19 | #1386 [Cinema Seat Allocation](https://leetcode.com/problems/cinema-seat-allocation/) | Medium | cpp |
 | 2026-08-18 | #3471 [Find the Largest Almost Missing Integer](https://leetcode.com/problems/find-the-largest-almost-missing-integer/) | Easy | cpp |
 | 2026-08-17 | #1563 [Stone Game V](https://leetcode.com/problems/stone-game-v/) | Hard | cpp |
-| 2026-08-16 | #94 [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Easy | cpp |
 
 ## Structure
 
