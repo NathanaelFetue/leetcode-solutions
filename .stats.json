@@ -1,8 +1,8 @@
 {
-  "easy": 109,
+  "easy": 110,
   "medium": 118,
   "hard": 35,
-  "total": 264,
+  "total": 265,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -2114,6 +2114,14 @@
       "title": "Find the Minimum and Maximum Number of Nodes Between Critical Points",
       "questionId": "2058",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-09-02",
+      "slug": "construct-uniform-parity-array-i",
+      "title": "Construct Uniform Parity Array I",
+      "questionId": "3875",
+      "difficulty": "Easy",
       "lang": "cpp"
     }
   ],
