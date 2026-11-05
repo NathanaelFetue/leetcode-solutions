@@ -1,8 +1,8 @@
 {
   "easy": 110,
   "medium": 120,
-  "hard": 35,
-  "total": 267,
+  "hard": 36,
+  "total": 268,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -2138,6 +2138,14 @@
       "title": "Generate Parentheses",
       "questionId": "22",
       "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-11-05",
+      "slug": "longest-valid-parentheses",
+      "title": "Longest Valid Parentheses",
+      "questionId": "32",
+      "difficulty": "Hard",
       "lang": "cpp"
     }
   ],

@@ -8,13 +8,14 @@ Auto-synced from accepted LeetCode submissions by [leetcode-sync](https://github
 |------------|--------|
 | Easy       | 110 |
 | Medium     | 120 |
-| Hard       | 35 |
-| **Total**  | **267** |
+| Hard       | 36 |
+| **Total**  | **268** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-11-05 | #32 [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | Hard | cpp |
 | 2026-11-05 | #22 [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | Medium | cpp |
 | 2026-11-05 | #3644 [Maximum K to Sort a Permutation](https://leetcode.com/problems/maximum-k-to-sort-a-permutation/) | Medium | cpp |
 | 2026-09-02 | #3875 [Construct Uniform Parity Array I](https://leetcode.com/problems/construct-uniform-parity-array-i/) | Easy | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions by [leetcode-sync](https://github
 | 2026-08-23 | #1927 [Sum Game](https://leetcode.com/problems/sum-game/) | Medium | cpp |
 | 2026-08-22 | #3622 [Check Divisibility by Digit Sum and Product](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/) | Easy | cpp |
 | 2026-08-21 | #3116 [Kth Smallest Amount With Single Denomination Combination](https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination/) | Hard | cpp |
-| 2026-08-20 | #3069 [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | Easy | cpp |
 
 ## Structure
 
