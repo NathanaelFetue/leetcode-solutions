@@ -1,8 +1,8 @@
 {
   "easy": 110,
-  "medium": 119,
+  "medium": 120,
   "hard": 35,
-  "total": 266,
+  "total": 267,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -2129,6 +2129,14 @@
       "slug": "maximum-k-to-sort-a-permutation",
       "title": "Maximum K to Sort a Permutation",
       "questionId": "3644",
+      "difficulty": "Medium",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-11-05",
+      "slug": "generate-parentheses",
+      "title": "Generate Parentheses",
+      "questionId": "22",
       "difficulty": "Medium",
       "lang": "cpp"
     }
