@@ -21,18 +21,18 @@ jobs:
       TZ: Europe/Paris
     steps:
       - name: Check out the solutions
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: ${{ github.ref_name }}  # the branch tip now, not the commit at dispatch time
           path: solutions
 
       - name: Check out the sync tool
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: NathanaelFetue/leetcode-sync
           path: tool
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
