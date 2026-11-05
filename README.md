@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Auto-synced from accepted LeetCode submissions.
+Auto-synced from accepted LeetCode submissions by [leetcode-sync](https://github.com/NathanaelFetue/leetcode-sync).
 
 ## Stats
 
