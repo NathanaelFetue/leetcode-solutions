@@ -1,0 +1,56 @@
+# One accepted LeetCode submission in, one commit out.
+# Triggered by the userscript and by the backfill tool, both from
+# https://github.com/NathanaelFetue/leetcode-sync
+name: Sync LeetCode solution
+
+on:
+  workflow_dispatch:
+    inputs:
+      payload:
+        description: Accepted submission as JSON
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      TZ: Europe/Paris
+    steps:
+      - name: Check out the solutions
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}  # the branch tip now, not the commit at dispatch time
+          path: solutions
+
+      - name: Check out the sync tool
+        uses: actions/checkout@v4
+        with:
+          repository: NathanaelFetue/leetcode-sync
+          path: tool
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install --quiet -r tool/sync/requirements.txt
+
+      - name: Generate header and commit message
+        env:
+          PAYLOAD: ${{ inputs.payload }}  # read by Python, never expanded by the shell
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+        run: python tool/sync/sync.py generate
+
+      - name: Commit and push
+        working-directory: solutions
+        env:
+          BRANCH: ${{ github.ref_name }}
+          GIT_AUTHOR_NAME: Nathanael-FETUE
+          GIT_AUTHOR_EMAIL: 114958970+NathanaelFetue@users.noreply.github.com
+          GIT_COMMITTER_NAME: Nathanael-FETUE
+          GIT_COMMITTER_EMAIL: 114958970+NathanaelFetue@users.noreply.github.com
+        run: python ../tool/sync/sync.py publish
