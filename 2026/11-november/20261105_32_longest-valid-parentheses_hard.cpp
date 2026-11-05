@@ -4,12 +4,12 @@
  * URL: https://leetcode.com/problems/longest-valid-parentheses/
  *
  * Approach:
- * The key insight is that a stack can maintain the indices of unmatched parentheses to dynamically compute the length of valid substrings. By seeding the stack with an initial baseline index of -1, we can handle edge cases where a valid parenthesis string starts from the very beginning of the input seamlessly. When we encounter a closing parenthesis, we pop the top element representing the matched opening parenthesis or the boundary of the last invalid character. If the stack becomes empty, the current index serves as a new base reference, otherwise the length of the current valid substring is computed as the distance from the current index to the new top of the stack. This stack-based linear scan approach ensures we correctly capture nested and adjacent valid segments in a single pass.
+ * The key insight is using a stack to store indices rather than characters, serving as boundary markers for valid substrings. By initializing the stack with a dummy boundary of -1, we can compute the length of any valid substring as the distance between the current index and the element at the top of the stack. When an open parenthesis is met, its index is pushed onto the stack. Upon encountering a close parenthesis, we pop the stack; if it becomes empty, the current close parenthesis has no matching open parenthesis and becomes the new boundary marker. Otherwise, the length of the valid substring ending at the current position is calculated as the difference between the current index and the stack top index.
  *
- * Time Complexity: O(n) - We iterate through the string of length n exactly once, performing constant time stack operations for each character.
- * Space Complexity: O(n) - In the worst-case scenario, all characters are opening parentheses and are stored in the stack.
+ * Time Complexity: O(N) - Single pass over the string of length N with constant-time stack operations per character.
+ * Space Complexity: O(N) - The stack stores at most N indices in the worst-case scenario of all open parentheses.
  *
- * Runtime: 2 ms | Memory: 12.3 MB
+ * Runtime: 4 ms | Memory: 12.4 MB
  */
 
 class Solution {
