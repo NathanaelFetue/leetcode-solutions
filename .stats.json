@@ -1,8 +1,8 @@
 {
   "easy": 110,
-  "medium": 118,
+  "medium": 119,
   "hard": 35,
-  "total": 265,
+  "total": 266,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -2122,6 +2122,14 @@
       "title": "Construct Uniform Parity Array I",
       "questionId": "3875",
       "difficulty": "Easy",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-11-05",
+      "slug": "maximum-k-to-sort-a-permutation",
+      "title": "Maximum K to Sort a Permutation",
+      "questionId": "3644",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],

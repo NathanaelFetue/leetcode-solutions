@@ -7,14 +7,15 @@ Auto-synced from accepted LeetCode submissions.
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 110 |
-| Medium     | 118 |
+| Medium     | 119 |
 | Hard       | 35 |
-| **Total**  | **265** |
+| **Total**  | **266** |
 
 ## Recent Solutions
 
 | Date | Problem | Difficulty | Language |
 |------|---------|------------|----------|
+| 2026-11-05 | #3644 [Maximum K to Sort a Permutation](https://leetcode.com/problems/maximum-k-to-sort-a-permutation/) | Medium | cpp |
 | 2026-09-02 | #3875 [Construct Uniform Parity Array I](https://leetcode.com/problems/construct-uniform-parity-array-i/) | Easy | cpp |
 | 2026-08-31 | #2058 [Find the Minimum and Maximum Number of Nodes Between Critical Points](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/) | Medium | cpp |
 | 2026-08-29 | #2948 [Make Lexicographically Smallest Array by Swapping Elements](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/) | Medium | cpp |
@@ -29,7 +30,6 @@ Auto-synced from accepted LeetCode submissions.
 | 2026-08-21 | #3116 [Kth Smallest Amount With Single Denomination Combination](https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination/) | Hard | cpp |
 | 2026-08-20 | #3069 [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | Easy | cpp |
 | 2026-08-19 | #1386 [Cinema Seat Allocation](https://leetcode.com/problems/cinema-seat-allocation/) | Medium | cpp |
-| 2026-08-18 | #3471 [Find the Largest Almost Missing Integer](https://leetcode.com/problems/find-the-largest-almost-missing-integer/) | Easy | cpp |
 
 ## Structure
 
