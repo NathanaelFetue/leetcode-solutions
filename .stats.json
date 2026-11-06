@@ -1,8 +1,8 @@
 {
   "easy": 110,
-  "medium": 120,
+  "medium": 121,
   "hard": 36,
-  "total": 268,
+  "total": 269,
   "solutions": [
     {
       "date": "2026-04-03",
@@ -2146,6 +2146,14 @@
       "title": "Longest Valid Parentheses",
       "questionId": "32",
       "difficulty": "Hard",
+      "lang": "cpp"
+    },
+    {
+      "date": "2026-11-06",
+      "slug": "count-zero-request-servers",
+      "title": "Count Zero Request Servers",
+      "questionId": "2747",
+      "difficulty": "Medium",
       "lang": "cpp"
     }
   ],
